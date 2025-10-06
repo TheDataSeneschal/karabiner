@@ -6142,8 +6142,8 @@
                         ]
                     },
                     {
-                        "bookmark": " ddh ddh ",
-                        "description": "        └── tapping 'd' in d_layer will send 'delete' ",
+                        "bookmark": " ddj ddj ",
+                        "description": "        └── tapping 'j' in d_layer will send send control option down ",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -6154,7 +6154,40 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "h",
+                                    "key_code": "j",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "down_arrow",
+                                        "modifiers": [
+                                            "left_control",
+                                            "left_option"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "bookmark": " ddk ddk ",
+                        "description": "        └── tapping 'k' in d_layer will send send control option up ",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "d_layer",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "k",
                                     "modifiers": {
                                         "optional": [
                                             "any"
