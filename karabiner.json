@@ -2942,6 +2942,41 @@
                         ]
                     },
                     {
+                        "bookmark": " 22mu 22mu",
+                        "description": "        └── tapping 'm' in the 22m_layer will open_or_cycle to my github repos ",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "22m_layer",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "u",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "/Users/olama/code/scripts/jumpTo_github.sh"
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "22m_layer",
+                                            "value": 0
+                                        }
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "bookmark": " 22p 22p ",
                         "description": "        └── p in the space_layer will enter the 22p_layer",
                         "manipulators": [
@@ -9734,7 +9769,7 @@
                     },
                     {
                         "bookmark": " 55ss 55ss ",
-                        "description": "     └── tap s while in the s_layer to send Alt + Shift + f14",
+                        "description": "     └── tap s while in the s_layer to send control + shift + f2",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -9749,10 +9784,10 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "s",
+                                        "key_code": "f2",
                                         "modifiers": [
-                                            "left_option",
-                                            "left_command"
+                                            "left_control",
+                                            "left_shift"
                                         ]
                                     },
                                     {
@@ -18767,7 +18802,7 @@
                     },
                     {
                         "bookmark": " 55ss 55ss ",
-                        "description": "     └── tap s while in the s_layer to send Alt + Shift + f14",
+                        "description": "     └── tap s while in the s_layer to send control + shift + f2",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -18775,6 +18810,12 @@
                                         "name": "55s_layer",
                                         "type": "variable_if",
                                         "value": 1
+                                    },
+                                    {
+                                        "type": "frontmost_application_unless",
+                                        "bundle_identifiers": [
+                                            "^company\\.thebrowser\\.Arc$"
+                                        ]
                                     }
                                 ],
                                 "from": {
@@ -18786,6 +18827,51 @@
                                         "modifiers": [
                                             "left_control",
                                             "left_shift"
+                                        ]
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "55s_layer",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "55_layer",
+                                            "value": 1
+                                        }
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "bookmark": " 55ss 55ss ",
+                        "description": "     └── tap s while in the s_layer to send control + shift + f2",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "55s_layer",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    },
+                                    {
+                                        "type": "frontmost_application_if",
+                                        "bundle_identifiers": [
+                                            "^company\\.thebrowser\\.Browser$"
+                                        ]
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "s"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "s",
+                                        "modifiers": [
+                                            "right_command"
                                         ]
                                     },
                                     {
