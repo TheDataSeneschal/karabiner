@@ -44,7 +44,7 @@
                     },
                     {
                         "bookmark": " 44 44 left_command + equal_sign ",
-                        "description": " └── hold down left_command and equal_sign in 44_layer to increase the size of the current window using raycast",
+                        "description": "    └── hold down left_command and equal_sign in 44_layer to increase the size of the current window using raycast",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -74,7 +74,7 @@
                     },
                     {
                         "bookmark": " 44 44 command + shift",
-                        "description": " └── hold down left_command and left_shift in 44_layer to send both command and shift",
+                        "description": "    └── hold down left_command and left_shift in 44_layer to send both command and shift",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -251,8 +251,8 @@
                         ]
                     },
                     {
-                        "bookmark": " 44cc 44cc ",
-                        "description": "        └=== tap c in the 44c_layer to send command + c (copy)",
+                        "bookmark": " 44cc 44cc cc cc ",
+                        "description": "      └── tap c in the 44c_layer to send command + c (copy)",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -341,10 +341,10 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "h",
+                                        "key_code": "left",
                                         "modifiers": [
-                                            "left_option",
-                                            "left_shift"
+                                            "left_control",
+                                            "left_option"
                                         ]
                                     }
                                 ],
@@ -382,61 +382,6 @@
                                     },
                                     {
                                         "key_code": "left_arrow"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "44_layer",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    },
-                                    {
-                                        "name": "u_pressed",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "h"
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "f15",
-                                        "modifiers": [
-                                            "left_option",
-                                            "left_shift"
-                                        ]
-                                    },
-                                    {
-                                        "set_variable": {
-                                            "name": "u_pressed",
-                                            "value": 0
-                                        }
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "44_layer",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "h"
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "h",
-                                        "modifiers": [
-                                            "left_option",
-                                            "left_shift"
-                                        ]
                                     }
                                 ],
                                 "type": "basic"
@@ -513,7 +458,7 @@
                     },
                     {
                         "bookmark": " 44l 44l ",
-                        "description": "     └── hold down left_command and tap h to send option + shift + l",
+                        "description": "     └── hold down left_command and tap l to send option + shift + l",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -528,11 +473,47 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "l",
+                                        "key_code": "right",
                                         "modifiers": [
-                                            "left_option",
-                                            "left_shift"
+                                            "left_control",
+                                            "left_option"
                                         ]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "44_layer",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    },
+                                    {
+                                        "bundle_identifiers": [
+                                            "^com\\.parallels\\.winapp\\.c1d81af5835844b4e9d936910ded8fdc\\.18aa963169c34a1cbb4e443d7fccb6a8$"
+                                        ],
+                                        "type": "frontmost_application_if"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "l"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "right_arrow"
+                                    },
+                                    {
+                                        "key_code": "right_arrow"
+                                    },
+                                    {
+                                        "key_code": "right_arrow"
+                                    },
+                                    {
+                                        "key_code": "right_arrow"
+                                    },
+                                    {
+                                        "key_code": "right_arrow"
                                     }
                                 ],
                                 "type": "basic"
@@ -677,6 +658,42 @@
                                             "left_option",
                                             "left_shift"
                                         ]
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "44n_layer",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "44_layer",
+                                            "value": 1
+                                        }
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "bookmark": " 44nl 44nl ",
+                        "description": "        └── tap l in the 44n_layer to run jumpTo_SimpleLogin.sh",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "44n_layer",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "l"
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "/Users/olama/code/scripts/jumpTo_SimpleLogin.sh"
                                     },
                                     {
                                         "set_variable": {
@@ -962,6 +979,80 @@
                                         "set_variable": {
                                             "name": "44_layer",
                                             "value": 0
+                                        }
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "bookmark": " 44. 44. ",
+                        "description": "     └── hold down left_command and tap period to enter the 44_period_layer",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "44_layer",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "period"
+                                },
+                                "to": [
+                                    {
+                                        "set_variable": {
+                                            "name": "44_period_layer",
+                                            "value": 1
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "44_layer",
+                                            "value": 0
+                                        }
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "bookmark": " 44.. 44.. control + option + shift ",
+                        "description": "     └── tap period in 44_period_layer to send control option shift f6 ",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "44_period_layer",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "period"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "f6",
+                                        "modifiers": [
+                                            "left_control",
+                                            "left_option",
+                                            "left_shift"
+                                        ]
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "44_period_layer",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "44_layer",
+                                            "value": 1
                                         }
                                     }
                                 ],
@@ -2534,10 +2625,11 @@
                         ]
                     },
                     {
-                        "bookmark": " ee ee 11 11 ",
-                        "description": " Holding down capslock will enter the capslock_layer",
+                        "bookmark": "ee ee 11 11",
+                        "description": "CapsLock layer with Hammerspoon overlay indicator",
                         "manipulators": [
                             {
+                                "type": "basic",
                                 "from": {
                                     "key_code": "caps_lock",
                                     "modifiers": {
@@ -2552,6 +2644,9 @@
                                             "name": "capslock_layer",
                                             "value": 1
                                         }
+                                    },
+                                    {
+                                        "shell_command": "open -g 'hammerspoon://layer?name=capslock_layer&state=1'"
                                     }
                                 ],
                                 "to_after_key_up": [
@@ -2560,14 +2655,16 @@
                                             "name": "capslock_layer",
                                             "value": 0
                                         }
+                                    },
+                                    {
+                                        "shell_command": "open -g 'hammerspoon://layer?name=capslock_layer&state=0'"
                                     }
                                 ],
                                 "to_if_alone": [
                                     {
                                         "key_code": "escape"
                                     }
-                                ],
-                                "type": "basic"
+                                ]
                             }
                         ]
                     },
@@ -4854,245 +4951,6 @@
                                     {
                                         "name": "a_layer",
                                         "type": "variable_if",
-                                        "value": 1
-                                    },
-                                    {
-                                        "name": "s_layer",
-                                        "type": "variable_if",
-                                        "value": 0
-                                    },
-                                    {
-                                        "name": "d_layer",
-                                        "type": "variable_if",
-                                        "value": 0
-                                    },
-                                    {
-                                        "name": "f_layer",
-                                        "type": "variable_if",
-                                        "value": 0
-                                    },
-                                    {
-                                        "name": "y_layer",
-                                        "type": "variable_if",
-                                        "value": 0
-                                    },
-                                    {
-                                        "name": "u_layer",
-                                        "type": "variable_if",
-                                        "value": 0
-                                    },
-                                    {
-                                        "name": "i_layer",
-                                        "type": "variable_if",
-                                        "value": 0
-                                    },
-                                    {
-                                        "name": "o_layer",
-                                        "type": "variable_if",
-                                        "value": 0
-                                    },
-                                    {
-                                        "name": "n_layer",
-                                        "type": "variable_if",
-                                        "value": 0
-                                    },
-                                    {
-                                        "name": "m_layer",
-                                        "type": "variable_if",
-                                        "value": 0
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "period",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "close_bracket",
-                                        "modifiers": []
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "capslock_layer",
-                                        "type": "variable_if",
-                                        "value": 0
-                                    },
-                                    {
-                                        "name": "space_layer",
-                                        "type": "variable_if",
-                                        "value": 0
-                                    },
-                                    {
-                                        "name": "a_layer",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    },
-                                    {
-                                        "name": "s_layer",
-                                        "type": "variable_if",
-                                        "value": 0
-                                    },
-                                    {
-                                        "name": "d_layer",
-                                        "type": "variable_if",
-                                        "value": 0
-                                    },
-                                    {
-                                        "name": "f_layer",
-                                        "type": "variable_if",
-                                        "value": 0
-                                    },
-                                    {
-                                        "name": "y_layer",
-                                        "type": "variable_if",
-                                        "value": 0
-                                    },
-                                    {
-                                        "name": "u_layer",
-                                        "type": "variable_if",
-                                        "value": 0
-                                    },
-                                    {
-                                        "name": "i_layer",
-                                        "type": "variable_if",
-                                        "value": 0
-                                    },
-                                    {
-                                        "name": "o_layer",
-                                        "type": "variable_if",
-                                        "value": 0
-                                    },
-                                    {
-                                        "name": "n_layer",
-                                        "type": "variable_if",
-                                        "value": 0
-                                    },
-                                    {
-                                        "name": "m_layer",
-                                        "type": "variable_if",
-                                        "value": 0
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "quote",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "hyphen",
-                                        "modifiers": [
-                                            "left_shift"
-                                        ]
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "capslock_layer",
-                                        "type": "variable_if",
-                                        "value": 0
-                                    },
-                                    {
-                                        "name": "space_layer",
-                                        "type": "variable_if",
-                                        "value": 0
-                                    },
-                                    {
-                                        "name": "a_layer",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    },
-                                    {
-                                        "name": "s_layer",
-                                        "type": "variable_if",
-                                        "value": 0
-                                    },
-                                    {
-                                        "name": "d_layer",
-                                        "type": "variable_if",
-                                        "value": 0
-                                    },
-                                    {
-                                        "name": "f_layer",
-                                        "type": "variable_if",
-                                        "value": 0
-                                    },
-                                    {
-                                        "name": "y_layer",
-                                        "type": "variable_if",
-                                        "value": 0
-                                    },
-                                    {
-                                        "name": "u_layer",
-                                        "type": "variable_if",
-                                        "value": 0
-                                    },
-                                    {
-                                        "name": "i_layer",
-                                        "type": "variable_if",
-                                        "value": 0
-                                    },
-                                    {
-                                        "name": "o_layer",
-                                        "type": "variable_if",
-                                        "value": 0
-                                    },
-                                    {
-                                        "name": "n_layer",
-                                        "type": "variable_if",
-                                        "value": 0
-                                    },
-                                    {
-                                        "name": "m_layer",
-                                        "type": "variable_if",
-                                        "value": 0
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "comma",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "open_bracket",
-                                        "modifiers": []
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "capslock_layer",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    },
-                                    {
-                                        "name": "space_layer",
-                                        "type": "variable_if",
-                                        "value": 0
-                                    },
-                                    {
-                                        "name": "a_layer",
-                                        "type": "variable_if",
                                         "value": 0
                                     },
                                     {
@@ -5769,6 +5627,78 @@
                         ]
                     },
                     {
+                        "bookmark": " a_layer quote to equals ",
+                        "description": "                └── tap quote in the a_layer to send equals sign",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "a_layer",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "quote"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "equal_sign"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "bookmark": " a_layer comma to open bracket ",
+                        "description": "                └── tap comma in the a_layer to send open bracket",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "a_layer",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "comma"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "open_bracket"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "bookmark": " a_layer period to close bracket ",
+                        "description": "                └── tap period in the a_layer to send close bracket",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "a_layer",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "period"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "close_bracket"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "bookmark": " aaj aaj ",
                         "description": "                └── tap j in the a_layer to enter the aaj_layer",
                         "manipulators": [
@@ -6386,6 +6316,12 @@
                                             "name": "y_layer",
                                             "value": 1
                                         }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "capslock_layer",
+                                            "value": 0
+                                        }
                                     }
                                 ],
                                 "type": "basic"
@@ -6486,11 +6422,6 @@
                         "manipulators": [
                             {
                                 "conditions": [
-                                    {
-                                        "name": "capslock_layer",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    },
                                     {
                                         "name": "y_layer",
                                         "type": "variable_if",
@@ -8033,15 +7964,10 @@
                     },
                     {
                         "bookmark": " mu mu ",
-                        "description": "               └── tap 'u' in m_layer will open claude.ai",
+                        "description": "        └── tapping 'm' in the m_layer will open_or_cycle to my github repos ",
                         "manipulators": [
                             {
                                 "conditions": [
-                                    {
-                                        "name": "capslock_layer",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    },
                                     {
                                         "name": "m_layer",
                                         "type": "variable_if",
@@ -8058,10 +7984,8 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "/Users/olama/.config/yabai/modules/cycle_wrapper.sh claude"
-                                    }
-                                ],
-                                "to_after_key_up": [
+                                        "shell_command": "/Users/olama/code/scripts/jumpTo_github.sh"
+                                    },
                                     {
                                         "set_variable": {
                                             "name": "m_layer",
@@ -8225,7 +8149,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "/Users/olama/.config/yabai/modules/cycle_wrapper.sh simplelogin"
+                                        "shell_command": "/Users/olama/code/scripts/jumpTo_SimpleLogin.sh"
                                     }
                                 ],
                                 "to_after_key_up": [
@@ -9760,6 +9684,46 @@
                                         "set_variable": {
                                             "name": "55_layer",
                                             "value": 0
+                                        }
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "bookmark": " 55sl 55sl ",
+                        "description": "     └── tap l while in the s_layer to send control + shift + equal_sign",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "55s_layer",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "l"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "equal_sign",
+                                        "modifiers": [
+                                            "left_control",
+                                            "left_shift"
+                                        ]
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "55s_layer",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "55_layer",
+                                            "value": 1
                                         }
                                     }
                                 ],
