@@ -467,6 +467,39 @@
                         ]
                     },
                     {
+                        "bookmark": " 44k 44k (Cursor AI only)",
+                        "description": "     └── hold down left_command and tap k to send command + shift + k, only in Cursor AI editor on macOS",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "layer_44",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    },
+                                    {
+                                        "bundle_identifiers": [
+                                            "^com\\.todesktop\\.230313mzl4w4u92$"
+                                        ],
+                                        "type": "frontmost_application_unless"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "k"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "up_arrow",
+                                        "modifiers": [
+                                            "left_option"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "bookmark": " 44l 44l ",
                         "description": "     └── hold down left_command and tap l to send option + shift + l",
                         "manipulators": [
