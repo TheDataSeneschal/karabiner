@@ -3892,15 +3892,33 @@
                                     },
                                     {
                                         "shell_command": "open -g 'hammerspoon://layer?name=capslock_layer&state=1'"
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_44",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_55",
+                                            "value": 0
+                                        }
                                     }
                                 ],
                                 "to_after_key_up": [
+                                    {
+                                        "set_variable": {
+                                            "name": "capslock_layer",
+                                            "value": 0
+                                        }
+                                    },
                                     {
                                         "shell_command": "/Users/olama/mdotfiles/hammerspoon/close_all_guis.sh"
                                     },
                                     {
                                         "set_variable": {
-                                            "name": "capslock_layer",
+                                            "name": "layer_eem",
                                             "value": 0
                                         }
                                     }
@@ -3911,6 +3929,12 @@
                                     },
                                     {
                                         "key_code": "escape"
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_eei",
+                                            "value": 0
+                                        }
                                     }
                                 ]
                             }
@@ -7943,7 +7967,47 @@
                         ]
                     },
                     {
-                        "bookmark": "yp yp",
+                        "bookmark": " eeyo eeyo yo yo ",
+                        "description": "capslock + y + o sends command + shift + s to launch the screenshot tool",
+                        "manipulators": [
+                            {
+                                "type": "basic",
+                                "conditions": [
+                                    {
+                                        "type": "variable_if",
+                                        "name": "layer_eey",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "o",
+                                    "modifiers": {
+                                        "optional": []
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "s",
+                                        "modifiers": [
+                                            "command",
+                                            "shift"
+                                        ]
+                                    }
+                                ],
+                                "to_after_key_up": [
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_eey",
+                                            "value": 0
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "bookmark_bottom": " eeyo eeyo yo yo "
+                    },
+                    {
+                        "bookmark": " yp yp ",
                         "description": "capslock + y + p will copy a file path using ⌘⌥c",
                         "manipulators": [
                             {
@@ -8057,7 +8121,7 @@
                         "bookmark_bottom": " Enter layer_eeu "
                     },
                     {
-                        "bookmark": " uh uh layer_eeuh ",
+                        "bookmark": " eeuh eeuh uh uh ",
                         "description": "capslock + uh will send Home ",
                         "manipulators": [
                             {
@@ -8098,7 +8162,48 @@
                         "bookmark_bottom": " uh uh layer_eeuh "
                     },
                     {
-                        "bookmark": "uj uj",
+                        "bookmark": " ee eeui ui ui ",
+                        "description": "capslock + u + i will copy a file path using ⌘⌥c",
+                        "manipulators": [
+                            {
+                                "type": "basic",
+                                "conditions": [
+                                    {
+                                        "type": "variable_if",
+                                        "name": "layer_eeu",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "i",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "f11",
+                                        "modifiers": [
+                                            "control"
+                                        ]
+                                    }
+                                ],
+                                "to_after_key_up": [
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_eeu",
+                                            "value": 0
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "bookmark_bottom": " eeui eeui ui ui "
+                    },
+                    {
+                        "bookmark": " eeuj eeuj uj uj",
                         "description": "capslock + uj will send copy and select all",
                         "manipulators": [
                             {
@@ -8150,7 +8255,7 @@
                         ]
                     },
                     {
-                        "bookmark": " ul ul layer_eeul ",
+                        "bookmark": " eeul eeul ul ul ",
                         "description": "capslock + ul will send End",
                         "manipulators": [
                             {
@@ -8189,6 +8294,51 @@
                             }
                         ],
                         "bookmark_bottom": " ul ul layer_eeul "
+                    },
+                    {
+                        "bookmark": " eeuo eeuo uo uo ",
+                        "description": " copy file path using ⌘⌥c ",
+                        "manipulators": [
+                            {
+                                "type": "basic",
+                                "conditions": [
+                                    {
+                                        "type": "variable_if",
+                                        "name": "layer_eeu",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "o",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "osascript -e 'display notification \"File path copied!\" with title \"Karabiner-Elements\"'"
+                                    },
+                                    {
+                                        "key_code": "c",
+                                        "modifiers": [
+                                            "command",
+                                            "option"
+                                        ]
+                                    }
+                                ],
+                                "to_after_key_up": [
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_eeu",
+                                            "value": 0
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "bookmark_bottom": " eeuo eeuo uo uo "
                     },
                     {
                         "bookmark": " uu uu eeuu eeuu layer_eeuu ",
@@ -8230,52 +8380,6 @@
                             }
                         ],
                         "bookmark_bottom": " uu uu eeuu eeuu layer_eeuu "
-                    },
-                    {
-                        "bookmark": " ui ui eeui eeui layer_eeui ",
-                        "description": " capslock + ui will send control + f11 to toggle off all ui elements in Vivaldi, Cursor and VSCode ",
-                        "manipulators": [
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "capslock_layer",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    },
-                                    {
-                                        "name": "layer_eeu",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "i",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "f11",
-                                        "modifiers": [
-                                            "control"
-                                        ]
-                                    }
-                                ],
-                                "to_after_key_up": [
-                                    {
-                                        "set_variable": {
-                                            "name": "layer_eeu",
-                                            "value": 0
-                                        }
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ],
-                        "bookmark_bottom": " ui ui eeui eeui layer_eeeeui "
                     },
                     {
                         "bookmark": "Enter layer_eei ii ii eei eei ",
@@ -8361,16 +8465,11 @@
                         ]
                     },
                     {
-                        "bookmark": " eeih eeih",
+                        "bookmark": " eeih eeih ih ih ",
                         "description": "capslock + i + h will delete and copy the word to the left",
                         "manipulators": [
                             {
                                 "conditions": [
-                                    {
-                                        "name": "capslock_layer",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    },
                                     {
                                         "name": "layer_eei",
                                         "type": "variable_if",
@@ -8401,14 +8500,6 @@
                                     },
                                     {
                                         "key_code": "delete_or_backspace"
-                                    }
-                                ],
-                                "to_after_key_up": [
-                                    {
-                                        "set_variable": {
-                                            "name": "layer_eei",
-                                            "value": 0
-                                        }
                                     }
                                 ],
                                 "type": "basic"
@@ -8995,6 +9086,12 @@
                                 "to": [
                                     {
                                         "shell_command": "/Users/olama/.config/yabai/modules/cycle_wrapper.sh warp"
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "capslock_layer",
+                                            "value": 1
+                                        }
                                     }
                                 ],
                                 "to_after_key_up": [
@@ -9002,12 +9099,6 @@
                                         "set_variable": {
                                             "name": "layer_eem",
                                             "value": 0
-                                        }
-                                    },
-                                    {
-                                        "set_variable": {
-                                            "name": "capslock_layer",
-                                            "value": 1
                                         }
                                     }
                                 ],
@@ -9038,6 +9129,12 @@
                                 "to": [
                                     {
                                         "shell_command": "/Users/olama/.config/yabai/modules/cycle_wrapper.sh cursor"
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "capslock_layer",
+                                            "value": 1
+                                        }
                                     }
                                 ],
                                 "to_after_key_up": [
@@ -9045,12 +9142,6 @@
                                         "set_variable": {
                                             "name": "layer_eem",
                                             "value": 0
-                                        }
-                                    },
-                                    {
-                                        "set_variable": {
-                                            "name": "capslock_layer",
-                                            "value": 1
                                         }
                                     }
                                 ],
@@ -9081,6 +9172,12 @@
                                 "to": [
                                     {
                                         "shell_command": "/Users/olama/.config/yabai/modules/cycle_wrapper.sh 'Spark Desktop'"
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "capslock_layer",
+                                            "value": 1
+                                        }
                                     }
                                 ],
                                 "to_after_key_up": [
@@ -9088,12 +9185,6 @@
                                         "set_variable": {
                                             "name": "layer_eem",
                                             "value": 0
-                                        }
-                                    },
-                                    {
-                                        "set_variable": {
-                                            "name": "capslock_layer",
-                                            "value": 1
                                         }
                                     }
                                 ],
@@ -10452,6 +10543,9 @@
                                             "name": "layer_55",
                                             "value": 0
                                         }
+                                    },
+                                    {
+                                        "shell_command": "open -g 'hammerspoon://layer?name=layer_55d&state=1'"
                                     }
                                 ],
                                 "type": "basic"
@@ -10475,28 +10569,28 @@
                                 },
                                 "to": [
                                     {
+                                        "shell_command": "open -g 'hammerspoon://layer?name=layer_55d&state=0'"
+                                    },
+                                    {
                                         "key_code": "p",
                                         "modifiers": [
                                             "control",
                                             "shift"
                                         ]
-                                    },
+                                    }
+                                ],
+                                "to_after_key_up": [
                                     {
                                         "set_variable": {
                                             "name": "layer_55d",
                                             "value": 0
                                         }
-                                    },
-                                    {
-                                        "set_variable": {
-                                            "name": "layer_55",
-                                            "value": 1
-                                        }
                                     }
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " 55dd 55dd "
                     },
                     {
                         "bookmark": " 55e 55e ",
@@ -10514,6 +10608,9 @@
                                     "key_code": "e"
                                 },
                                 "to": [
+                                    {
+                                        "shell_command": "open -g 'hammerspoon://layer?name=layer_55e&state=1'"
+                                    },
                                     {
                                         "set_variable": {
                                             "name": "layer_55e",
@@ -10553,6 +10650,9 @@
                                     "key_code": "e"
                                 },
                                 "to": [
+                                    {
+                                        "shell_command": "open -g 'hammerspoon://layer?name=layer_55e&state=0'"
+                                    },
                                     {
                                         "key_code": "e",
                                         "modifiers": [
@@ -10669,8 +10769,7 @@
                                     },
                                     {
                                         "bundle_identifiers": [
-                                            "^com\\.apple\\.finder$",
-                                            "^com\\.todesktop\\.230313mzl4w4u92$"
+                                            "^com\\.apple\\.finder$"
                                         ],
                                         "type": "frontmost_application_if"
                                     }
@@ -10710,8 +10809,7 @@
                                     },
                                     {
                                         "bundle_identifiers": [
-                                            "^com\\.apple\\.finder$",
-                                            "^com\\.todesktop\\.230313mzl4w4u92$"
+                                            "^com\\.apple\\.finder$"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -10780,7 +10878,7 @@
                     },
                     {
                         "bookmark": " 55ra 55ra ra ra ",
-                        "description": "     └── tap a while in the layer_55r to send f2",
+                        "description": "     └── tap a while in the layer_55r to send f2 in order to rename current item ",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -10837,19 +10935,19 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "r",
-                                        "modifiers": [
-                                            "control"
-                                        ]
+                                        "shell_command": "osascript -e 'display notification \" Page Reloaded!!!!! \" with title \" 55rr -> f5 \"'"
                                     },
+                                    {
+                                        "key_code": "f5"
+                                    }
+                                ],
+                                "to_after_key_up": [
                                     {
                                         "set_variable": {
                                             "name": "layer_55r",
                                             "value": 0
                                         }
-                                    }
-                                ],
-                                "to_after_key_up": [
+                                    },
                                     {
                                         "set_variable": {
                                             "name": "layer_55",
@@ -10958,6 +11056,9 @@
                                 },
                                 "to": [
                                     {
+                                        "shell_command": "open -g 'hammerspoon://layer?name=layer_55s&state=1'"
+                                    },
+                                    {
                                         "key_code": "equal_sign",
                                         "modifiers": [
                                             "left_control",
@@ -10997,6 +11098,9 @@
                                     "key_code": "s"
                                 },
                                 "to": [
+                                    {
+                                        "shell_command": "open -g 'hammerspoon://layer?name=layer_55s&state=0'"
+                                    },
                                     {
                                         "key_code": "f2",
                                         "modifiers": [
@@ -17094,11 +17198,6 @@
                                         "name": "capslock_layer",
                                         "type": "variable_if",
                                         "value": 1
-                                    },
-                                    {
-                                        "name": "layer_44y",
-                                        "type": "variable_if",
-                                        "value": 0
                                     }
                                 ],
                                 "from": {
@@ -19830,6 +19929,9 @@
                                     "key_code": "d"
                                 },
                                 "to": [
+                                    {
+                                        "shell_command": "open -g 'hammerspoon://layer?name=layer_55d&state=1'"
+                                    },
                                     {
                                         "set_variable": {
                                             "name": "layer_55d",
