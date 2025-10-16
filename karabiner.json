@@ -5,7 +5,7 @@
                 "rules": [
                     {
                         "bookmark": " Enter 44 44",
-                        "description": "Hold left_command to enter layer_44, unless layer_66 is active",
+                        "description": "Hold left_command to enter layer_44, unless layer_66(LEFT_SHIFT) is active",
                         "manipulators": [
                             {
                                 "type": "basic",
