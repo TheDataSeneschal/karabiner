@@ -32,7 +32,7 @@
                                         }
                                     },
                                     {
-                                        "shell_command": "open -g 'hammerspoon://layer?name=layer_44&state=1'"
+                                        "shell_command": "/opt/homebrew/bin/hs -c 'hs.alert.show(\" 44 44 \", {atScreenEdge = 2, textFont=\"Chalkboard SE\" , textSize=22}, 9999999999999999)'"
                                     }
                                 ],
                                 "to_after_key_up": [
@@ -43,12 +43,45 @@
                                         }
                                     },
                                     {
-                                        "shell_command": "open -g 'hammerspoon://layer?name=layer_44&state=0'"
+                                        "key_code": "f17"
                                     }
                                 ]
                             }
                         ],
                         "bookmark_bottom": " Enter 44 44 "
+                    },
+                    {
+                        "bookmark": "44 44 command + grave_accent_and_tilde",
+                        "description": "In layer_44, pressing grave_accent_and_tilde sends command + grave_accent_and_tilde (cmd+`)",
+                        "manipulators": [
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "non_us_backslash",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "conditions": [
+                                    {
+                                        "type": "variable_if",
+                                        "name": "layer_44",
+                                        "value": 1
+                                    }
+                                ],
+                                "to": [
+                                    {
+                                        "key_code": "tab",
+                                        "modifiers": [
+                                            "command"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "bookmark_bottom": "44 44 command + grave_accent_and_tilde"
                     },
                     {
                         "bookmark": "44 44 command + equal_sign",
@@ -340,6 +373,57 @@
                                         "value": 1
                                     },
                                     {
+                                        "conditions": [
+                                            {
+                                                "name": "layer_44",
+                                                "type": "variable_if",
+                                                "value": 1
+                                            },
+                                            {
+                                                "bundle_identifiers": [
+                                                    "^com\\.parallels\\.winapp\\.c1d81af5835844b4e9d936910ded8fdc\\.18aa963169c34a1cbb4e443d7fccb6a8$"
+                                                ],
+                                                "type": "frontmost_application_if"
+                                            }
+                                        ],
+                                        "from": {
+                                            "key_code": "h"
+                                        },
+                                        "to": [
+                                            {
+                                                "key_code": "left_arrow"
+                                            },
+                                            {
+                                                "key_code": "left_arrow"
+                                            },
+                                            {
+                                                "key_code": "left_arrow"
+                                            },
+                                            {
+                                                "key_code": "left_arrow"
+                                            },
+                                            {
+                                                "key_code": "left_arrow"
+                                            }
+                                        ],
+                                        "type": "basic"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "bookmark": " 44h 44h ",
+                        "description": "",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "layer_44",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    },
+                                    {
                                         "bundle_identifiers": [
                                             "^com\\.todesktop\\.230313mzl4w4u92$"
                                         ],
@@ -351,47 +435,138 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "left",
+                                        "key_code": "h",
                                         "modifiers": [
-                                            "left_control",
+                                            "left_shift",
                                             "left_option"
                                         ]
                                     }
                                 ],
                                 "type": "basic"
-                            },
+                            }
+                        ]
+                    },
+                    {
+                        "bookmark": " 44i 44i ii ii",
+                        "description": " i in 44 will enter 44i ",
+                        "manipulators": [
                             {
                                 "conditions": [
                                     {
                                         "name": "layer_44",
                                         "type": "variable_if",
                                         "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "i"
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open -g 'hammerspoon://layer?name=layer_44i&state=1'"
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_44i",
+                                            "value": 1
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_44",
+                                            "value": 0
+                                        }
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ],
+                        "bookmark_bottom": " 44i 44i "
+                    },
+                    {
+                        "bookmark": " 44ii 44ii ii ii",
+                        "description": "",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "layer_44i",
+                                        "type": "variable_if",
+                                        "value": 1
                                     },
                                     {
                                         "bundle_identifiers": [
-                                            "^com\\.parallels\\.winapp\\.c1d81af5835844b4e9d936910ded8fdc\\.18aa963169c34a1cbb4e443d7fccb6a8$"
+                                            "^com\\.todesktop.230313mzl4w4u92$"
                                         ],
                                         "type": "frontmost_application_if"
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "h"
+                                    "key_code": "i"
                                 },
                                 "to": [
                                     {
-                                        "key_code": "left_arrow"
+                                        "set_variable": {
+                                            "name": "layer_44i",
+                                            "value": 0
+                                        }
                                     },
                                     {
-                                        "key_code": "left_arrow"
+                                        "shell_command": "open -g 'hammerspoon://layer?name=layer_44i&state=0'"
                                     },
                                     {
-                                        "key_code": "left_arrow"
+                                        "key_code": "g"
                                     },
                                     {
-                                        "key_code": "left_arrow"
+                                        "key_code": "s"
                                     },
                                     {
-                                        "key_code": "left_arrow"
+                                        "key_code": "a"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "bookmark": " 44ii 44ii ii ii",
+                        "description": "",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "layer_44i",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    },
+                                    {
+                                        "bundle_identifiers": [
+                                            "^com\\.todesktop.230313mzl4w4u92$"
+                                        ],
+                                        "type": "frontmost_application_unless"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "i"
+                                },
+                                "to": [
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_44i",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "shell_command": "open -g 'hammerspoon://layer?name=layer_44i&state=0'"
+                                    },
+                                    {
+                                        "key_code": "g"
+                                    },
+                                    {
+                                        "key_code": "s"
+                                    },
+                                    {
+                                        "key_code": "a"
                                     }
                                 ],
                                 "type": "basic"
@@ -501,7 +676,7 @@
                     },
                     {
                         "bookmark": " 44l 44l ",
-                        "description": "     └── hold down left_command and tap l to send option + shift + l",
+                        "description": "",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -509,6 +684,12 @@
                                         "name": "layer_44",
                                         "type": "variable_if",
                                         "value": 1
+                                    },
+                                    {
+                                        "bundle_identifiers": [
+                                            "^com\\.todesktop\\.230313mzl4w4u92$"
+                                        ],
+                                        "type": "frontmost_application_if"
                                     }
                                 ],
                                 "from": {
@@ -516,9 +697,9 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "right",
+                                        "key_code": "l",
                                         "modifiers": [
-                                            "left_control",
+                                            "left_shift",
                                             "left_option"
                                         ]
                                     }
@@ -528,7 +709,7 @@
                         ]
                     },
                     {
-                        "bookmark": " 44l parallels ",
+                        "bookmark": " 44l 44l parallels ",
                         "description": "     └── hold down left_command and tap l in Parallels to send 5x right_arrow",
                         "manipulators": [
                             {
@@ -3862,6 +4043,48 @@
                         ]
                     },
                     {
+                        "bookmark": " eee eee  ",
+                        "description": "If in layer_eei, pressing caps_lock should send f17 and then escape.",
+                        "manipulators": [
+                            {
+                                "type": "basic",
+                                "conditions": [
+                                    {
+                                        "name": "layer_eei",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "caps_lock",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "f17"
+                                    },
+                                    {
+                                        "key_code": "escape"
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_eei",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "shell_command": "open -g 'hammerspoon://layer?name=layer_eei&state=0'"
+                                    }
+                                ]
+                            }
+                        ],
+                        "bookmark_bottom": " eeei eeei "
+                    },
+                    {
                         "1": "==================================================================================================================================================================",
                         "bookmark": "Enter ee ee 11 11",
                         "description": "CapsLock layer with Hammerspoon overlay indicator",
@@ -3885,6 +4108,9 @@
                                 },
                                 "to": [
                                     {
+                                        "shell_command": "/Users/olama/mdotfiles/hammerspoon/close_all_guis.sh"
+                                    },
+                                    {
                                         "set_variable": {
                                             "name": "capslock_layer",
                                             "value": 1
@@ -3901,20 +4127,224 @@
                                     },
                                     {
                                         "set_variable": {
+                                            "name": "layer_44i",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_44m",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
                                             "name": "layer_55",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_55q",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_55w",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_55e",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_55r",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_55t",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_55a",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_55s",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_55d",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_55f",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_55g",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_55z",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_55x",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_55c",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_55v",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_55b",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_66",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_6644",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_77",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_eea",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_eeai",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_eeao",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_eeaj",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_eeak",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_ees",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_eed",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_eef",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_eei",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_eem",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_eeu",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_eey",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_22",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_22m",
                                             "value": 0
                                         }
                                     }
                                 ],
                                 "to_after_key_up": [
                                     {
+                                        "shell_command": "/Users/olama/mdotfiles/hammerspoon/close_all_guis.sh"
+                                    },
+                                    {
                                         "set_variable": {
                                             "name": "capslock_layer",
                                             "value": 0
                                         }
-                                    },
-                                    {
-                                        "shell_command": "/Users/olama/mdotfiles/hammerspoon/close_all_guis.sh"
                                     },
                                     {
                                         "set_variable": {
@@ -3925,16 +4355,7 @@
                                 ],
                                 "to_if_alone": [
                                     {
-                                        "shell_command": "/Users/olama/mdotfiles/hammerspoon/close_all_guis.sh"
-                                    },
-                                    {
                                         "key_code": "escape"
-                                    },
-                                    {
-                                        "set_variable": {
-                                            "name": "layer_eei",
-                                            "value": 0
-                                        }
                                     }
                                 ]
                             }
@@ -7111,7 +7532,9 @@
                                 "to": [
                                     {
                                         "key_code": "f",
-                                        "modifiers": ["command"]
+                                        "modifiers": [
+                                            "command"
+                                        ]
                                     },
                                     {
                                         "shell_command": "open -g 'hammerspoon://layer?name=layer_eea&state=1'"
@@ -7851,8 +8274,8 @@
                         ]
                     },
                     {
-                        "bookmark": " yy yy",
-                        "description": "        └── tapping 'y' in capslock_layer to enter 'layer_44y' ",
+                        "bookmark": " eey eey yy yy ",
+                        "description": " Enter layer_eey ",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -7871,6 +8294,9 @@
                                     }
                                 },
                                 "to": [
+                                    {
+                                        "shell_command": "open -g 'hammerspoon://layer?name=layer_eey&state=1'"
+                                    },
                                     {
                                         "set_variable": {
                                             "name": "layer_eey",
@@ -7996,6 +8422,9 @@
                                 ],
                                 "to_after_key_up": [
                                     {
+                                        "shell_command": "open -g 'hammerspoon://layer?name=layer_eey&state=0'"
+                                    },
+                                    {
                                         "set_variable": {
                                             "name": "layer_eey",
                                             "value": 0
@@ -8007,49 +8436,8 @@
                         "bookmark_bottom": " eeyo eeyo yo yo "
                     },
                     {
-                        "bookmark": " yp yp ",
-                        "description": "capslock + y + p will copy a file path using ⌘⌥c",
-                        "manipulators": [
-                            {
-                                "type": "basic",
-                                "conditions": [
-                                    {
-                                        "type": "variable_if",
-                                        "name": "layer_eey",
-                                        "value": 1
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "p",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "c",
-                                        "modifiers": [
-                                            "command",
-                                            "option"
-                                        ]
-                                    }
-                                ],
-                                "to_after_key_up": [
-                                    {
-                                        "set_variable": {
-                                            "name": "layer_eey",
-                                            "value": 0
-                                        }
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "bookmark": "y in eey sends command c",
-                        "description": "          pressing 'y' in layer_eey will send ⌘c",
+                        "bookmark": " eeyy eeyy yy yy ",
+                        "description": " Send command + c ",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -8073,6 +8461,9 @@
                                         "modifiers": [
                                             "command"
                                         ]
+                                    },
+                                    {
+                                        "shell_command": "open -g 'hammerspoon://layer?name=layer_eey&state=0'"
                                     }
                                 ],
                                 "to_after_key_up": [
@@ -8085,10 +8476,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " eeyy eeyy "
                     },
                     {
-                        "bookmark": "Enter layer_eeu eeu eeu uu uu ",
+                        "bookmark": " eeu eeu uu uu ",
                         "description": "capslock + u will enter the u layer and exit capslock layer",
                         "manipulators": [
                             {
@@ -8106,6 +8498,11 @@
                                         "type": "variable_if",
                                         "name": "capslock_layer",
                                         "value": 1
+                                    },
+                                    {
+                                        "type": "variable_if",
+                                        "name": "layer_eeu",
+                                        "value": 0
                                     }
                                 ],
                                 "to": [
@@ -8118,7 +8515,7 @@
                                 ]
                             }
                         ],
-                        "bookmark_bottom": " Enter layer_eeu "
+                        "bookmark_bottom": " eeu eeu uu uu"
                     },
                     {
                         "bookmark": " eeuh eeuh uh uh ",
@@ -8318,14 +8715,14 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "osascript -e 'display notification \"File path copied!\" with title \"Karabiner-Elements\"'"
-                                    },
-                                    {
                                         "key_code": "c",
                                         "modifiers": [
                                             "command",
                                             "option"
                                         ]
+                                    },
+                                    {
+                                        "shell_command": "/opt/homebrew/bin/hs -c 'hs.alert.show(\" Path Copied to Clipboard \", 1.5, {atScreenEdge = 2, textFont=\"Chalkboard SE\"})'"
                                     }
                                 ],
                                 "to_after_key_up": [
@@ -8341,7 +8738,7 @@
                         "bookmark_bottom": " eeuo eeuo uo uo "
                     },
                     {
-                        "bookmark": " uu uu eeuu eeuu layer_eeuu ",
+                        "bookmark": " eeuu eeuu uu uu ",
                         "description": "capslock + uu will send undo",
                         "manipulators": [
                             {
@@ -8379,10 +8776,10 @@
                                 "type": "basic"
                             }
                         ],
-                        "bookmark_bottom": " uu uu eeuu eeuu layer_eeuu "
+                        "bookmark_bottom": " eeuu eeuu uu uu"
                     },
                     {
-                        "bookmark": "Enter layer_eei ii ii eei eei ",
+                        "bookmark": " eei eei ii ii ",
                         "description": "Enter layer_eei if no other conflicting layers are active",
                         "manipulators": [
                             {
@@ -8403,7 +8800,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -g 'hammerspoon://layer?name=layer_eei&state=1'"
+                                        "shell_command": "/opt/homebrew/bin/hs -c 'hs.alert.show(\" now in layer_eei \", {atScreenEdge = 2, textFont=\"Chalkboard SE\" , textSize=22}, 9999999999999999)'"
                                     },
                                     {
                                         "set_variable": {
@@ -8421,7 +8818,7 @@
                                 "type": "basic"
                             }
                         ],
-                        "bookmark_bottom": " Enter layer_eei ii ii eei eei "
+                        "bookmark_bottom": " eei eei ii ii "
                     },
                     {
                         "bookmark": " eeii eeii ii ii ",
@@ -8445,6 +8842,9 @@
                                 },
                                 "to": [
                                     {
+                                        "key_code": "f17"
+                                    },
+                                    {
                                         "key_code": "k",
                                         "modifiers": [
                                             "left_command"
@@ -8462,7 +8862,8 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " eeii eeii ii ii "
                     },
                     {
                         "bookmark": " eeih eeih ih ih ",
@@ -8504,19 +8905,15 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " eeih eeih ih ih "
                     },
                     {
-                        "bookmark": "ij ij",
+                        "bookmark": " eeij eeij ij ij ",
                         "description": "capslock + i + j will copy and delete from the cursor to the start of the line",
                         "manipulators": [
                             {
                                 "conditions": [
-                                    {
-                                        "name": "capslock_layer",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    },
                                     {
                                         "name": "layer_eei",
                                         "type": "variable_if",
@@ -8559,19 +8956,15 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " eeij eeij ij ij "
                     },
                     {
-                        "bookmark": "ik ik",
+                        "bookmark": " eeik eeik ik ik ",
                         "description": "capslock + i + k will copy and delete an entire line",
                         "manipulators": [
                             {
                                 "conditions": [
-                                    {
-                                        "name": "capslock_layer",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    },
                                     {
                                         "name": "layer_eei",
                                         "type": "variable_if",
@@ -8620,19 +9013,15 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " eeik eeik ik ik "
                     },
                     {
-                        "bookmark": "il il",
+                        "bookmark": " eeil eei il il ",
                         "description": "capslock + i + l will copy and delete from the cursor to the end of the line",
                         "manipulators": [
                             {
                                 "conditions": [
-                                    {
-                                        "name": "capslock_layer",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    },
                                     {
                                         "name": "layer_eei",
                                         "type": "variable_if",
@@ -8675,7 +9064,8 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " eeil eeil il il"
                     },
                     {
                         "bookmark": "io io",
@@ -8683,11 +9073,6 @@
                         "manipulators": [
                             {
                                 "conditions": [
-                                    {
-                                        "name": "capslock_layer",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    },
                                     {
                                         "name": "layer_eei",
                                         "type": "variable_if",
@@ -8943,6 +9328,47 @@
                         ]
                     },
                     {
+                        "bookmark": " eem. eem. m. m. ",
+                        "description": "In layer_eem, tapping '.' sends Command + Tab once and returns to capslock_layer",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "layer_eem",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "period",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "tab",
+                                        "modifiers": [
+                                            "left_command"
+                                        ]
+                                    }
+                                ],
+                                "to_after_key_up": [
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_eem",
+                                            "value": 0
+                                        }
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ],
+                        "bookmark_bottom": " eem. eem. m. m. "
+                    },
+                    {
                         "bookmark": "mh mh",
                         "description": "               └── tap 'h' in layer_eem will open chatgpt",
                         "manipulators": [
@@ -9043,6 +9469,9 @@
                                 "to": [
                                     {
                                         "shell_command": "/Users/olama/.config/yabai/modules/cycle_wrapper.sh vivaldi"
+                                    },
+                                    {
+                                        "key_code": "f17"
                                     }
                                 ],
                                 "to_after_key_up": [
@@ -10347,7 +10776,7 @@
                                         }
                                     },
                                     {
-                                        "shell_command": "open -g 'hammerspoon://layer?name=layer_55&state=1'"
+                                        "shell_command": "/opt/homebrew/bin/hs -c 'hs.alert.show(\" 55 55 \", {atScreenEdge = 2, textFont=\"Chalkboard SE\" , textSize=22}, 9999999999999999)'"
                                     }
                                 ],
                                 "to_after_key_up": [
@@ -10358,7 +10787,7 @@
                                         }
                                     },
                                     {
-                                        "shell_command": "open -g 'hammerspoon://layer?name=layer_55&state=0'"
+                                        "key_code": "f17"
                                     }
                                 ]
                             }
@@ -11614,46 +12043,17 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "r",
+                                        "key_code": "f18",
                                         "modifiers": [
-                                            "left_control",
+                                            "right_control",
                                             "left_option",
-                                            "left_command"
+                                            "left_command",
+                                            "left_shift"
                                         ]
                                     },
                                     {
                                         "set_variable": {
                                             "name": "capslock_layer",
-                                            "value": 0
-                                        }
-                                    },
-                                    {
-                                        "set_variable": {
-                                            "name": "layer_22",
-                                            "value": 0
-                                        }
-                                    },
-                                    {
-                                        "set_variable": {
-                                            "name": "layer_eei",
-                                            "value": 0
-                                        }
-                                    },
-                                    {
-                                        "set_variable": {
-                                            "name": "layer_eeu",
-                                            "value": 0
-                                        }
-                                    },
-                                    {
-                                        "set_variable": {
-                                            "name": "layer_eem",
-                                            "value": 0
-                                        }
-                                    },
-                                    {
-                                        "set_variable": {
-                                            "name": "layer_een",
                                             "value": 0
                                         }
                                     },
@@ -11665,7 +12065,13 @@
                                     },
                                     {
                                         "set_variable": {
-                                            "name": "layer_44.",
+                                            "name": "layer_44i",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_44m",
                                             "value": 0
                                         }
                                     },
@@ -11677,7 +12083,103 @@
                                     },
                                     {
                                         "set_variable": {
+                                            "name": "layer_55q",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_55w",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_55e",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_55r",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_55t",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_55a",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_55s",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_55d",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_55f",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_55g",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_55z",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_55x",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_55c",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_55v",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_55b",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
                                             "name": "layer_66",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_6644",
                                             "value": 0
                                         }
                                     },
@@ -11689,13 +12191,85 @@
                                     },
                                     {
                                         "set_variable": {
-                                            "name": "semicolon_layer",
+                                            "name": "layer_eea",
                                             "value": 0
                                         }
                                     },
                                     {
                                         "set_variable": {
-                                            "name": "layer_99",
+                                            "name": "layer_eeai",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_eeao",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_eeaj",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_eeak",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_ees",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_eed",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_eef",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_eei",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_eem",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_eeu",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_eey",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_22",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_22m",
                                             "value": 0
                                         }
                                     }
@@ -11822,7 +12396,7 @@
                                 "to": [
                                     {
                                         "key_code": "b",
-                                        "modifiers":[
+                                        "modifiers": [
                                             "left_shift"
                                         ]
                                     }
@@ -11830,6 +12404,64 @@
                             }
                         ],
                         "bookmark_bottom": " Enter Layer_99 99 "
+                    },
+                    {
+                        "bookmark": " ,, ,, ",
+                        "description": "Left Option + , sends left curly brace ({)",
+                        "manipulators": [
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "comma",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_option"
+                                        ],
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "open_bracket",
+                                        "modifiers": [
+                                            "left_shift"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "bookmark_bottom": " ,, ,, "
+                    },
+                    {
+                        "Bookmark": " .. .. ",
+                        "description": "Left Option + . sends right curly brace (})",
+                        "manipulators": [
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "period",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_option"
+                                        ],
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "close_bracket",
+                                        "modifiers": [
+                                            "left_shift"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "bookmark_bottom": " .. .. "
                     }
                 ]
             },
@@ -17189,8 +17821,8 @@
                         ]
                     },
                     {
-                        "bookmark_defy": " yy yy ",
-                        "description": "        └── tapping 'y' in capslock_layer to enter 'layer_44y' ",
+                        "bookmark_defy": " eey eey yy yy ",
+                        "description": " copy hotkey ",
                         "manipulators": [
                             {
                                 "conditions": [
