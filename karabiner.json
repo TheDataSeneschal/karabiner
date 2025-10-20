@@ -32,7 +32,7 @@
                                         }
                                     },
                                     {
-                                        "shell_command": "/opt/homebrew/bin/hs -c 'hs.alert.show(\" now in 44 44 \", {atScreenEdge = 2, textFont=\"Chalkboard SE\" , textSize=22}, 9999999999999999)'"
+                                        "shell_command": "/opt/homebrew/bin/hs -c 'hs.alert.show(\"44 44 \", {atScreenEdge = 2, textFont=\"Chalkboard SE\" , textSize=22}, 9999999999999999)'"
                                     }
                                 ],
                                 "to_after_key_up": [
@@ -87,7 +87,7 @@
                                 ]
                             }
                         ],
-                        "bookmark_bottom": "44 44 slash sends right_arrow"
+                        "bookmark_bottom": " 44/ 44/"
                     },
                     {
                         "bookmark": "44 44 command + grave_accent_and_tilde",
@@ -120,7 +120,7 @@
                                 ]
                             }
                         ],
-                        "bookmark_bottom": "44 44 command + grave_accent_and_tilde"
+                        "bookmark_bottom": " 44` 44`"
                     },
                     {
                         "bookmark": "44 44 command + equal_sign",
@@ -183,39 +183,8 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
-                    },
-                    {
-                        "bookmark": " 44 44 command + shift",
-                        "description": "     └── hold down left_command and tilde_by_the_shift in layer_44 to send both command and shift",
-                        "manipulators": [
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "layer_44",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "grave_accent_and_tilde",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "left_shift",
-                                        "modifiers": [
-                                            "left_command"
-                                        ]
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
+                        ],
+                        "bookmark_bottom": " 44 command + shift"
                     },
                     {
                         "bookmark": " 44 44 command + control",
@@ -242,7 +211,8 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": "44 command + control"
                     },
                     {
                         "bookmark": " 44 44 command + option",
@@ -269,7 +239,8 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " 44 44 command + option"
                     },
                     {
                         "bookmark": " 44 44 command + tab",
@@ -296,11 +267,12 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " 44 44 command + tab"
                     },
                     {
                         "bookmark": " 44c 44c ",
-                        "description": " └── hold down left_command and tap c to enter the layer_44c",
+                        "description": " Tap c in layer_44 to enter this layer",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -327,16 +299,17 @@
                                         }
                                     },
                                     {
-                                        "shell_command": "open -g 'hammerspoon://layer?name=layer_44c&state=1'"
+                                        "shell_command": "/opt/homebrew/bin/hs -c 'hs.alert.show(\"44c 44c\", {atScreenEdge = 2, textFont=\"Chalkboard SE\", textSize=22}, 9999999999999999)'"
                                     }
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " 44 44 command + tab"
                     },
                     {
                         "bookmark": " 44cc 44cc cc cc ",
-                        "description": "      └── tap c in the layer_44c to send command + c (copy)",
+                        "description": " Tap c in layer_44c to send command + c",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -351,6 +324,9 @@
                                 },
                                 "to": [
                                     {
+                                        "key_code": "f16"
+                                    },
+                                    {
                                         "key_code": "c",
                                         "modifiers": [
                                             "left_command"
@@ -361,20 +337,12 @@
                                             "name": "layer_44c",
                                             "value": 0
                                         }
-                                    },
-                                    {
-                                        "set_variable": {
-                                            "name": "layer_44",
-                                            "value": 1
-                                        }
-                                    },
-                                    {
-                                        "shell_command": "open -g 'hammerspoon://layer?name=layer_44c&state=0'"
                                     }
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": "44 44 command + "
                     },
                     {
                         "bookmark": " 44d 44d ",
@@ -565,7 +533,8 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "Bookmark_Bottom": " 44ii 44ii Cursor "
                     },
                     {
                         "bookmark": " 44ii 44ii ii ii",
@@ -608,7 +577,8 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "Bookmark_Bottom": " 44ii 44ii Non-Cursor "
                     },
                     {
                         "bookmark": " 44j 44j (Cursor AI only) command shift j",
@@ -642,7 +612,8 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "Bookmark_Bottom": " 44j 44j Cursor "
                     },
                     {
                         "bookmark": " 44k 44k (Cursor AI only)",
@@ -676,11 +647,12 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " 44k 44k (Cursor AI only)"
                     },
                     {
-                        "bookmark": " 44k 44k (Cursor AI only)",
-                        "description": "     └── hold down left_command and tap k to send command + shift + k, only in Cursor AI editor on macOS",
+                        "bookmark": " 44k 44k General ",
+                        "description": " Tapping k in layer_44 to the start of the current paragraph or page",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -709,10 +681,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " 44k 44k General "
                     },
                     {
-                        "bookmark": " 44l 44l ",
+                        "bookmark": " 44l 44l (Cursor AI) ",
                         "description": "",
                         "manipulators": [
                             {
@@ -743,11 +716,12 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " 44l 44l (Cursor AI) "
                     },
                     {
                         "bookmark": " 44l 44l parallels ",
-                        "description": "     └── hold down left_command and tap l in Parallels to send 5x right_arrow",
+                        "description": " Tap 'l' in this layer to move to the right five times, used in Excel Virtual Machine ",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -785,11 +759,12 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " 44l 44l parallels "
                     },
                     {
-                        "bookmark": " 44m 44m ",
-                        "description": "     └── hold down left_command and tap m to enter the layer_44m",
+                        "bookmark": " 44m 44m mm mm ",
+                        "description": " Tap 'm' in this layer to enter layer_44m ",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -814,15 +789,19 @@
                                             "name": "layer_44",
                                             "value": 0
                                         }
+                                    },
+                                    {
+                                        "shell_command": "/opt/homebrew/bin/hs -c 'hs.alert.show(\" 44m 44m \", {atScreenEdge = 2, textFont=\"Chalkboard SE\", textSize=22}, 9999999999999999)'"
                                     }
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " 44m 44m "
                     },
                     {
-                        "bookmark": " 44mm 44mm ",
-                        "description": "        └── tap m in the layer_44m to send option + shift + m and jump to the currently playing tab in Vivaldi",
+                        "bookmark": " 44mm 44mm mm mm ",
+                        "description": " Tap 'm' in this layer to TODO ",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -839,6 +818,7 @@
                                     {
                                         "key_code": "m",
                                         "modifiers": [
+                                            "left_command",
                                             "left_option",
                                             "left_shift"
                                         ]
@@ -854,15 +834,19 @@
                                             "name": "layer_44",
                                             "value": 1
                                         }
+                                    },
+                                    {
+                                        "key_code": "f16"
                                     }
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " 44mm 44mm "
                     },
                     {
                         "bookmark": " 44n 44n ",
-                        "description": "     └── hold down left_command and tap n to enter the layer_44n",
+                        "description": " Tap 'n' in this layer to enter layer_44n ",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -876,6 +860,9 @@
                                     "key_code": "n"
                                 },
                                 "to": [
+                                    {
+                                        "shell_command": "/opt/homebrew/bin/hs -c 'hs.alert.show(\" 44n 44n \", {atScreenEdge = 2, textFont=\"Chalkboard SE\", textSize=22}, 9999999999999999)'"
+                                    }
                                     {
                                         "set_variable": {
                                             "name": "layer_44n",
@@ -891,19 +878,15 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " 44n 44n "
                     },
                     {
                         "bookmark": " 44nn 44nn ",
-                        "description": "        └── tap n in the layer_44n to send option + shift + n this will dismiss the current notification using supercharge.app",
+                        "description": " Tap 'n' in this layer to clear notifications in macOS and Cursor ",
                         "manipulators": [
                             {
                                 "conditions": [
-                                    {
-                                        "name": "layer_44",
-                                        "type": "variable_if",
-                                        "value": 0
-                                    },
                                     {
                                         "name": "layer_44n",
                                         "type": "variable_if",
@@ -3175,7 +3158,7 @@
                         "bookmark_bottom": " Enter layer_6644 shift + command shift command command shift command + shift "
                     },
                     {
-                        "bookmark": "66 44 command + shift + a",
+                        "bookmark": "6644 command + shift + a",
                         "description": "      └── In layer_6644, tapping 'a' sends command + shift + a",
                         "manipulators": [
                             {
@@ -3201,7 +3184,7 @@
                                 ]
                             }
                         ],
-                        "bookmark_bottom": "66 44 command + shift + a"
+                        "bookmark_bottom": "6644 command + shift + a"
                     },
                     {
                         "bookmark": "66 44 command + shift + b",
@@ -4196,6 +4179,78 @@
                         "bookmark_bottom": " eeei eeei "
                     },
                     {
+                        "bookmark": " ee44 ee44 ",
+                        "description": "If in layer_44, pressing caps_lock should send f16 and exit layer_44.",
+                        "manipulators": [
+                            {
+                                "type": "basic",
+                                "conditions": [
+                                    {
+                                        "name": "layer_44",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "caps_lock",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "f16"
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_44",
+                                            "value": 0
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "bookmark_bottom": " ee44 ee44 "
+                    },
+                    {
+                        "bookmark": " ee55 ee55 ",
+                        "description": "If in layer_55, pressing caps_lock should send f16 and exit layer_55.",
+                        "manipulators": [
+                            {
+                                "type": "basic",
+                                "conditions": [
+                                    {
+                                        "name": "layer_55",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "caps_lock",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "f16"
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_55",
+                                            "value": 0
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "bookmark_bottom": " ee55 ee55 "
+                    },
+                    {
                         "1": "==================================================================================================================================================================",
                         "bookmark": "Enter ee ee 11 11",
                         "description": "CapsLock layer with Hammerspoon overlay indicator",
@@ -4543,7 +4598,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "/opt/homebrew/bin/hs -c 'hs.alert.show(\" now in layer_slash \", {atScreenEdge = 2, textFont=\"Chalkboard SE\" , textSize=22}, 9999999999999999)'"
+                                        "shell_command": "/opt/homebrew/bin/hs -c 'hs.alert.show(\"layer_slash \", {atScreenEdge = 2, textFont=\"Chalkboard SE\" , textSize=22}, 9999999999999999)'"
                                     },
                                     {
                                         "set_variable": {
@@ -4980,7 +5035,7 @@
                                         }
                                     },
                                     {
-                                        "shell_command": "/opt/homebrew/bin/hs -c 'hs.alert.show(\" now in layer_22i \", {atScreenEdge = 2, textFont=\"Chalkboard SE\", textSize=22}, 9999999999999999)'"
+                                        "shell_command": "/opt/homebrew/bin/hs -c 'hs.alert.show(\"layer_22i \", {atScreenEdge = 2, textFont=\"Chalkboard SE\", textSize=22}, 9999999999999999)'"
                                     }
                                 ],
                                 "to_after_key_up": [
@@ -8514,7 +8569,7 @@
                     },
                     {
                         "bookmark": " ee eeui ui ui ",
-                        "description": "capslock + u + i will copy a file path using ⌘⌥c",
+                        "description": "Tapping 'i' in layer_eeu will send a left parenthesis, then a right parenthesis, then the left arrow, and finally send F16 to close the eeu layer.",
                         "manipulators": [
                             {
                                 "type": "basic",
@@ -8535,10 +8590,22 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f11",
+                                        "key_code": "9",
                                         "modifiers": [
-                                            "control"
+                                            "shift"
                                         ]
+                                    },
+                                    {
+                                        "key_code": "0",
+                                        "modifiers": [
+                                            "shift"
+                                        ]
+                                    },
+                                    {
+                                        "key_code": "left_arrow"
+                                    },
+                                    {
+                                        "key_code": "f16"
                                     }
                                 ],
                                 "to_after_key_up": [
@@ -11019,7 +11086,7 @@
                     },
                     {
                         "bookmark": " 55d 55d ",
-                        "description": " Enter Layer_55d by tapping d in layer_55 ",
+                        "description": " Tap d in layer_55 to enter this layer ",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -11060,7 +11127,7 @@
                     },
                     {
                         "bookmark": " 55dd 55dd ",
-                        "description": " enter layer_55dd by tapping d in layer_55d",
+                        "description": " Send control + shift + p in most apps to open the Command Palette ",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -11078,19 +11145,17 @@
                                         "key_code": "f16"
                                     },
                                     {
+                                        "set_variable": {
+                                            "name": "layer_55d",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
                                         "key_code": "p",
                                         "modifiers": [
                                             "control",
                                             "shift"
                                         ]
-                                    }
-                                ],
-                                "to_after_key_up": [
-                                    {
-                                        "set_variable": {
-                                            "name": "layer_55d",
-                                            "value": 0
-                                        }
                                     }
                                 ],
                                 "type": "basic"
@@ -11234,7 +11299,7 @@
                                 },
                                 "to": [
                                     {
-                                      "key_code": "f16"
+                                        "key_code": "f16"
                                     },
                                     {
                                         "set_variable": {
@@ -11249,7 +11314,7 @@
                                         }
                                     },
                                     {
-                                      "shell_command": "/opt/homebrew/bin/hs -c 'hs.alert.show(\"55f 55f\", {atScreenEdge = 2, textFont=\"Chalkboard SE\", textSize=22}, 9999999999999999)'"
+                                        "shell_command": "/opt/homebrew/bin/hs -c 'hs.alert.show(\"55f 55f\", {atScreenEdge = 2, textFont=\"Chalkboard SE\", textSize=22}, 9999999999999999)'"
                                     }
                                 ],
                                 "type": "basic"
@@ -11258,7 +11323,7 @@
                         "bookmark_bottom": " 55f 55f "
                     },
                     {
-                        "bookmark": " 55ff 55ff ff ff ",
+                        "bookmark": " 55ff 55ff ff ff in Finder ",
                         "description": "     └── tap f while in the layer_55f to send command + shift + g if in finder",
                         "manipulators": [
                             {
@@ -11280,7 +11345,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "f17"
                                     },
                                     {
                                         "key_code": "g",
@@ -11301,7 +11366,7 @@
                         ]
                     },
                     {
-                        "bookmark": " 55ff 55ff",
+                        "bookmark": " 55ff 55ff ff ff for all apps except Finder",
                         "description": "     └── tap f while in the layer_55f to send command + l when not in finder",
                         "manipulators": [
                             {
@@ -11323,6 +11388,9 @@
                                 },
                                 "to": [
                                     {
+                                        "key_code": "f17"
+                                    },
+                                    {
                                         "key_code": "l",
                                         "modifiers": [
                                             "command"
@@ -11333,6 +11401,9 @@
                                             "name": "layer_55f",
                                             "value": 0
                                         }
+                                    },
+                                    {
+                                        "shell_command": "/opt/homebrew/bin/hs -c 'hs.alert.show(\"55f 55f\", {atScreenEdge = 2, textFont=\"Chalkboard SE\", textSize=22}, 9999999999999999)'"
                                     }
                                 ],
                                 "type": "basic"
@@ -11356,7 +11427,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f17"
+                                        "key_code": "f16"
                                     },
                                     {
                                         "key_code": "f13",
@@ -11369,17 +11440,12 @@
                                             "name": "layer_55f",
                                             "value": 0
                                         }
-                                    },
-                                    {
-                                        "set_variable": {
-                                            "name": "layer_55f",
-                                            "value": 0
-                                        }
                                     }
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " 55fw 55fw "
                     },
                     {
                         "bookmark": " 55fq 55fq fq fq ",
@@ -11422,7 +11488,7 @@
                                 "type": "basic"
                             }
                         ],
-                        "bookmark_bottom": " 55fq 55fq "
+                        "bookmark_bottom": " Now leaving layer_55fq fq "
                     },
                     {
                         "bookmark": " 55r 55r ",
@@ -11546,7 +11612,8 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " 55rr 55rr "
                     },
                     {
                         "bookmark": " 55rr 55rr ",
@@ -11571,6 +11638,9 @@
                                 },
                                 "to": [
                                     {
+                                        "key_code": "f16"
+                                    },
+                                    {
                                         "key_code": "r",
                                         "modifiers": [
                                             "command"
@@ -11593,7 +11663,8 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " 55rr 55rr "
                     },
                     {
                         "bookmark": " 55s 55s ",
@@ -11628,14 +11699,15 @@
                                         }
                                     },
                                     {
-                                      "shell_command": "/opt/homebrew/bin/hs -c 'hs.alert.show(\"Layer_55s\", {atScreenEdge = 2, textFont=\"Chalkboard SE\", textSize=22}, 9999999999999999)'"
+                                        "shell_command": "/opt/homebrew/bin/hs -c 'hs.alert.show(\"Layer_55s\", {atScreenEdge = 2, textFont=\"Chalkboard SE\", textSize=22}, 9999999999999999)'"
                                     }
                                 ]
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " 55s 55s "
                     },
                     {
-                        "bookmark": " 55ss 55ss ",
+                        "bookmark": " 55ss 55ss ss ss ",
                         "description": " tap s in layer_55s to toggle the primar sidebar in most apps",
                         "manipulators": [
                             {
@@ -11651,7 +11723,7 @@
                                 },
                                 "to": [
                                     {
-                                      "key_code": "f16"
+                                        "key_code": "f16"
                                     },
                                     {
                                         "key_code": "f2",
@@ -11665,15 +11737,19 @@
                                             "name": "layer_55s",
                                             "value": 0
                                         }
+                                    },
+                                    {
+                                        "shell_command": "/opt/homebrew/bin/hs -c 'hs.alert.show(\" 55ss 55ss\", {atScreenEdge = 2, textFont=\"Chalkboard SE\", textSize=22}, 9999999999999999)'"
                                     }
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " 55ss 55ss "
                     },
                     {
-                        "bookmark": " 55t 55t ",
-                        "description": "     └── tap t while in the t_layer to send Alt + Shift + f14",
+                        "bookmark": " 55t 55t tt tt ",
+                        "description": " Tap t in layer_55 to enter this layer",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -11687,6 +11763,9 @@
                                     "key_code": "t"
                                 },
                                 "to": [
+                                    {
+                                        "key_code": "f16"
+                                    },
                                     {
                                         "set_variable": {
                                             "name": "layer_55t",
@@ -11702,11 +11781,12 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " 55t 55t  "
                     },
                     {
-                        "bookmark": " 55tt 55tt ",
-                        "description": "     └── tap t while in the layer_55t to send command + t",
+                        "bookmark": " 55tt 55tt tt tt ",
+                        "description": " Tap t in layer_55t to enter this layer",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -11720,6 +11800,9 @@
                                     "key_code": "t"
                                 },
                                 "to": [
+                                    {
+                                        "key_code": "f16"
+                                    },
                                     {
                                         "key_code": "t",
                                         "modifiers": [
@@ -11741,11 +11824,12 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " 55tt 55tt"
                     },
                     {
-                        "bookmark": " 55w 55w ",
-                        "description": "     └── tap w while in the w_layer to send command + w",
+                        "bookmark": " 55w 55w ww ww ",
+                        "description": " Tap w in layer_55 to enter layer_55w ",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -11760,6 +11844,9 @@
                                 },
                                 "to": [
                                     {
+                                        "key_code": "f16"
+                                    },
+                                    {
                                         "set_variable": {
                                             "name": "layer_55w",
                                             "value": 1
@@ -11770,6 +11857,9 @@
                                             "name": "layer_55",
                                             "value": 0
                                         }
+                                    },
+                                    {
+                                        "shell_command": "/opt/homebrew/bin/hs -c 'hs.alert.show(\"55w 55w\", {atScreenEdge = 2, textFont=\"Chalkboard SE\", textSize=22}, 9999999999999999)'"
                                     }
                                 ],
                                 "type": "basic"
@@ -11778,7 +11868,7 @@
                     },
                     {
                         "bookmark": " 55ww 55ww ",
-                        "description": "     └── tap w while in the layer_55w to send command + w",
+                        "description": "Tap 'w' while in layer_55w to send command + w",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -11793,6 +11883,9 @@
                                 },
                                 "to": [
                                     {
+                                        "key_code": "f16"
+                                    },
+                                    {
                                         "key_code": "w",
                                         "modifiers": [
                                             "command"
@@ -11803,21 +11896,16 @@
                                             "name": "layer_55w",
                                             "value": 0
                                         }
-                                    },
-                                    {
-                                        "set_variable": {
-                                            "name": "layer_55",
-                                            "value": 1
-                                        }
                                     }
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " 55w 55w"
                     },
                     {
                         "bookmark": " 55we 55we ",
-                        "description": "     └── tap e while in the layer_55w to send control + option + w",
+                        "description": " tap 'e' while in the layer_55w to send control + option + w, this will close all the tabs to the right in most apps",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -11832,6 +11920,9 @@
                                 },
                                 "to": [
                                     {
+                                        "key_code": "f16"
+                                    },
+                                    {
                                         "key_code": "w",
                                         "modifiers": [
                                             "control",
@@ -11843,21 +11934,16 @@
                                             "name": "layer_55w",
                                             "value": 0
                                         }
-                                    },
-                                    {
-                                        "set_variable": {
-                                            "name": "layer_55",
-                                            "value": 1
-                                        }
                                     }
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " 55we 55we "
                     },
                     {
                         "bookmark": " 55q 55q ",
-                        "description": "     └── tap q while in the layer_55 to enter layer_55q",
+                        "description": " Enter layer_55q by tapping q while in layer_55 ",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -11872,7 +11958,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "/opt/homebrew/bin/hs -c 'hs.alert.show(\" now in 55q 55q \", {atScreenEdge = 2, textFont=\"Chalkboard SE\", textSize=22}, 9999999999999999)'"
+                                        "key_code": "f16"
                                     },
                                     {
                                         "set_variable": {
@@ -11885,15 +11971,19 @@
                                             "name": "layer_55",
                                             "value": 0
                                         }
+                                    },
+                                    {
+                                        "shell_command": "/opt/homebrew/bin/hs -c 'hs.alert.show(\"55q 55q\", {atScreenEdge = 2, textFont=\"Chalkboard SE\", textSize=22}, 9999999999999999)'"
                                     }
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " 55we 55we "
                     },
                     {
                         "bookmark": " 55qq 55qq ",
-                        "description": "     └── tap q while in the layer_55q to send command + q",
+                        "description": " tap 'q' while in the layer_55q to send command + q",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -11908,6 +11998,9 @@
                                 },
                                 "to": [
                                     {
+                                        "key_code": "f16"
+                                    },
+                                    {
                                         "key_code": "q",
                                         "modifiers": [
                                             "command"
@@ -11918,20 +12011,12 @@
                                             "name": "layer_55q",
                                             "value": 0
                                         }
-                                    },
-                                    {
-                                        "set_variable": {
-                                            "name": "layer_55",
-                                            "value": 1
-                                        }
-                                    },
-                                    {
-                                        "shell_command": "/opt/homebrew/bin/hs -c 'hs.alert.closeAll()'"
                                     }
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " 55qq 55qq"
                     },
                     {
                         "bookmark": " 55v 55v ",
@@ -11965,7 +12050,7 @@
                                 ],
                                 "to_after_key_up": [
                                     {
-                                        "shell_command": "open -g 'hammerspoon://layer?name=layer_55v&state=1'"
+                                        "shell_command": "/opt/homebrew/bin/hs -c 'hs.alert.show(\" 55v 55v\", {atScreenEdge = 2, textFont=\"Chalkboard SE\", textSize=22}, 9999999999999999)'"
                                     }
                                 ]
                             }
@@ -11988,9 +12073,6 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -g 'hammerspoon://layer?name=layer_55v&state=0'"
-                                    },
-                                    {
                                         "key_code": "f5",
                                         "modifiers": [
                                             "control",
@@ -12011,18 +12093,14 @@
                                         }
                                     }
                                 ],
-                                "to_after_key_up": [
-                                    {
-                                        "shell_command": "open -g 'hammerspoon://layer?name=layer_55v&state=0'"
-                                    }
-                                ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " 55vv 55vv "
                     },
                     {
-                        "bookmark": " 55 55 55vg 55vg ",
-                        "description": "                └── tap g while in the layer_55v to send control + shift + option + f7 which will paste my email using a shortcut in Copy 'Em",
+                        "bookmark": " 55vg 55vg 55 55 ",
+                        "description": " Tap g while in layer_55v to enter this layer",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -12036,9 +12114,6 @@
                                     "key_code": "g"
                                 },
                                 "to": [
-                                    {
-                                        "shell_command": "open -g 'hammerspoon://layer?name=layer_55v&state=0'"
-                                    },
                                     {
                                         "key_code": "f7",
                                         "modifiers": [
@@ -12054,18 +12129,13 @@
                                         }
                                     }
                                 ],
-                                "to_after_key_up": [
-                                    {
-                                        "shell_command": "open -g 'hammerspoon://layer?name=layer_55v&state=0'"
-                                    }
-                                ],
                                 "type": "basic"
                             }
                         ]
                     },
                     {
                         "bookmark": " 55 55 55tab 55tab ",
-                        "description": "            └── tap tab in layer_55 to send command + tab",
+                        "description": " Tap tab in this layer to send command + tab",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -12093,7 +12163,8 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " 55tab 55tab"
                     },
                     {
                         "description": "Fn + B will toggle bartender hidden items",
@@ -12451,7 +12522,7 @@
                         ]
                     },
                     {
-                        "description": "In layer_99, press 'a' to send 'b'",
+                        "description": "In layer_99, press a-z to send shift + a-z (i.e., uppercase)",
                         "manipulators": [
                             {
                                 "type": "basic",
@@ -12467,7 +12538,532 @@
                                 ],
                                 "to": [
                                     {
+                                        "key_code": "a",
+                                        "modifiers": [
+                                            "left_shift"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "b"
+                                },
+                                "conditions": [
+                                    {
+                                        "type": "variable_if",
+                                        "name": "layer_99",
+                                        "value": 1
+                                    }
+                                ],
+                                "to": [
+                                    {
                                         "key_code": "b",
+                                        "modifiers": [
+                                            "left_shift"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "c"
+                                },
+                                "conditions": [
+                                    {
+                                        "type": "variable_if",
+                                        "name": "layer_99",
+                                        "value": 1
+                                    }
+                                ],
+                                "to": [
+                                    {
+                                        "key_code": "c",
+                                        "modifiers": [
+                                            "left_shift"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "d"
+                                },
+                                "conditions": [
+                                    {
+                                        "type": "variable_if",
+                                        "name": "layer_99",
+                                        "value": 1
+                                    }
+                                ],
+                                "to": [
+                                    {
+                                        "key_code": "d",
+                                        "modifiers": [
+                                            "left_shift"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "e"
+                                },
+                                "conditions": [
+                                    {
+                                        "type": "variable_if",
+                                        "name": "layer_99",
+                                        "value": 1
+                                    }
+                                ],
+                                "to": [
+                                    {
+                                        "key_code": "e",
+                                        "modifiers": [
+                                            "left_shift"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "f"
+                                },
+                                "conditions": [
+                                    {
+                                        "type": "variable_if",
+                                        "name": "layer_99",
+                                        "value": 1
+                                    }
+                                ],
+                                "to": [
+                                    {
+                                        "key_code": "f",
+                                        "modifiers": [
+                                            "left_shift"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "g"
+                                },
+                                "conditions": [
+                                    {
+                                        "type": "variable_if",
+                                        "name": "layer_99",
+                                        "value": 1
+                                    }
+                                ],
+                                "to": [
+                                    {
+                                        "key_code": "g",
+                                        "modifiers": [
+                                            "left_shift"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "h"
+                                },
+                                "conditions": [
+                                    {
+                                        "type": "variable_if",
+                                        "name": "layer_99",
+                                        "value": 1
+                                    }
+                                ],
+                                "to": [
+                                    {
+                                        "key_code": "h",
+                                        "modifiers": [
+                                            "left_shift"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "i"
+                                },
+                                "conditions": [
+                                    {
+                                        "type": "variable_if",
+                                        "name": "layer_99",
+                                        "value": 1
+                                    }
+                                ],
+                                "to": [
+                                    {
+                                        "key_code": "i",
+                                        "modifiers": [
+                                            "left_shift"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "j"
+                                },
+                                "conditions": [
+                                    {
+                                        "type": "variable_if",
+                                        "name": "layer_99",
+                                        "value": 1
+                                    }
+                                ],
+                                "to": [
+                                    {
+                                        "key_code": "j",
+                                        "modifiers": [
+                                            "left_shift"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "k"
+                                },
+                                "conditions": [
+                                    {
+                                        "type": "variable_if",
+                                        "name": "layer_99",
+                                        "value": 1
+                                    }
+                                ],
+                                "to": [
+                                    {
+                                        "key_code": "k",
+                                        "modifiers": [
+                                            "left_shift"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "l"
+                                },
+                                "conditions": [
+                                    {
+                                        "type": "variable_if",
+                                        "name": "layer_99",
+                                        "value": 1
+                                    }
+                                ],
+                                "to": [
+                                    {
+                                        "key_code": "l",
+                                        "modifiers": [
+                                            "left_shift"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "m"
+                                },
+                                "conditions": [
+                                    {
+                                        "type": "variable_if",
+                                        "name": "layer_99",
+                                        "value": 1
+                                    }
+                                ],
+                                "to": [
+                                    {
+                                        "key_code": "m",
+                                        "modifiers": [
+                                            "left_shift"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "n"
+                                },
+                                "conditions": [
+                                    {
+                                        "type": "variable_if",
+                                        "name": "layer_99",
+                                        "value": 1
+                                    }
+                                ],
+                                "to": [
+                                    {
+                                        "key_code": "n",
+                                        "modifiers": [
+                                            "left_shift"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "o"
+                                },
+                                "conditions": [
+                                    {
+                                        "type": "variable_if",
+                                        "name": "layer_99",
+                                        "value": 1
+                                    }
+                                ],
+                                "to": [
+                                    {
+                                        "key_code": "o",
+                                        "modifiers": [
+                                            "left_shift"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "p"
+                                },
+                                "conditions": [
+                                    {
+                                        "type": "variable_if",
+                                        "name": "layer_99",
+                                        "value": 1
+                                    }
+                                ],
+                                "to": [
+                                    {
+                                        "key_code": "p",
+                                        "modifiers": [
+                                            "left_shift"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "q"
+                                },
+                                "conditions": [
+                                    {
+                                        "type": "variable_if",
+                                        "name": "layer_99",
+                                        "value": 1
+                                    }
+                                ],
+                                "to": [
+                                    {
+                                        "key_code": "q",
+                                        "modifiers": [
+                                            "left_shift"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "r"
+                                },
+                                "conditions": [
+                                    {
+                                        "type": "variable_if",
+                                        "name": "layer_99",
+                                        "value": 1
+                                    }
+                                ],
+                                "to": [
+                                    {
+                                        "key_code": "r",
+                                        "modifiers": [
+                                            "left_shift"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "s"
+                                },
+                                "conditions": [
+                                    {
+                                        "type": "variable_if",
+                                        "name": "layer_99",
+                                        "value": 1
+                                    }
+                                ],
+                                "to": [
+                                    {
+                                        "key_code": "s",
+                                        "modifiers": [
+                                            "left_shift"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "t"
+                                },
+                                "conditions": [
+                                    {
+                                        "type": "variable_if",
+                                        "name": "layer_99",
+                                        "value": 1
+                                    }
+                                ],
+                                "to": [
+                                    {
+                                        "key_code": "t",
+                                        "modifiers": [
+                                            "left_shift"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "u"
+                                },
+                                "conditions": [
+                                    {
+                                        "type": "variable_if",
+                                        "name": "layer_99",
+                                        "value": 1
+                                    }
+                                ],
+                                "to": [
+                                    {
+                                        "key_code": "u",
+                                        "modifiers": [
+                                            "left_shift"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "v"
+                                },
+                                "conditions": [
+                                    {
+                                        "type": "variable_if",
+                                        "name": "layer_99",
+                                        "value": 1
+                                    }
+                                ],
+                                "to": [
+                                    {
+                                        "key_code": "v",
+                                        "modifiers": [
+                                            "left_shift"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "w"
+                                },
+                                "conditions": [
+                                    {
+                                        "type": "variable_if",
+                                        "name": "layer_99",
+                                        "value": 1
+                                    }
+                                ],
+                                "to": [
+                                    {
+                                        "key_code": "w",
+                                        "modifiers": [
+                                            "left_shift"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "x"
+                                },
+                                "conditions": [
+                                    {
+                                        "type": "variable_if",
+                                        "name": "layer_99",
+                                        "value": 1
+                                    }
+                                ],
+                                "to": [
+                                    {
+                                        "key_code": "x",
+                                        "modifiers": [
+                                            "left_shift"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "y"
+                                },
+                                "conditions": [
+                                    {
+                                        "type": "variable_if",
+                                        "name": "layer_99",
+                                        "value": 1
+                                    }
+                                ],
+                                "to": [
+                                    {
+                                        "key_code": "y",
+                                        "modifiers": [
+                                            "left_shift"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "z"
+                                },
+                                "conditions": [
+                                    {
+                                        "type": "variable_if",
+                                        "name": "layer_99",
+                                        "value": 1
+                                    }
+                                ],
+                                "to": [
+                                    {
+                                        "key_code": "z",
                                         "modifiers": [
                                             "left_shift"
                                         ]
