@@ -4,8 +4,8 @@
             "complex_modifications": {
                 "rules": [
                     {
-                        "bookmark": " Enter 44 44",
-                        "description": "Hold left_command to enter layer_44, unless layer_66(LEFT_SHIFT) is active",
+                        "bookmark": " 44 44 ",
+                        "description": "Hold left_command to enter layer_44 , unless layer_66(LEFT_SHIFT) is active",
                         "manipulators": [
                             {
                                 "type": "basic",
@@ -48,10 +48,10 @@
                                 ]
                             }
                         ],
-                        "bookmark_bottom": " Enter 44 44 "
+                        "bookmark_bottom": " End of Layer_44 "
                     },
                     {
-                        "bookmark": "44 44 slash to right arrow",
+                        "bookmark": "44 44 slash to right_arrow",
                         "description": "In layer_44, pressing slash (/) sends right_arrow (→)",
                         "manipulators": [
                             {
@@ -82,7 +82,7 @@
                                         ]
                                     },
                                     {
-                                      "key_code": "spacebar"
+                                        "key_code": "spacebar"
                                     }
                                 ]
                             }
@@ -599,13 +599,11 @@
                                         "shell_command": "open -g 'hammerspoon://layer?name=layer_44i&state=0'"
                                     },
                                     {
-                                        "key_code": "g"
-                                    },
-                                    {
-                                        "key_code": "s"
-                                    },
-                                    {
-                                        "key_code": "a"
+                                        "key_code": "f9",
+                                        "modifiers": [
+                                            "option",
+                                            "control"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
@@ -4154,7 +4152,7 @@
                         "bookmark_bottom": " escape in slash slash layer "
                     },
                     {
-                        "bookmark": " eee eee  ",
+                        "bookmark": " eeei eeei  ",
                         "description": "If in layer_eei, pressing caps_lock should send f17 and then escape.",
                         "manipulators": [
                             {
@@ -4176,9 +4174,6 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f17"
-                                    },
-                                    {
                                         "key_code": "escape"
                                     },
                                     {
@@ -4189,6 +4184,11 @@
                                     },
                                     {
                                         "shell_command": "open -g 'hammerspoon://layer?name=layer_eei&state=0'"
+                                    }
+                                ],
+                                "to_after_key_up": [
+                                    {
+                                        "key_code": "f17"
                                     }
                                 ]
                             }
@@ -4207,6 +4207,11 @@
                                         "name": "layer_77",
                                         "type": "variable_if",
                                         "value": 0
+                                    },
+                                    {
+                                        "name": "layer_eem",
+                                        "type": "variable_if",
+                                        "value": 0
                                     }
                                 ],
                                 "from": {
@@ -4219,16 +4224,10 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "/Users/olama/mdotfiles/hammerspoon/close_all_guis.sh"
-                                    },
-                                    {
                                         "set_variable": {
                                             "name": "capslock_layer",
                                             "value": 1
                                         }
-                                    },
-                                    {
-                                        "shell_command": "open -g 'hammerspoon://layer?name=capslock_layer&state=1'"
                                     },
                                     {
                                         "set_variable": {
@@ -4412,18 +4411,6 @@
                                     },
                                     {
                                         "set_variable": {
-                                            "name": "layer_eei",
-                                            "value": 0
-                                        }
-                                    },
-                                    {
-                                        "set_variable": {
-                                            "name": "layer_eem",
-                                            "value": 0
-                                        }
-                                    },
-                                    {
-                                        "set_variable": {
                                             "name": "layer_eeu",
                                             "value": 0
                                         }
@@ -4456,12 +4443,6 @@
                                             "name": "capslock_layer",
                                             "value": 0
                                         }
-                                    },
-                                    {
-                                        "set_variable": {
-                                            "name": "layer_eem",
-                                            "value": 0
-                                        }
                                     }
                                 ],
                                 "to_if_alone": [
@@ -4471,7 +4452,7 @@
                                 ]
                             }
                         ],
-                        "bookmark_bottom": " Enter capslock_layer ee ee ",
+                        "bookmark_bottom": " Now leaving capslock_layer ee ee ",
                         "Bottom_Border": "=================================================================================================================================================================="
                     },
                     {
@@ -4997,6 +4978,9 @@
                                             "name": "layer_22i",
                                             "value": 1
                                         }
+                                    },
+                                    {
+                                        "shell_command": "/opt/homebrew/bin/hs -c 'hs.alert.show(\" now in layer_22i \", {atScreenEdge = 2, textFont=\"Chalkboard SE\", textSize=22}, 9999999999999999)'"
                                     }
                                 ],
                                 "to_after_key_up": [
@@ -5050,6 +5034,58 @@
                                 ]
                             }
                         ]
+                    },
+                    {
+                        "bookmark": " 22io 22io io io ",
+                        "description": "In layer_22i, tap 'o' to send open bracket '[', closed bracket ']', then left arrow",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "layer_22i",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    },
+                                    {
+                                        "type": "variable_if",
+                                        "name": "capslock_layer",
+                                        "value": 0
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "o",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "open_bracket"
+                                    },
+                                    {
+                                        "key_code": "close_bracket"
+                                    },
+                                    {
+                                        "key_code": "right_arrow"
+                                    },
+                                    {
+                                        "key_code": "f17"
+                                    }
+                                ],
+                                "to_after_key_up": [
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_22i",
+                                            "value": 0
+                                        }
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ],
+                        "bookmark_bottom": " 22io 22io "
                     },
                     {
                         "bookmark": " 22iu 22iu iu iu ",
@@ -5761,6 +5797,11 @@
                                     }
                                 },
                                 "to": [
+                                    {
+                                        "key_code": "f19"
+                                    }
+                                ],
+                                "to_if_alone": [
                                     {
                                         "key_code": "f19"
                                     }
@@ -6749,6 +6790,7 @@
                         ]
                     },
                     {
+                        "bookmark": " ;l ;l ll ll ",
                         "description": "When 'l' is pressed in semicolon_layer layer, enter l_layer",
                         "manipulators": [
                             {
@@ -6787,6 +6829,40 @@
                                             "name": "l_layer",
                                             "value": 0
                                         }
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ],
+                        "bookmark_bottom": " ;l ;l "
+                    },
+                    {
+                        "bookmark": " l_layer_tab_alt_tab ",
+                        "description": "When 'tab' is pressed in l_layer, send alt+tab (app switcher)",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "l_layer",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "tab",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "q",
+                                        "modifiers": [
+                                            "control",
+                                            "shift"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
@@ -7195,90 +7271,6 @@
                         ]
                     },
                     {
-                        "bookmark": "disable p for parallels",
-                        "description": "Disable P mapping for Parallels Windows App",
-                        "manipulators": [
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "capslock_layer",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    },
-                                    {
-                                        "name": "layer_22",
-                                        "type": "variable_if",
-                                        "value": 0
-                                    },
-                                    {
-                                        "name": "layer_eea",
-                                        "type": "variable_if",
-                                        "value": 0
-                                    },
-                                    {
-                                        "name": "layer_ees",
-                                        "type": "variable_if",
-                                        "value": 0
-                                    },
-                                    {
-                                        "name": "layer_eed",
-                                        "type": "variable_if",
-                                        "value": 0
-                                    },
-                                    {
-                                        "name": "layer_eef",
-                                        "type": "variable_if",
-                                        "value": 0
-                                    },
-                                    {
-                                        "name": "layer_44y",
-                                        "type": "variable_if",
-                                        "value": 0
-                                    },
-                                    {
-                                        "name": "layer_eeu",
-                                        "type": "variable_if",
-                                        "value": 0
-                                    },
-                                    {
-                                        "name": "layer_eei",
-                                        "type": "variable_if",
-                                        "value": 0
-                                    },
-                                    {
-                                        "name": "layer_eeo",
-                                        "type": "variable_if",
-                                        "value": 0
-                                    },
-                                    {
-                                        "name": "layer_een",
-                                        "type": "variable_if",
-                                        "value": 0
-                                    },
-                                    {
-                                        "name": "layer_eem",
-                                        "type": "variable_if",
-                                        "value": 0
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "p",
-                                    "modifiers": {
-                                        "optional": [
-                                            ""
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "p"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
                         "bookmark": "p clipboard mapping",
                         "description": "capslock + p sends clipboard shortcut",
                         "manipulators": [
@@ -7288,61 +7280,6 @@
                                         "name": "capslock_layer",
                                         "type": "variable_if",
                                         "value": 1
-                                    },
-                                    {
-                                        "name": "layer_22",
-                                        "type": "variable_if",
-                                        "value": 0
-                                    },
-                                    {
-                                        "name": "layer_eea",
-                                        "type": "variable_if",
-                                        "value": 0
-                                    },
-                                    {
-                                        "name": "layer_ees",
-                                        "type": "variable_if",
-                                        "value": 0
-                                    },
-                                    {
-                                        "name": "layer_eed",
-                                        "type": "variable_if",
-                                        "value": 0
-                                    },
-                                    {
-                                        "name": "layer_eef",
-                                        "type": "variable_if",
-                                        "value": 0
-                                    },
-                                    {
-                                        "name": "layer_44y",
-                                        "type": "variable_if",
-                                        "value": 0
-                                    },
-                                    {
-                                        "name": "layer_eeu",
-                                        "type": "variable_if",
-                                        "value": 0
-                                    },
-                                    {
-                                        "name": "layer_eei",
-                                        "type": "variable_if",
-                                        "value": 0
-                                    },
-                                    {
-                                        "name": "layer_eeo",
-                                        "type": "variable_if",
-                                        "value": 0
-                                    },
-                                    {
-                                        "name": "layer_een",
-                                        "type": "variable_if",
-                                        "value": 0
-                                    },
-                                    {
-                                        "name": "layer_eem",
-                                        "type": "variable_if",
-                                        "value": 0
                                     }
                                 ],
                                 "from": {
@@ -7438,6 +7375,81 @@
                                     },
                                     {
                                         "shell_command": "open -g 'hammerspoon://layer?name=layer_eea&state=0'"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "bookmark": " eea i to layer_eeai ",
+                        "description": "                └── hold 'i' in layer_eea to enter layer_eeai",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "layer_eea",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "i",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_eeai",
+                                            "value": 1
+                                        }
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "bookmark": " eeai o to [] and left",
+                        "description": "In layer_eeai, tap 'o' to send open bracket '[', closed bracket ']', then left arrow",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "layer_eeai",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "o",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "open_bracket"
+                                    },
+                                    {
+                                        "key_code": "close_bracket"
+                                    },
+                                    {
+                                        "key_code": "left_arrow"
+                                    }
+                                ],
+                                "to_after_key_up": [
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_eeai",
+                                            "value": 0
+                                        }
                                     }
                                 ],
                                 "type": "basic"
@@ -8271,7 +8283,7 @@
                                         ]
                                     },
                                     {
-                                      "key_code": "f17"
+                                        "key_code": "f17"
                                     }
                                 ],
                                 "to_after_key_up": [
@@ -8306,7 +8318,7 @@
                                 },
                                 "to": [
                                     {
-                                      "key_code": "f17"
+                                        "key_code": "f17"
                                     },
                                     {
                                         "key_code": "s",
@@ -8349,7 +8361,7 @@
                                 },
                                 "to": [
                                     {
-                                      "key_code": "f17"
+                                        "key_code": "f17"
                                     },
                                     {
                                         "key_code": "s",
@@ -8407,7 +8419,7 @@
                                 ],
                                 "to_after_key_up": [
                                     {
-                                      "key_code": "f17"
+                                        "key_code": "f17"
                                     },
                                     {
                                         "set_variable": {
@@ -8764,7 +8776,7 @@
                     },
                     {
                         "bookmark": " eeii eeii ii ii ",
-                        "description": "capsLock + i + i will send a right_click",
+                        "description": " Send command + k ",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -9010,8 +9022,8 @@
                         "bookmark_bottom": " eeil eeil il il"
                     },
                     {
-                        "bookmark": "io io",
-                        "description": "escape + i + o will insert curly braces with cursor between them",
+                        "bookmark": " eeio eeio io io",
+                        "description": " will paste parentheses ",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -9030,6 +9042,9 @@
                                     }
                                 },
                                 "to": [
+                                    {
+                                        "key_code": "f17"
+                                    },
                                     {
                                         "key_code": "9",
                                         "modifiers": [
@@ -9052,6 +9067,41 @@
                                             "name": "layer_eei",
                                             "value": 0
                                         }
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "bookmark": " eeiu eeiu iu iu",
+                        "description": "In layer_eei, tapping 'u' will cycle the case of the word to the left through three states.",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "layer_eei",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "u",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "u",
+                                        "modifiers": [
+                                            "left_control",
+                                            "left_command",
+                                            "left_option",
+                                            "left_shift"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
@@ -9266,7 +9316,7 @@
                         "bookmark_bottom": " capslock_layer apostrophe to plus "
                     },
                     {
-                        "bookmark": " Start of layer_eem m m mm mm (Default) ",
+                        "bookmark": " Start of layer_eem eem mm mm (Default) ",
                         "description": "        └── tap 'm' in the capslock_layer to enter layer_eem",
                         "manipulators": [
                             {
@@ -9305,6 +9355,47 @@
                                 "type": "basic"
                             }
                         ]
+                    },
+                    {
+                        "bookmark": " eeem eeem ",
+                        "description": "If in layer_eem, pressing caps_lock should send f17 and then escape.",
+                        "manipulators": [
+                            {
+                                "type": "basic",
+                                "conditions": [
+                                    {
+                                        "name": "layer_eem",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "caps_lock",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "escape"
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_eem",
+                                            "value": 0
+                                        }
+                                    }
+                                ],
+                                "to_after_key_up": [
+                                    {
+                                        "key_code": "f17"
+                                    }
+                                ]
+                            }
+                        ],
+                        "bookmark_bottom": " eeem eeem "
                     },
                     {
                         "bookmark": " eem. eem. m. m. ",
@@ -10760,7 +10851,7 @@
                                 "parameters": {
                                     "basic.to_if_held_down_threshold_milliseconds": 100
                                 },
-                                "to_if_held_down": [
+                                "to": [
                                     {
                                         "set_variable": {
                                             "name": "layer_55",
@@ -10768,18 +10859,7 @@
                                         }
                                     },
                                     {
-                                        "shell_command": "/opt/homebrew/bin/hs -c 'hs.alert.show(\" now in 55 55 \", {atScreenEdge = 2, textFont=\"Chalkboard SE\" , textSize=22}, 9999999999999999)'"
-                                    }
-                                ],
-                                "to_after_key_up": [
-                                    {
-                                        "set_variable": {
-                                            "name": "layer_55",
-                                            "value": 0
-                                        }
-                                    },
-                                    {
-                                        "key_code": "f17"
+                                        "shell_command": "/opt/homebrew/bin/hs -c 'hs.alert.show(\"Layer_55\", {atScreenEdge = 2, textFont=\"Chalkboard SE\" , textSize=22}, 9999999999999999)'"
                                     }
                                 ]
                             }
@@ -10939,7 +11019,7 @@
                     },
                     {
                         "bookmark": " 55d 55d ",
-                        "description": "     └── tap d while in 55 55 to enter this layer",
+                        "description": " Enter Layer_55d by tapping d in layer_55 ",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -10954,6 +11034,9 @@
                                 },
                                 "to": [
                                     {
+                                        "key_code": "f16"
+                                    },
+                                    {
                                         "set_variable": {
                                             "name": "layer_55d",
                                             "value": 1
@@ -10964,9 +11047,11 @@
                                             "name": "layer_55",
                                             "value": 0
                                         }
-                                    },
+                                    }
+                                ],
+                                "to_after_key_up": [
                                     {
-                                        "shell_command": "open -g 'hammerspoon://layer?name=layer_55d&state=1'"
+                                        "shell_command": "/opt/homebrew/bin/hs -c 'hs.alert.show(\"now in 55d 55d\", {atScreenEdge = 2, textFont=\"Chalkboard SE\", textSize=22}, 9999999999999999)'"
                                     }
                                 ],
                                 "type": "basic"
@@ -10975,7 +11060,7 @@
                     },
                     {
                         "bookmark": " 55dd 55dd ",
-                        "description": "     └── tap d while in the layer_55d to send control + l",
+                        "description": " enter layer_55dd by tapping d in layer_55d",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -10990,7 +11075,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -g 'hammerspoon://layer?name=layer_55d&state=0'"
+                                        "key_code": "f16"
                                     },
                                     {
                                         "key_code": "p",
@@ -11030,7 +11115,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -g 'hammerspoon://layer?name=layer_55e&state=1'"
+                                        "key_code": "f16"
                                     },
                                     {
                                         "set_variable": {
@@ -11043,6 +11128,9 @@
                                             "name": "layer_55",
                                             "value": 0
                                         }
+                                    },
+                                    {
+                                        "shell_command": "/opt/homebrew/bin/hs -c 'hs.alert.show(\"layer_55e\", {atScreenEdge = 2, textFont=\"Chalkboard SE\", textSize=22}, 9999999999999999)'"
                                     }
                                 ],
                                 "type": "basic"
@@ -11072,7 +11160,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -g 'hammerspoon://layer?name=layer_55e&state=0'"
+                                        "key_code": "f16"
                                     },
                                     {
                                         "key_code": "e",
@@ -11085,12 +11173,6 @@
                                         "set_variable": {
                                             "name": "layer_55e",
                                             "value": 0
-                                        }
-                                    },
-                                    {
-                                        "set_variable": {
-                                            "name": "layer_55",
-                                            "value": 1
                                         }
                                     }
                                 ],
@@ -11108,18 +11190,15 @@
                                         "name": "layer_55e",
                                         "type": "variable_if",
                                         "value": 1
-                                    },
-                                    {
-                                        "type": "frontmost_application_if",
-                                        "bundle_identifiers": [
-                                            "^app\\.zen-browser\\.zen$"
-                                        ]
                                     }
                                 ],
                                 "from": {
                                     "key_code": "e"
                                 },
                                 "to": [
+                                    {
+                                        "key_code": "f16"
+                                    },
                                     {
                                         "key_code": "a",
                                         "modifiers": [
@@ -11132,12 +11211,6 @@
                                             "name": "layer_55e",
                                             "value": 0
                                         }
-                                    },
-                                    {
-                                        "set_variable": {
-                                            "name": "layer_55",
-                                            "value": 1
-                                        }
                                     }
                                 ],
                                 "type": "basic"
@@ -11145,8 +11218,8 @@
                         ]
                     },
                     {
-                        "bookmark": " 55f 55f ff ff ",
-                        "description": " Enter 55f ",
+                        "bookmark": " Enter layer_55f 55f ff ff ",
+                        "description": " Tapping f in layer_55 will enter layer_55 and leave layer_55 ",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -11161,7 +11234,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "/opt/homebrew/bin/hs -c 'hs.alert.show(\" now in layer_55f \", {atScreenEdge = 2, textFont=\"Chalkboard SE\" , textSize=22}, 9999999999999999)'"
+                                      "key_code": "f16"
                                     },
                                     {
                                         "set_variable": {
@@ -11174,103 +11247,15 @@
                                             "name": "layer_55",
                                             "value": 0
                                         }
+                                    },
+                                    {
+                                      "shell_command": "/opt/homebrew/bin/hs -c 'hs.alert.show(\"55f 55f\", {atScreenEdge = 2, textFont=\"Chalkboard SE\", textSize=22}, 9999999999999999)'"
                                     }
                                 ],
                                 "type": "basic"
                             }
                         ],
-                        "bookmark_bottom": " 55f55f ff ff "
-                    },
-                    {
-                        "bookmark": " 55fw 55fw ",
-                        "description": "     └── tap w while in the layer_55f to send control + f13",
-                        "manipulators": [
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "layer_55f",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "w"
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "f17"
-                                    },
-                                    {
-                                        "key_code": "f13",
-                                        "modifiers": [
-                                            "control"
-                                        ]
-                                    },
-                                    {
-                                        "set_variable": {
-                                            "name": "layer_55f",
-                                            "value": 0
-                                        }
-                                    },
-                                    {
-                                        "set_variable": {
-                                            "name": "layer_55f",
-                                            "value": 0
-                                        }
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "bookmark": " 55fq 55fq fq fq ",
-                        "description": "     └── tap w while in the layer_55f to send control + f13",
-                        "manipulators": [
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "layer_55f",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "w"
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "f17"
-                                    },
-                                    {
-                                        "key_code": "f13",
-                                        "modifiers": [
-                                            "control"
-                                        ]
-                                    },
-                                    {
-                                        "key_code": "c",
-                                        "modifiers": [
-                                            "command"
-                                        ]
-                                    },
-                                    {
-                                        "set_variable": {
-                                            "name": "layer_55f",
-                                            "value": 0
-                                        }
-                                    },
-                                    {
-                                        "set_variable": {
-                                            "name": "layer_55f",
-                                            "value": 0
-                                        }
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ],
-                        "bookmark_bottom": " 55fq 55fq "
+                        "bookmark_bottom": " 55f 55f "
                     },
                     {
                         "bookmark": " 55ff 55ff ff ff ",
@@ -11294,6 +11279,9 @@
                                     "key_code": "f"
                                 },
                                 "to": [
+                                    {
+                                        "key_code": "f16"
+                                    },
                                     {
                                         "key_code": "g",
                                         "modifiers": [
@@ -11350,6 +11338,91 @@
                                 "type": "basic"
                             }
                         ]
+                    },
+                    {
+                        "bookmark": " 55fw 55fw fw fw ",
+                        "description": "     └── tap w while in the layer_55f to send control + f13",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "layer_55f",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "w"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "f17"
+                                    },
+                                    {
+                                        "key_code": "f13",
+                                        "modifiers": [
+                                            "control"
+                                        ]
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_55f",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_55f",
+                                            "value": 0
+                                        }
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "bookmark": " 55fq 55fq fq fq ",
+                        "description": "Tap 'w' while in layer_55f to send Ctrl+F13, Cmd+C, then deactivate layer",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "type": "variable_if",
+                                        "name": "layer_55f",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "w"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "f16"
+                                    },
+                                    {
+                                        "key_code": "f13",
+                                        "modifiers": [
+                                            "control"
+                                        ]
+                                    },
+                                    {
+                                        "key_code": "c",
+                                        "modifiers": [
+                                            "command"
+                                        ]
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_55f",
+                                            "value": 0
+                                        }
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ],
+                        "bookmark_bottom": " 55fq 55fq "
                     },
                     {
                         "bookmark": " 55r 55r ",
@@ -11524,83 +11597,46 @@
                     },
                     {
                         "bookmark": " 55s 55s ",
-                        "description": "        └──  tapping s in layer_55 will enter layer_55s",
+                        "description": "Tap 's' in layer_55 to send F16, activate layer_55s, and deactivate layer_55",
                         "manipulators": [
                             {
-                                "conditions": [
-                                    {
-                                        "name": "layer_55",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
-                                ],
+                                "type": "basic",
                                 "from": {
                                     "key_code": "s"
                                 },
-                                "to": [
-                                    {
-                                        "set_variable": {
-                                            "name": "layer_55s",
-                                            "value": 1
-                                        }
-                                    },
-                                    {
-                                        "set_variable": {
-                                            "name": "layer_55",
-                                            "value": 0
-                                        }
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "bookmark": " 55sl 55sl ",
-                        "description": "     └── tap l while in the layer_ees to send control + shift + equal_sign",
-                        "manipulators": [
-                            {
                                 "conditions": [
                                     {
-                                        "name": "layer_55s",
                                         "type": "variable_if",
+                                        "name": "layer_55",
                                         "value": 1
                                     }
                                 ],
-                                "from": {
-                                    "key_code": "l"
-                                },
                                 "to": [
                                     {
-                                        "shell_command": "open -g 'hammerspoon://layer?name=layer_55s&state=1'"
-                                    },
-                                    {
-                                        "key_code": "equal_sign",
-                                        "modifiers": [
-                                            "left_control",
-                                            "left_shift"
-                                        ]
+                                        "key_code": "f16"
                                     },
                                     {
                                         "set_variable": {
                                             "name": "layer_55s",
-                                            "value": 0
+                                            "value": 1
                                         }
                                     },
                                     {
                                         "set_variable": {
                                             "name": "layer_55",
-                                            "value": 1
+                                            "value": 0
                                         }
+                                    },
+                                    {
+                                      "shell_command": "/opt/homebrew/bin/hs -c 'hs.alert.show(\"Layer_55s\", {atScreenEdge = 2, textFont=\"Chalkboard SE\", textSize=22}, 9999999999999999)'"
                                     }
-                                ],
-                                "type": "basic"
+                                ]
                             }
                         ]
                     },
                     {
                         "bookmark": " 55ss 55ss ",
-                        "description": "     └── tap s while in the layer_ees to send control + shift + f2",
+                        "description": " tap s in layer_55s to toggle the primar sidebar in most apps",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -11615,7 +11651,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -g 'hammerspoon://layer?name=layer_55s&state=0'"
+                                      "key_code": "f16"
                                     },
                                     {
                                         "key_code": "f2",
@@ -11628,12 +11664,6 @@
                                         "set_variable": {
                                             "name": "layer_55s",
                                             "value": 0
-                                        }
-                                    },
-                                    {
-                                        "set_variable": {
-                                            "name": "layer_55",
-                                            "value": 1
                                         }
                                     }
                                 ],
@@ -11842,6 +11872,9 @@
                                 },
                                 "to": [
                                     {
+                                        "shell_command": "/opt/homebrew/bin/hs -c 'hs.alert.show(\" now in 55q 55q \", {atScreenEdge = 2, textFont=\"Chalkboard SE\", textSize=22}, 9999999999999999)'"
+                                    },
+                                    {
                                         "set_variable": {
                                             "name": "layer_55q",
                                             "value": 1
@@ -11891,6 +11924,9 @@
                                             "name": "layer_55",
                                             "value": 1
                                         }
+                                    },
+                                    {
+                                        "shell_command": "/opt/homebrew/bin/hs -c 'hs.alert.closeAll()'"
                                     }
                                 ],
                                 "type": "basic"
@@ -12415,51 +12451,6 @@
                         ]
                     },
                     {
-                        "1": "==================================================================================================================================================================",
-                        "bookmark": "Enter layer_99 99 99",
-                        "description": "CapsLock layer with Hammerspoon overlay indicator",
-                        "manipulators": [
-                            {
-                                "type": "basic",
-                                "from": {
-                                    "key_code": "right_shift",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "set_variable": {
-                                            "name": "layer_99",
-                                            "value": 1
-                                        }
-                                    }
-                                ],
-                                "to_after_key_up": [
-                                    {
-                                        "set_variable": {
-                                            "name": "layer_99",
-                                            "value": 0
-                                        }
-                                    }
-                                ],
-                                "to_if_alone": [
-                                    {
-                                        "key_code": "c",
-                                        "modifiers": [
-                                            "control",
-                                            "command"
-                                        ]
-                                    }
-                                ]
-                            }
-                        ],
-                        "bookmark_bottom": " Enter Layer_99 99 ",
-                        "Bottom_Border": "=================================================================================================================================================================="
-                    },
-                    {
                         "description": "In layer_99, press 'a' to send 'b'",
                         "manipulators": [
                             {
@@ -12692,6 +12683,97 @@
                                 "type": "basic"
                             }
                         ]
+                    },
+                    {
+                        "bookmark": " [] [] ",
+                        "description": "Remap open bracket ([) to hyphen (-)",
+                        "manipulators": [
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "open_bracket",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "hyphen"
+                                    }
+                                ]
+                            }
+                        ],
+                        "Bookmark_Bottom": " [] [] "
+                    },
+                    {
+                        "Bookmark": " [] []",
+                        "description": " Remap close bracket (]) to hyphen (-) ",
+                        "manipulators": [
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "close_bracket",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "hyphen"
+                                    }
+                                ]
+                            }
+                        ],
+                        "Bookmark_Bottom": " [] []"
+                    },
+                    {
+                        "1": "==================================================================================================================================================================",
+                        "bookmark": "Enter layer_99 99 99",
+                        "description": "CapsLock layer with Hammerspoon overlay indicator",
+                        "manipulators": [
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "right_shift",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_99",
+                                            "value": 1
+                                        }
+                                    }
+                                ],
+                                "to_after_key_up": [
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_99",
+                                            "value": 0
+                                        }
+                                    }
+                                ],
+                                "to_if_alone": [
+                                    {
+                                        "key_code": "c",
+                                        "modifiers": [
+                                            "control",
+                                            "command"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "Bookmark_Bottom": " Enter Layer_99 99 ",
+                        "Bottom_Border": "=================================================================================================================================================================="
                     }
                 ]
             },
@@ -15067,6 +15149,50 @@
                                 "type": "basic"
                             }
                         ]
+                    },
+                    {
+                        "bookmark_defy": " 22io 22io ",
+                        "description": "In layer_22i, tap 'o' to send open bracket '{', closed bracket '}', then left arrow",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "layer_22i",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "o",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "open_bracket"
+                                    },
+                                    {
+                                        "key_code": "close_bracket"
+                                    },
+                                    {
+                                        "key_code": "left_arrow"
+                                    }
+                                ],
+                                "to_after_key_up": [
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_22i",
+                                            "value": 0
+                                        }
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ],
+                        "bookmark_defy_bottom": " 22io 22io "
                     },
                     {
                         "bookmark_defy": " 22j 22j ",
@@ -20211,6 +20337,11 @@
                                         "name": "layer_22",
                                         "type": "variable_if",
                                         "value": 1
+                                    },
+                                    {
+                                        "name": "layer_22i",
+                                        "type": "variable_if",
+                                        "value": 0
                                     }
                                 ],
                                 "from": {
@@ -20776,7 +20907,7 @@
                         ]
                     },
                     {
-                        "bookmark_defy": " 55d 55d ",
+                        "bookmark_defy": " Enter layer_55d 55d ",
                         "description": "     └── tap d while in 55 55 to enter this layer",
                         "manipulators": [
                             {
@@ -20792,7 +20923,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -g 'hammerspoon://layer?name=layer_55d&state=1'"
+                                        "shell_command": "hs -c 'for _, win in ipairs(hs.window.allWindows()) do win:close() end; hs.alert.show(\"now in STATE\", {atScreenEdge = 2, textFont=\"Chalkboard SE\", textSize=22}, 9999999999999999)'"
                                     },
                                     {
                                         "set_variable": {
