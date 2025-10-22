@@ -5,7 +5,7 @@
                 "rules": [
                     {
                         "bookmark": " 44 44 ",
-                        "description": "Hold left_command to enter layer_44 , unless layer_66(LEFT_SHIFT) is active",
+                        "description": " Tap 'Left_Command' to enter layer_44 ",
                         "manipulators": [
                             {
                                 "type": "basic",
@@ -33,17 +33,6 @@
                                     },
                                     {
                                         "shell_command": "/opt/homebrew/bin/hs -c 'hs.alert.show(\"44 44 \", {atScreenEdge = 2, textFont=\"Chalkboard SE\" , textSize=22}, 9999999999999999)'"
-                                    }
-                                ],
-                                "to_after_key_up": [
-                                    {
-                                        "set_variable": {
-                                            "name": "layer_44",
-                                            "value": 0
-                                        }
-                                    },
-                                    {
-                                        "key_code": "f17"
                                     }
                                 ]
                             }
@@ -455,7 +444,7 @@
                     },
                     {
                         "bookmark": " 44i 44i ii ii",
-                        "description": " i in 44 will enter 44i ",
+                        "description": "  Tap 'i' in this layer to enter layer_44i ",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -470,7 +459,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -g 'hammerspoon://layer?name=layer_44i&state=1'"
+                                        "shell_command": "/opt/homebrew/bin/hs -c 'hs.alert.show(\" 44i 44i \", {atScreenEdge = 2, textFont=\"Chalkboard SE\", textSize=22}, 9999999999999999)'"
                                     },
                                     {
                                         "set_variable": {
@@ -538,7 +527,7 @@
                     },
                     {
                         "bookmark": " 44ii 44ii ii ii",
-                        "description": "",
+                        "description": "  Tap 'i' in this layer to surround the word under the cursor or the word to the left with curly braces ",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -568,7 +557,7 @@
                                         "shell_command": "open -g 'hammerspoon://layer?name=layer_44i&state=0'"
                                     },
                                     {
-                                        "key_code": "f9",
+                                        "key_code": "f10",
                                         "modifiers": [
                                             "option",
                                             "control"
@@ -862,7 +851,7 @@
                                 "to": [
                                     {
                                         "shell_command": "/opt/homebrew/bin/hs -c 'hs.alert.show(\" 44n 44n \", {atScreenEdge = 2, textFont=\"Chalkboard SE\", textSize=22}, 9999999999999999)'"
-                                    }
+                                    },
                                     {
                                         "set_variable": {
                                             "name": "layer_44n",
@@ -905,15 +894,16 @@
                                         ]
                                     },
                                     {
-                                        "set_variable": {
-                                            "name": "layer_44n",
-                                            "value": 0
-                                        }
+                                        "key_code": "n",
+                                        "modifiers": [
+                                            "command",
+                                            "control"
+                                        ]
                                     },
                                     {
                                         "set_variable": {
-                                            "name": "layer_44",
-                                            "value": 1
+                                            "name": "layer_44n",
+                                            "value": 0
                                         }
                                     }
                                 ],
@@ -923,7 +913,7 @@
                     },
                     {
                         "bookmark": " 44nl 44nl ",
-                        "description": "        └── tap l in the layer_44n to run jumpTo_SimpleLogin.sh",
+                        "description": " Tap 'l' in this layer to ",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -5048,7 +5038,8 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " 22i 22i "
                     },
                     {
                         "bookmark": " 22ii 22ii ",
@@ -5088,59 +5079,8 @@
                                     }
                                 ]
                             }
-                        ]
-                    },
-                    {
-                        "bookmark": " 22io 22io io io ",
-                        "description": "In layer_22i, tap 'o' to send open bracket '[', closed bracket ']', then left arrow",
-                        "manipulators": [
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "layer_22i",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    },
-                                    {
-                                        "type": "variable_if",
-                                        "name": "capslock_layer",
-                                        "value": 0
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "o",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "open_bracket"
-                                    },
-                                    {
-                                        "key_code": "close_bracket"
-                                    },
-                                    {
-                                        "key_code": "right_arrow"
-                                    },
-                                    {
-                                        "key_code": "f17"
-                                    }
-                                ],
-                                "to_after_key_up": [
-                                    {
-                                        "set_variable": {
-                                            "name": "layer_22i",
-                                            "value": 0
-                                        }
-                                    }
-                                ],
-                                "type": "basic"
-                            }
                         ],
-                        "bookmark_bottom": " 22io 22io "
+                        "bookmark_bottom": " 22ii 22ii "
                     },
                     {
                         "bookmark": " 22iu 22iu iu iu ",
@@ -9623,7 +9563,7 @@
                     },
                     {
                         "bookmark": " ml ml ",
-                        "description": "        └── l in the layer_eem will open the Warp terminal",
+                        "description": " ",
                         "manipulators": [
                             {
                                 "conditions": [
