@@ -4083,7 +4083,8 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": "capslock_shift_layer + l -> shift left_arrow"
                     },
                     {
                         "bookmark": " escape in slash slash layer ",
@@ -11677,9 +11678,6 @@
                                             "name": "layer_55s",
                                             "value": 0
                                         }
-                                    },
-                                    {
-                                        "shell_command": "/opt/homebrew/bin/hs -c 'hs.alert.show(\" 55ss 55ss\", {atScreenEdge = 2, textFont=\"Chalkboard SE\", textSize=22}, 9999999999999999)'"
                                     }
                                 ],
                                 "type": "basic"
