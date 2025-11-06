@@ -25440,9 +25440,6 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "osascript -e 'display notification \" Page Reloaded!!!!! \" with title \" 55rr -> f5 \"'"
-                                    },
-                                    {
                                         "key_code": "f5"
                                     }
                                 ],
