@@ -27143,7 +27143,7 @@
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "f3",
+                                    "key_code": "application",
                                     "modifiers": {
                                         "optional": [
                                             "any"
