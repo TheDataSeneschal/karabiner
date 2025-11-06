@@ -5,7 +5,6 @@
                 "rules": [
                     {
                         "bookmark": " 44 44 ",
-                        "bookmark_bottom": " End of Layer_44 ",
                         "description": " Tap 'Left_Command' to enter layer_44 ",
                         "manipulators": [
                             {
@@ -70,11 +69,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " End of Layer_44 "
                     },
                     {
                         "bookmark": "44 44 slash to right_arrow",
-                        "bookmark_bottom": " 44/ 44/",
                         "description": "In layer_44, pressing slash (/) sends right_arrow (→)",
                         "manipulators": [
                             {
@@ -109,11 +108,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " 44/ 44/"
                     },
                     {
                         "bookmark": "44 44 command + grave_accent_and_tilde",
-                        "bookmark_bottom": " 44` 44`",
                         "description": "In layer_44, pressing grave_accent_and_tilde sends command + grave_accent_and_tilde (cmd+`)",
                         "manipulators": [
                             {
@@ -142,11 +141,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " 44` 44`"
                     },
                     {
                         "bookmark": "44 44 command + equal_sign",
-                        "bookmark_bottom": "44 44 command + equal_sign",
                         "description": "Hold left_command and press equal_sign in layer_44 to increase current window size (raycast)",
                         "manipulators": [
                             {
@@ -177,7 +176,6 @@
                     },
                     {
                         "bookmark": " 44 44 command + shift 44cs 44cs ",
-                        "bookmark_bottom": " 44 command + shift",
                         "description": "    └── hold down left_command and left_shift in layer_44 to send both command and shift",
                         "manipulators": [
                             {
@@ -210,7 +208,6 @@
                     },
                     {
                         "bookmark": " 44 44 command + control",
-                        "bookmark_bottom": "44 command + control",
                         "description": "     └── hold down left_command and tap control to enter this layer",
                         "manipulators": [
                             {
@@ -238,7 +235,6 @@
                     },
                     {
                         "bookmark": " 44 44 command + option",
-                        "bookmark_bottom": " 44 44 command + option",
                         "description": " └── hold down left_command and hold down option to enter this layer",
                         "manipulators": [
                             {
@@ -266,7 +262,6 @@
                     },
                     {
                         "bookmark": " 44 44 command + tab",
-                        "bookmark_bottom": " 44 44 command + tab",
                         "description": " └── hold down left_command and tap tab to delete the word to the left",
                         "manipulators": [
                             {
@@ -294,7 +289,6 @@
                     },
                     {
                         "bookmark": " 44c 44c ",
-                        "bookmark_bottom": " 44 44 command + tab",
                         "description": " Tap c in layer_44 to enter this layer",
                         "manipulators": [
                             {
@@ -331,7 +325,6 @@
                     },
                     {
                         "bookmark": " 44cc 44cc cc cc ",
-                        "bookmark_bottom": "44 44 command + ",
                         "description": " Tap c in layer_44c to send command + c",
                         "manipulators": [
                             {
@@ -519,7 +512,6 @@
                     },
                     {
                         "bookmark": " 44i 44i ii ii",
-                        "bookmark_bottom": " 44i 44i ",
                         "description": "  Tap 'i' in this layer to enter layer_44i ",
                         "manipulators": [
                             {
@@ -552,10 +544,10 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " 44i 44i "
                     },
                     {
-                        "Bookmark_Bottom": " 44ii 44ii Cursor ",
                         "bookmark": " 44ii 44ii ii ii",
                         "description": "",
                         "manipulators": [
@@ -598,11 +590,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "Bookmark_Bottom": " 44ii 44ii Cursor "
                     },
                     {
-                        "Bookmark_Bottom": " 44ii 44ii Non-Cursor ",
-                        "bookmark": " 44ii 44ii ii ii",
+                        "bookmark": " 44ii 44ii Non-Cursor ",
                         "description": "  Tap 'i' in this layer to surround the word under the cursor or the word to the left with curly braces ",
                         "manipulators": [
                             {
@@ -642,10 +634,10 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "Bookmark_Bottom": " 44ii 44ii Non-Cursor "
                     },
                     {
-                        "Bookmark_Bottom": " 44j 44j Cursor ",
                         "bookmark": " 44j 44j (Cursor AI only) control shift j",
                         "description": "In 'layer_44' and Cursor AI app, tap 'j' to first enter layer_44j and then send control + shift + j",
                         "manipulators": [
@@ -695,10 +687,10 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "Bookmark_Bottom": " 44j 44j Cursor "
                     },
                     {
-                        "Bookmark_Bottom": " 44j 44j Cursor Layer ",
                         "bookmark": " 44j 44j (44j layer only) control shift j",
                         "description": "In 'layer_44j', pressing 'j' sends control + shift + j",
                         "manipulators": [
@@ -724,10 +716,10 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "Bookmark_Bottom": " 44j 44j Cursor Layer "
                     },
                     {
-                        "Bookmark_Bottom": " 44k 44k Cursor ",
                         "bookmark": " 44k 44k (Cursor AI only) control shift k",
                         "description": "In 'layer_44' and Cursor AI app, tap 'k' to first enter layer_44k and then send control + shift + k",
                         "manipulators": [
@@ -777,11 +769,40 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "Bookmark_Bottom": " 44k 44k Cursor "
                     },
                     {
-                        "Bookmark_Bottom": " 44k 44k Cursor Layer ",
-                        "bookmark": " 44k 44k (44k layer only) control shift k",
+                        "bookmark": " 44kj 44kj j j",
+                        "description": "In 'layer_44k', pressing 'j' sends control + shift + j",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "layer_44k",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "j"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "j",
+                                        "modifiers": [
+                                            "left_control",
+                                            "left_shift"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ],
+                        "Bookmark_Bottom": " 44kj 44kj "
+                    },
+                    {
+                        "bookmark": " 44kk 44kk kk kk",
                         "description": "In 'layer_44k', pressing 'k' sends control + shift + k",
                         "manipulators": [
                             {
@@ -806,11 +827,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "Bookmark_Bottom": " 44k 44k Cursor Layer "
                     },
                     {
-                        "bookmark": " 44l 44l (Cursor AI) ",
-                        "bookmark_bottom": " 44l 44l (Cursor AI) ",
+                        "Bookmark": " 44l 44l (Cursor AI) ",
                         "description": "",
                         "manipulators": [
                             {
@@ -841,11 +862,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " 44l 44l (Cursor AI) "
                     },
                     {
                         "bookmark": " 44l 44l parallels ",
-                        "bookmark_bottom": " 44l 44l parallels ",
                         "description": " Tap 'l' in this layer to move to the right five times, used in Excel Virtual Machine ",
                         "manipulators": [
                             {
@@ -884,11 +905,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " 44l 44l parallels "
                     },
                     {
                         "bookmark": " 44m 44m mm mm ",
-                        "bookmark_bottom": " 44m 44m ",
                         "description": " Tap 'm' in this layer to enter layer_44m ",
                         "manipulators": [
                             {
@@ -921,11 +942,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " 44m 44m "
                     },
                     {
                         "bookmark": " 44mm 44mm mm mm ",
-                        "bookmark_bottom": " 44mm 44mm ",
                         "description": " Tap 'm' in this layer to TODO ",
                         "manipulators": [
                             {
@@ -966,11 +987,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " 44mm 44mm "
                     },
                     {
                         "bookmark": " 44n 44n ",
-                        "bookmark_bottom": " 44n 44n ",
                         "description": " Tap 'n' in this layer to enter layer_44n ",
                         "manipulators": [
                             {
@@ -1003,10 +1024,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " 44n 44n "
                     },
                     {
-                        "bookmark": " 44nn 44nn ",
+                        "bookmark": " 44nn 44nn nn nn ",
                         "description": " Tap 'n' in this layer to clear notifications in macOS and Cursor ",
                         "manipulators": [
                             {
@@ -1040,47 +1062,15 @@
                                             "name": "layer_44n",
                                             "value": 0
                                         }
+                                    },
+                                    {
+                                        "key_code": "f16"
                                     }
                                 ],
                                 "type": "basic"
                             }
-                        ]
-                    },
-                    {
-                        "bookmark": " 44nl 44nl ",
-                        "description": " Tap 'l' in this layer to ",
-                        "manipulators": [
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "layer_44n",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "l"
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": ""
-                                    },
-                                    {
-                                        "set_variable": {
-                                            "name": "layer_44n",
-                                            "value": 0
-                                        }
-                                    },
-                                    {
-                                        "set_variable": {
-                                            "name": "layer_44",
-                                            "value": 1
-                                        }
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
+                        ],
+                        "bookmark_bottom": " 44nn 44nn "
                     },
                     {
                         "bookmark": " 44v 44v ",
@@ -11681,9 +11671,8 @@
                         ]
                     },
                     {
-                        "bookmark": " 55rr 55rr ",
-                        "bookmark_bottom": " 55rr 55rr ",
-                        "description": "     └── tap r while in the layer_55r to send command + r",
+                        "bookmark": " 55rr 55rr rr rr (Cursor) ",
+                        "description": " Tapping 'r' in layer_55r will send f5 in Cursor",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -11720,11 +11709,12 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " 55rr 55rr "
                     },
                     {
-                        "bookmark": " 55rr 55rr ",
-                        "description": " Tap 'r' while in the layer_55r to send command + r ",
+                        "bookmark": " 55rr 55rr (Non-Cursor) ",
+                        "description": " Tapping 'r' in layer_55r will send command + r in most apps",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -14418,6 +14408,41 @@
                         ]
                     },
                     {
+                        "bookmark": " 44jk 44jk jk jk (Cursor AI only)",
+                        "description": "Tapping 'k' in 'layer_44j' sends control + shift + k in Cursor AI.",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "layer_44j",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    },
+                                    {
+                                        "bundle_identifiers": [
+                                            "^com\\.todesktop\\.230313mzl4w4u92$"
+                                        ],
+                                        "type": "frontmost_application_if"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "k"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "k",
+                                        "modifiers": [
+                                            "left_control",
+                                            "left_shift"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ],
+                        "Bookmark_Bottom": " 44jk 44jk (Cursor AI only) "
+                    },
+                    {
                         "Bookmark_Bottom": " 44k 44k Cursor ",
                         "bookmark": " 44k 44k (Cursor AI only) control shift k",
                         "description": "In 'layer_44' and Cursor AI app, tap 'k' to first enter layer_44k and then send control + shift + k",
@@ -14471,9 +14496,37 @@
                         ]
                     },
                     {
-                        "Bookmark_Bottom": " 44k 44k Cursor Layer ",
-                        "bookmark": " 44k 44k (44k layer only) control shift k",
-                        "description": "In 'layer_44k', pressing 'k' sends control + shift + k",
+                        "bookmark": " 44kj 44kj kj kj (Cursor AI only)",
+                        "description": " Tapping 'j' in layer_44k will send control + shift + j in Cursor AI",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "layer_44k",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "j"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "j",
+                                        "modifiers": [
+                                            "left_control",
+                                            "left_shift"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ],
+                        "Bookmark_Bottom": " 44kj 44kj "
+                    },
+                    {
+                        "bookmark": " 44kk 44kk kk kk (Cursor AI only)",
+                        "description": " Tapping 'k' in layer_44k will send control + shift + k in Cursor AI",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -14497,7 +14550,8 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "Bookmark_Bottom": " 44kk 44kk"
                     },
                     {
                         "bookmark": " 44l 44l (Cursor AI) ",
@@ -14661,7 +14715,6 @@
                     },
                     {
                         "bookmark": " 44n 44n ",
-                        "bookmark_bottom": " 44n 44n ",
                         "description": " Tap 'n' in this layer to enter layer_44n ",
                         "manipulators": [
                             {
@@ -14694,7 +14747,8 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " 44n 44n "
                     },
                     {
                         "bookmark": " 44nn 44nn ",
@@ -25339,9 +25393,8 @@
                         ]
                     },
                     {
-                        "bookmark": " 55r 55r ",
-                        "bookmark_bottom": " 55r 55r ",
-                        "description": "     └── tap r while in the layer_55 to enter layer_55r (and exit layer_55)",
+                        "bookmark": " 55r 55r r r ",
+                        "description": " Tapping 'r' in layer_55 will enter layer_55r (and exit layer_55)",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -25373,12 +25426,13 @@
                                         }
                                     },
                                     {
-                                        "shell_command": "open -g 'hammerspoon://layer?name=layer_55r&state=1'"
+                                        "shell_command": "/opt/homebrew/bin/hs -c 'hs.alert.show(\"55r 55r\", {atScreenEdge = 2, textFont=\"Chalkboard SE\", textSize=22}, 9999999999999999)'"
                                     }
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " 55r 55r "
                     },
                     {
                         "bookmark": " 55ra 55ra ra ra ",
@@ -25417,9 +25471,8 @@
                         ]
                     },
                     {
-                        "bookmark": " 55rr 55rr ",
-                        "bookmark_bottom": " 55rr 55rr ",
-                        "description": "     └── tap r while in the layer_55r to send command + r",
+                        "bookmark": " 55rr 55rr rr rr ",
+                        "description": " Tapping 'r' in layer_55r will send f5",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -25448,6 +25501,9 @@
                                         "key_code": "f17"
                                     },
                                     {
+                                        "key_code": "f16"
+                                    },
+                                    {
                                         "set_variable": {
                                             "name": "layer_55r",
                                             "value": 0
@@ -25456,12 +25512,12 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " 55rr 55rr "
                     },
                     {
-                        "bookmark": " 55rr 55rr ",
-                        "bookmark_bottom": " 55rr 55rr ",
-                        "description": "     └── tap r while in the layer_55r to send command + r",
+                        "bookmark": " 55rr 55rr rr rr",
+                        "description": " Tapping 'r' in layer_55r will send command + r",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -25501,11 +25557,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " 55rr 55rr "
                     },
                     {
                         "bookmark": " 55s 55s ",
-                        "bookmark_bottom": " 55s 55s ",
                         "description": "Tap 's' in layer_55 to send F16, activate layer_55s, and deactivate layer_55",
                         "manipulators": [
                             {
@@ -25541,11 +25597,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " 55s 55s "
                     },
                     {
                         "bookmark": " 55ss 55ss ss ss ",
-                        "bookmark_bottom": " 55ss 55ss ",
                         "description": " tap s in layer_55s to toggle the primar sidebar in most apps",
                         "manipulators": [
                             {
@@ -25579,11 +25635,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " 55ss 55ss "
                     },
                     {
                         "bookmark": " 55t 55t tt tt ",
-                        "bookmark_bottom": " 55t 55t  ",
                         "description": " Tap t in layer_55 to enter this layer",
                         "manipulators": [
                             {
@@ -25616,11 +25672,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " 55t 55t  "
                     },
                     {
                         "bookmark": " 55tt 55tt tt tt ",
-                        "bookmark_bottom": " 55tt 55tt",
                         "description": " Tap t in layer_55t to enter this layer",
                         "manipulators": [
                             {
@@ -25659,7 +25715,8 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " 55tt 55tt"
                     },
                     {
                         "bookmark": " 55w 55w ww ww ",
@@ -25702,7 +25759,6 @@
                     },
                     {
                         "bookmark": " 55ww 55ww ",
-                        "bookmark_bottom": " 55w 55w",
                         "description": "Tap 'w' while in layer_55w to send command + w",
                         "manipulators": [
                             {
@@ -25735,11 +25791,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " 55w 55w"
                     },
                     {
                         "bookmark": " 55we 55we ",
-                        "bookmark_bottom": " 55we 55we ",
                         "description": " tap 'e' while in the layer_55w to send control + option + w, this will close all the tabs to the right in most apps",
                         "manipulators": [
                             {
@@ -25773,11 +25829,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " 55we 55we "
                     },
                     {
                         "bookmark": " 55q 55q ",
-                        "bookmark_bottom": " 55we 55we ",
                         "description": " Enter layer_55q by tapping q while in layer_55 ",
                         "manipulators": [
                             {
@@ -25813,11 +25869,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " 55we 55we "
                     },
                     {
                         "bookmark": " 55qq 55qq ",
-                        "bookmark_bottom": " 55qq 55qq",
                         "description": " tap 'q' while in the layer_55q to send command + q",
                         "manipulators": [
                             {
@@ -25850,7 +25906,8 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " 55qq 55qq"
                     },
                     {
                         "bookmark": " 55v 55v ",
@@ -25892,7 +25949,6 @@
                     },
                     {
                         "bookmark": " 55 55 55vv 55vv ",
-                        "bookmark_bottom": " 55vv 55vv ",
                         "description": "                └── tap v while in the layer_55v to send Control + Option + Shift + f5 which will paste my email using a shortcut in Copy 'Em",
                         "manipulators": [
                             {
@@ -25930,7 +25986,8 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " 55vv 55vv "
                     },
                     {
                         "bookmark": " 55vg 55vg 55 55 ",
@@ -25969,7 +26026,6 @@
                     },
                     {
                         "bookmark": " 55 55 55tab 55tab ",
-                        "bookmark_bottom": " 55tab 55tab",
                         "description": " Tap tab in this layer to send command + tab",
                         "manipulators": [
                             {
@@ -25998,7 +26054,8 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " 55tab 55tab"
                     },
                     {
                         "description": "Fn + B will toggle bartender hidden items",
@@ -26356,7 +26413,7 @@
                         ]
                     },
                     {
-                        "bookmark_bottom": " Enter Layer_99 99 ",
+                        "bookmark": " Enter Layer_99 99 ",
                         "description": "In layer_99, press a-z to send shift + a-z (i.e., uppercase)",
                         "manipulators": [
                             {
@@ -26905,11 +26962,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " Enter Layer_99 99 "
                     },
                     {
                         "bookmark": " ,, ,, ",
-                        "bookmark_bottom": " ,, ,, ",
                         "description": "Left Option + , sends left curly brace ({)",
                         "manipulators": [
                             {
@@ -26934,11 +26991,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " ,, ,, "
                     },
                     {
                         "Bookmark": " .. .. ",
-                        "bookmark_bottom": " .. .. ",
                         "description": "Left Option + . sends right curly brace (})",
                         "manipulators": [
                             {
@@ -26963,7 +27020,8 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " .. .. "
                     },
                     {
                         "description": "Map fn + 1-8 to F13-F20",
@@ -27115,7 +27173,6 @@
                         ]
                     },
                     {
-                        "Bookmark_Bottom": " [] [] ",
                         "bookmark": " [] [] ",
                         "description": "Remap open bracket ([) to hyphen (-)",
                         "manipulators": [
@@ -27135,11 +27192,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " [] [] "
                     },
                     {
                         "Bookmark": " [] []",
-                        "Bookmark_Bottom": " [] []",
                         "description": " Remap close bracket (]) to hyphen (-) ",
                         "manipulators": [
                             {
@@ -27158,11 +27215,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " [] []"
                     },
                     {
                         "bookmark": " option + f1 ",
-                        "bookmark_bottom": " option + f1",
                         "manipulators": [
                             {
                                 "from": {
@@ -27180,11 +27237,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " option + f1"
                     },
                     {
                         "bookmark": " option + f2 ",
-                        "bookmark_bottom": " option + f2",
                         "manipulators": [
                             {
                                 "from": {
@@ -27202,12 +27259,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " option + f2"
                     },
                     {
                         "1": "==================================================================================================================================================================",
-                        "Bookmark_Bottom": " Enter Layer_99 99 ",
-                        "Bottom_Border": "==================================================================================================================================================================",
                         "bookmark": "Enter layer_99 99 99",
                         "description": "CapsLock layer with Hammerspoon overlay indicator",
                         "manipulators": [
@@ -27247,7 +27303,9 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "Bookmark_Bottom": " Enter Layer_99 99 ",
+                        "Bottom_Border": "=================================================================================================================================================================="
                     },
                     {
                         "bookmark": " fn + f3 ",
