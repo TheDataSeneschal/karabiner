@@ -1201,7 +1201,7 @@
                                     {
                                         "key_code": "spacebar",
                                         "modifiers": [
-                                            "left_control",
+                                            "left_command",
                                             "left_option"
                                         ]
                                     }
@@ -10978,6 +10978,41 @@
                         ]
                     },
                     {
+                        "bookmark": "escape_exits_layer_55",
+                        "description": "In layer_55, pressing escape exits layer_55 and sends f17.",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "type": "variable_if",
+                                        "name": "layer_55",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "escape",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "f17"
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_55",
+                                            "value": 0
+                                        }
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "bookmark": " Enter Layer 55 55 ",
                         "bookmark_bottom": " Tap 'right_command' to enter layer_55 ",
                         "description": " Tap 'right_command' to enter layer_55 ",
@@ -14855,11 +14890,20 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "hyphen",
+                                        "key_code": "spacebar",
                                         "modifiers": [
-                                            "left_control",
+                                            "left_command",
                                             "left_option"
                                         ]
+                                    },
+                                    {
+                                        "key_code": "f16"
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_44",
+                                            "value": 0
+                                        }
                                     }
                                 ],
                                 "type": "basic"
@@ -24632,6 +24676,77 @@
                                 "type": "basic"
                             }
                         ]
+                    },
+                    {
+                        "bookmark": "escape_exits_layer_55",
+                        "description": "In layer_55, pressing escape exits layer_55 and sends f17.",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "type": "variable_if",
+                                        "name": "layer_55",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "escape",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "f17"
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_55",
+                                            "value": 0
+                                        }
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "bookmark": " 55escape 55EE ",
+                        "description": "In layer_55, pressing escape exits layer_55 and sends f17.",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "type": "variable_if",
+                                        "name": "layer_55",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "escape",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "f17"
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_55",
+                                            "value": 0
+                                        }
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ],
+                        "bookmark_bottom": " 55escape 55EE "
                     },
                     {
                         "bookmark": " Enter Layer 55 55 ",
