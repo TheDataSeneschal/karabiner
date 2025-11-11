@@ -4,7 +4,8 @@
             "complex_modifications": {
                 "rules": [
                     {
-                        "bookmark": " 44 44 ",
+                        "Bookmark": " 44 44 ",
+                        "bookmark_bottom": " End of Layer_44 ",
                         "description": " Tap 'Left_Command' to enter layer_44 ",
                         "manipulators": [
                             {
@@ -64,16 +65,16 @@
                                         }
                                     },
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     }
                                 ],
                                 "type": "basic"
                             }
-                        ],
-                        "bookmark_bottom": " End of Layer_44 "
+                        ]
                     },
                     {
                         "bookmark": "44 44 slash to right_arrow",
+                        "bookmark_bottom": " 44/ 44/",
                         "description": "In layer_44, pressing slash (/) sends right_arrow (→)",
                         "manipulators": [
                             {
@@ -108,11 +109,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ],
-                        "bookmark_bottom": " 44/ 44/"
+                        ]
                     },
                     {
                         "bookmark": "44 44 command + grave_accent_and_tilde",
+                        "bookmark_bottom": " 44` 44`",
                         "description": "In layer_44, pressing grave_accent_and_tilde sends command + grave_accent_and_tilde (cmd+`)",
                         "manipulators": [
                             {
@@ -141,8 +142,7 @@
                                 ],
                                 "type": "basic"
                             }
-                        ],
-                        "bookmark_bottom": " 44` 44`"
+                        ]
                     },
                     {
                         "bookmark": "44 44 command + equal_sign",
@@ -340,7 +340,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     },
                                     {
                                         "key_code": "c",
@@ -376,7 +376,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     },
                                     {
                                         "set_variable": {
@@ -512,6 +512,7 @@
                     },
                     {
                         "bookmark": " 44i 44i ii ii",
+                        "bookmark_bottom": " 44i 44i ",
                         "description": "  Tap 'i' in this layer to enter layer_44i ",
                         "manipulators": [
                             {
@@ -544,10 +545,10 @@
                                 ],
                                 "type": "basic"
                             }
-                        ],
-                        "bookmark_bottom": " 44i 44i "
+                        ]
                     },
                     {
+                        "Bookmark_Bottom": " 44ii 44ii Cursor ",
                         "bookmark": " 44ii 44ii ii ii",
                         "description": "",
                         "manipulators": [
@@ -590,10 +591,10 @@
                                 ],
                                 "type": "basic"
                             }
-                        ],
-                        "Bookmark_Bottom": " 44ii 44ii Cursor "
+                        ]
                     },
                     {
+                        "Bookmark_Bottom": " 44ii 44ii Non-Cursor ",
                         "bookmark": " 44ii 44ii Non-Cursor ",
                         "description": "  Tap 'i' in this layer to surround the word under the cursor or the word to the left with curly braces ",
                         "manipulators": [
@@ -634,10 +635,10 @@
                                 ],
                                 "type": "basic"
                             }
-                        ],
-                        "Bookmark_Bottom": " 44ii 44ii Non-Cursor "
+                        ]
                     },
                     {
+                        "Bookmark_Bottom": " 44j 44j Cursor ",
                         "bookmark": " 44j 44j (Cursor AI only) control shift j",
                         "description": "In 'layer_44' and Cursor AI app, tap 'j' to first enter layer_44j and then send control + shift + j",
                         "manipulators": [
@@ -672,7 +673,7 @@
                                         }
                                     },
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     },
                                     {
                                         "shell_command": "/opt/homebrew/bin/hs -c 'hs.alert.show(\" 44j 44j\", {atScreenEdge = 2, textFont=\"Chalkboard SE\", textSize=22}, 9999999999999999)'"
@@ -687,10 +688,10 @@
                                 ],
                                 "type": "basic"
                             }
-                        ],
-                        "Bookmark_Bottom": " 44j 44j Cursor "
+                        ]
                     },
                     {
+                        "Bookmark_Bottom": " 44j 44j Cursor Layer ",
                         "bookmark": " 44j 44j (44j layer only) control shift j",
                         "description": "In 'layer_44j', pressing 'j' sends control + shift + j",
                         "manipulators": [
@@ -716,10 +717,10 @@
                                 ],
                                 "type": "basic"
                             }
-                        ],
-                        "Bookmark_Bottom": " 44j 44j Cursor Layer "
+                        ]
                     },
                     {
+                        "Bookmark_Bottom": " 44k 44k Cursor ",
                         "bookmark": " 44k 44k (Cursor AI only) control shift k",
                         "description": "In 'layer_44' and Cursor AI app, tap 'k' to first enter layer_44k and then send control + shift + k",
                         "manipulators": [
@@ -754,7 +755,7 @@
                                         }
                                     },
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     },
                                     {
                                         "shell_command": "/opt/homebrew/bin/hs -c 'hs.alert.show(\" 44k 44k\", {atScreenEdge = 2, textFont=\"Chalkboard SE\", textSize=22}, 9999999999999999)'"
@@ -769,10 +770,10 @@
                                 ],
                                 "type": "basic"
                             }
-                        ],
-                        "Bookmark_Bottom": " 44k 44k Cursor "
+                        ]
                     },
                     {
+                        "Bookmark_Bottom": " 44kj 44kj ",
                         "bookmark": " 44kj 44kj j j",
                         "description": "In 'layer_44k', pressing 'j' sends control + shift + j",
                         "manipulators": [
@@ -798,10 +799,10 @@
                                 ],
                                 "type": "basic"
                             }
-                        ],
-                        "Bookmark_Bottom": " 44kj 44kj "
+                        ]
                     },
                     {
+                        "Bookmark_Bottom": " 44k 44k Cursor Layer ",
                         "bookmark": " 44kk 44kk kk kk",
                         "description": "In 'layer_44k', pressing 'k' sends control + shift + k",
                         "manipulators": [
@@ -827,11 +828,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ],
-                        "Bookmark_Bottom": " 44k 44k Cursor Layer "
+                        ]
                     },
                     {
                         "Bookmark": " 44l 44l (Cursor AI) ",
+                        "bookmark_bottom": " 44l 44l (Cursor AI) ",
                         "description": "",
                         "manipulators": [
                             {
@@ -862,11 +863,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ],
-                        "bookmark_bottom": " 44l 44l (Cursor AI) "
+                        ]
                     },
                     {
                         "bookmark": " 44l 44l parallels ",
+                        "bookmark_bottom": " 44l 44l parallels ",
                         "description": " Tap 'l' in this layer to move to the right five times, used in Excel Virtual Machine ",
                         "manipulators": [
                             {
@@ -905,11 +906,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ],
-                        "bookmark_bottom": " 44l 44l parallels "
+                        ]
                     },
                     {
                         "bookmark": " 44m 44m mm mm ",
+                        "bookmark_bottom": " 44m 44m ",
                         "description": " Tap 'm' in this layer to enter layer_44m ",
                         "manipulators": [
                             {
@@ -942,11 +943,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ],
-                        "bookmark_bottom": " 44m 44m "
+                        ]
                     },
                     {
                         "bookmark": " 44mm 44mm mm mm ",
+                        "bookmark_bottom": " 44mm 44mm ",
                         "description": " Tap 'm' in this layer to TODO ",
                         "manipulators": [
                             {
@@ -982,16 +983,16 @@
                                         }
                                     },
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     }
                                 ],
                                 "type": "basic"
                             }
-                        ],
-                        "bookmark_bottom": " 44mm 44mm "
+                        ]
                     },
                     {
                         "bookmark": " 44n 44n ",
+                        "bookmark_bottom": " 44n 44n ",
                         "description": " Tap 'n' in this layer to enter layer_44n ",
                         "manipulators": [
                             {
@@ -1024,10 +1025,10 @@
                                 ],
                                 "type": "basic"
                             }
-                        ],
-                        "bookmark_bottom": " 44n 44n "
+                        ]
                     },
                     {
+                        "Bookmark_Bottom": " Now leaving layer 44nn 44nn ",
                         "bookmark": " 44nn 44nn nn nn ",
                         "description": " Tap 'n' in this layer to clear notifications in macOS and Cursor ",
                         "manipulators": [
@@ -1064,16 +1065,16 @@
                                         }
                                     },
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     }
                                 ],
                                 "type": "basic"
                             }
-                        ],
-                        "bookmark_bottom": " 44nn 44nn "
+                        ]
                     },
                     {
-                        "bookmark": " 44v 44v ",
+                        "Bookmark": " 44v 44v ",
+                        "Bookmark_Bottom": " 44v 44v ",
                         "description": "     └── hold down left_command and tap v to enter the layer_44v",
                         "manipulators": [
                             {
@@ -1202,7 +1203,7 @@
                     },
                     {
                         "bookmark": " 44s 44s ",
-                        "description": "     └── hold down left_command and tap s to decrease the volume",
+                        "description": " Tapping 's' in layer_44 will decrease volume",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -1217,7 +1218,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     },
                                     {
                                         "set_variable": {
@@ -1295,7 +1296,7 @@
                                         ]
                                     },
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     },
                                     {
                                         "set_variable": {
@@ -1378,7 +1379,7 @@
                     },
                     {
                         "bookmark": " 44.. 44.. control + option + shift ",
-                        "description": "     └── tap period in layer_44. to send control option shift f6 ",
+                        "description": " Tapping period in layer_44. will send !todo ",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -4216,7 +4217,7 @@
                     {
                         "bookmark": " escape in slash slash layer ",
                         "bookmark_bottom": " escape in slash slash layer ",
-                        "description": " Escape in slash layer will exit the layer and destroy the hammerspoon gui using f17 ",
+                        "description": " Escape in slash layer will exit the layer and destroy the hammerspoon gui using f6 ",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -4236,7 +4237,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f17"
+                                        "key_code": "f6"
                                     },
                                     {
                                         "key_code": "escape"
@@ -4253,9 +4254,9 @@
                         ]
                     },
                     {
-                        "bookmark": " eeei eeei  ",
-                        "bookmark_bottom": " eeei eeei ",
-                        "description": "If in layer_eei, pressing caps_lock should send f17 and then escape.",
+                        "Bookmark_Bottom_Defy": " eeei eeei ",
+                        "bookmark": " eeei eeei ",
+                        "description": " Tapping 'escape' in the layer_eei will exit the layer and destroy the hammerspoon gui using f6 ",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -4282,14 +4283,11 @@
                                             "name": "layer_eei",
                                             "value": 0
                                         }
-                                    },
-                                    {
-                                        "shell_command": "open -g 'hammerspoon://layer?name=layer_eei&state=0'"
                                     }
                                 ],
                                 "to_after_key_up": [
                                     {
-                                        "key_code": "f17"
+                                        "key_code": "f6"
                                     }
                                 ],
                                 "type": "basic"
@@ -4299,7 +4297,7 @@
                     {
                         "bookmark": " ee44 ee44 ",
                         "bookmark_bottom": " ee44 ee44 ",
-                        "description": "If in layer_44, pressing caps_lock should send f16 and exit layer_44.",
+                        "description": "If in layer_44, pressing caps_lock should send help and exit layer_44.",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -4319,7 +4317,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     },
                                     {
                                         "set_variable": {
@@ -4335,7 +4333,7 @@
                     {
                         "bookmark": " ee55 ee55 ",
                         "bookmark_bottom": " ee55 ee55 ",
-                        "description": "If in layer_55, pressing caps_lock should send f16 and exit layer_55.",
+                        "description": "If in layer_55, pressing caps_lock should send help and exit layer_55.",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -4355,7 +4353,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     },
                                     {
                                         "set_variable": {
@@ -5545,7 +5543,7 @@
                     },
                     {
                         "bookmark": " 22pp 22pp ",
-                        "description": "        └── p in the layer_22p will send option + f12 to open yoink ",
+                        "description": " This will paste the second item from Copy 'Em clipboard",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -5565,9 +5563,10 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f12",
+                                        "key_code": "f14",
                                         "modifiers": [
-                                            "right_option"
+                                            "control",
+                                            "option"
                                         ]
                                     },
                                     {
@@ -5921,14 +5920,9 @@
                                         ]
                                     }
                                 },
-                                "to": [
-                                    {
-                                        "key_code": "f19"
-                                    }
-                                ],
                                 "to_if_alone": [
                                     {
-                                        "key_code": "f19"
+                                        "key_code": "right_control"
                                     }
                                 ],
                                 "type": "basic"
@@ -7396,8 +7390,9 @@
                         ]
                     },
                     {
-                        "bookmark": "p clipboard mapping",
-                        "description": "capslock + p sends clipboard shortcut",
+                        "Bookmark_Bottom": " eep eep ",
+                        "bookmark": " eep eep pp pp",
+                        "description": " Tapping 'p' in capslock layer will open Copy 'Em Clipboard",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -8408,7 +8403,7 @@
                                         ]
                                     },
                                     {
-                                        "key_code": "f17"
+                                        "key_code": "f6"
                                     }
                                 ],
                                 "to_after_key_up": [
@@ -8443,7 +8438,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f17"
+                                        "key_code": "f6"
                                     },
                                     {
                                         "key_code": "s",
@@ -8486,7 +8481,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     },
                                     {
                                         "key_code": "f11",
@@ -8544,7 +8539,7 @@
                                 ],
                                 "to_after_key_up": [
                                     {
-                                        "key_code": "f17"
+                                        "key_code": "f6"
                                     },
                                     {
                                         "set_variable": {
@@ -8639,7 +8634,7 @@
                     {
                         "bookmark": " ee eeui ui ui ",
                         "bookmark_bottom": " eeui eeui ui ui ",
-                        "description": "Tapping 'i' in layer_eeu will send a left parenthesis, then a right parenthesis, then the left arrow, and finally send F16 to close the eeu layer.",
+                        "description": "Tapping 'i' in layer_eeu will send a left parenthesis, then a right parenthesis, then the left arrow, and finally send help to close the eeu layer.",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -8674,7 +8669,7 @@
                                         "key_code": "left_arrow"
                                     },
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     }
                                 ],
                                 "to_after_key_up": [
@@ -8743,7 +8738,6 @@
                     },
                     {
                         "bookmark": " eeul eeul ul ul ",
-                        "bookmark_bottom": " ul ul layer_eeul ",
                         "description": "capslock + ul will send End",
                         "manipulators": [
                             {
@@ -8780,7 +8774,8 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " ul ul layer_eeul "
                     },
                     {
                         "bookmark": " eeuo eeuo uo uo ",
@@ -8870,7 +8865,6 @@
                     },
                     {
                         "bookmark": " eei eei ii ii ",
-                        "bookmark_bottom": " eei eei ii ii ",
                         "description": "Enter layer_eei if no other conflicting layers are active",
                         "manipulators": [
                             {
@@ -8933,7 +8927,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f17"
+                                        "key_code": "f6"
                                     },
                                     {
                                         "key_code": "k",
@@ -9158,7 +9152,7 @@
                         ]
                     },
                     {
-                        "bookmark": " eeio eeio io io",
+                        "Bookmark": " eeio eeio io io",
                         "description": " will paste parentheses ",
                         "manipulators": [
                             {
@@ -9179,16 +9173,16 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f17"
+                                        "key_code": "f6"
                                     },
                                     {
-                                        "key_code": "9",
+                                        "key_code": "open_bracket",
                                         "modifiers": [
                                             "shift"
                                         ]
                                     },
                                     {
-                                        "key_code": "0",
+                                        "key_code": "close_bracket",
                                         "modifiers": [
                                             "shift"
                                         ]
@@ -9328,6 +9322,57 @@
                         ]
                     },
                     {
+                        "bookmark": " eeoi eeoi ",
+                        "description": "In layer_eeo, pressing 'i' sends [ then ] then left_arrow",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "layer_eeo",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "i",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "open_bracket",
+                                        "modifiers": [
+                                            "left_shift",
+                                            "option"
+                                        ]
+                                    },
+                                    {
+                                        "key_code": "close_bracket",
+                                        "modifiers": [
+                                            "left_shift",
+                                            "option"
+                                        ]
+                                    },
+                                    {
+                                        "key_code": "left_arrow"
+                                    }
+                                ],
+                                "to_after_key_up": [
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_eeo",
+                                            "value": 0
+                                        }
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "bookmark": " eeol eeol",
                         "manipulators": [
                             {
@@ -9394,7 +9439,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f17",
+                                        "key_code": "f6",
                                         "modifiers": [
                                             "option"
                                         ]
@@ -9495,7 +9540,7 @@
                     {
                         "bookmark": " eeem eeem ",
                         "bookmark_bottom": " eeem eeem ",
-                        "description": "If in layer_eem, pressing caps_lock should send f17 and then escape.",
+                        "description": "If in layer_eem, pressing caps_lock should send f6 and then escape.",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -9526,7 +9571,7 @@
                                 ],
                                 "to_after_key_up": [
                                     {
-                                        "key_code": "f17"
+                                        "key_code": "f6"
                                     }
                                 ],
                                 "type": "basic"
@@ -9626,7 +9671,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f17"
+                                        "key_code": "f6"
                                     },
                                     {
                                         "shell_command": "/Users/olama/.config/yabai/modules/cycle_wrapper.sh com.google.Chrome.app.caidcmannjgahlnbpmidmiecjcoiiigg"
@@ -9645,8 +9690,8 @@
                         ]
                     },
                     {
-                        "bookmark": " mk mk ",
-                        "description": "               └── tap 'k' in layer_eem will open Vivaldi",
+                        "bookmark": " eemk eemk mk mk ",
+                        "description": " Tapping 'k' in layer_eem will open Vivaldi",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -9669,7 +9714,7 @@
                                         "shell_command": "/Users/olama/.config/yabai/modules/cycle_wrapper.sh vivaldi"
                                     },
                                     {
-                                        "key_code": "f17"
+                                        "key_code": "f6"
                                     }
                                 ],
                                 "to_after_key_up": [
@@ -9712,7 +9757,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f17"
+                                        "key_code": "f6"
                                     },
                                     {
                                         "shell_command": "/Users/olama/.config/yabai/modules/cycle_wrapper.sh warp"
@@ -9767,7 +9812,7 @@
                                         }
                                     },
                                     {
-                                        "key_code": "f17"
+                                        "key_code": "f6"
                                     }
                                 ],
                                 "to_after_key_up": [
@@ -9805,7 +9850,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f17"
+                                        "key_code": "f6"
                                     },
                                     {
                                         "shell_command": "/Users/olama/.config/yabai/modules/cycle_wrapper.sh 'Spark Desktop'"
@@ -9852,7 +9897,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f17"
+                                        "key_code": "f6"
                                     },
                                     {
                                         "shell_command": "/Users/olama/.config/yabai/modules/cycle_wrapper.sh com.google.Chrome.app.majiogicmcnmdhhlgmkahaleckhjbmlk"
@@ -9899,7 +9944,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f17"
+                                        "key_code": "f6"
                                     },
                                     {
                                         "key_code": "f20",
@@ -9950,7 +9995,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     },
                                     {
                                         "shell_command": "open -a '/Users/olama/Applications/Chrome Apps.localized/GitHub.app'"
@@ -9994,7 +10039,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     },
                                     {
                                         "shell_command": "open -a 'Visual Studio Code'"
@@ -10093,7 +10138,7 @@
                     },
                     {
                         "bookmark": " eenn eenn nn nn ",
-                        "description": "capslock + n + n inserts varitycolgate@gmail.com (via direct paste)",
+                        "description": "capslock + n + n f6s varitycolgate@gmail.com (via direct paste)",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -10933,7 +10978,7 @@
                                     }
                                 },
                                 "to": {
-                                    "key_code": "f17",
+                                    "key_code": "f6",
                                     "modifiers": {
                                         "mandatory": [
                                             "command",
@@ -10969,13 +11014,13 @@
                     },
                     {
                         "bookmark": "escape_exits_layer_55",
-                        "description": "In layer_55, pressing escape exits layer_55 and sends f17.",
+                        "description": "In layer_55, pressing escape exits layer_55 and sends f6.",
                         "manipulators": [
                             {
                                 "conditions": [
                                     {
-                                        "type": "variable_if",
                                         "name": "layer_55",
+                                        "type": "variable_if",
                                         "value": 1
                                     }
                                 ],
@@ -10989,7 +11034,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f17"
+                                        "key_code": "f6"
                                     },
                                     {
                                         "set_variable": {
@@ -11115,7 +11160,7 @@
                     },
                     {
                         "bookmark": " 55a 55a ",
-                        "description": "     └── tap a while in 55 55 to enter this layer",
+                        "description": " Tapping 'a' in layer_55 will enter layer_55a ",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -11131,15 +11176,21 @@
                                 "to": [
                                     {
                                         "set_variable": {
+                                            "name": "layer_55",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "key_code": "f6"
+                                    },
+                                    {
+                                        "set_variable": {
                                             "name": "layer_55a",
                                             "value": 1
                                         }
                                     },
                                     {
-                                        "set_variable": {
-                                            "name": "layer_55",
-                                            "value": 0
-                                        }
+                                        "shell_command": "/opt/homebrew/bin/hs -c 'hs.alert.show(\"now in layer_55a\", {atScreenEdge = 2, textFont=\"Chalkboard SE\", textSize=22}, 9999999999999999)'"
                                     }
                                 ],
                                 "type": "basic"
@@ -11148,7 +11199,7 @@
                     },
                     {
                         "bookmark": " 55aa 55aa ",
-                        "description": "     └── tap a while in the layer_55a to send Alt + Shift + f14",
+                        "description": " Tapping 'a' in layer_55a will send ",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -11163,11 +11214,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f14",
-                                        "modifiers": [
-                                            "option",
-                                            "shift"
-                                        ]
+                                        "key_code": "f6"
                                     },
                                     {
                                         "set_variable": {
@@ -11176,10 +11223,11 @@
                                         }
                                     },
                                     {
-                                        "set_variable": {
-                                            "name": "layer_55",
-                                            "value": 1
-                                        }
+                                        "key_code": "f14",
+                                        "modifiers": [
+                                            "option",
+                                            "shift"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
@@ -11203,7 +11251,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     },
                                     {
                                         "set_variable": {
@@ -11245,7 +11293,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     },
                                     {
                                         "set_variable": {
@@ -11282,7 +11330,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     },
                                     {
                                         "set_variable": {
@@ -11327,7 +11375,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     },
                                     {
                                         "key_code": "e",
@@ -11364,7 +11412,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     },
                                     {
                                         "key_code": "a",
@@ -11402,7 +11450,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     },
                                     {
                                         "set_variable": {
@@ -11447,7 +11495,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f17"
+                                        "key_code": "f6"
                                     },
                                     {
                                         "key_code": "g",
@@ -11490,7 +11538,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f17"
+                                        "key_code": "f6"
                                     },
                                     {
                                         "key_code": "l",
@@ -11530,7 +11578,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     },
                                     {
                                         "key_code": "f13",
@@ -11567,7 +11615,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     },
                                     {
                                         "key_code": "f13",
@@ -11672,6 +11720,7 @@
                     },
                     {
                         "bookmark": " 55rr 55rr rr rr (Cursor) ",
+                        "bookmark_bottom": " 55rr 55rr ",
                         "description": " Tapping 'r' in layer_55r will send f5 in Cursor",
                         "manipulators": [
                             {
@@ -11693,7 +11742,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f17"
+                                        "key_code": "f6"
                                     },
                                     {
                                         "key_code": "f5"
@@ -11709,11 +11758,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ],
-                        "bookmark_bottom": " 55rr 55rr "
+                        ]
                     },
                     {
                         "bookmark": " 55rr 55rr (Non-Cursor) ",
+                        "bookmark_bottom": " 55rr 55rr ",
                         "description": " Tapping 'r' in layer_55r will send command + r in most apps",
                         "manipulators": [
                             {
@@ -11735,7 +11784,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     },
                                     {
                                         "key_code": "r",
@@ -11754,13 +11803,12 @@
                                 ],
                                 "type": "basic"
                             }
-                        ],
-                        "bookmark_bottom": " 55rr 55rr "
+                        ]
                     },
                     {
                         "bookmark": " 55s 55s ",
                         "bookmark_bottom": " 55s 55s ",
-                        "description": "Tap 's' in layer_55 to send F16, activate layer_55s, and deactivate layer_55",
+                        "description": "Tap 's' in layer_55 to send help, activate layer_55s, and deactivate layer_55",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -11775,7 +11823,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     },
                                     {
                                         "set_variable": {
@@ -11815,7 +11863,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     },
                                     {
                                         "key_code": "f2",
@@ -11853,7 +11901,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     },
                                     {
                                         "set_variable": {
@@ -11890,7 +11938,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     },
                                     {
                                         "key_code": "t",
@@ -11932,7 +11980,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     },
                                     {
                                         "set_variable": {
@@ -11972,7 +12020,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     },
                                     {
                                         "key_code": "w",
@@ -12009,7 +12057,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     },
                                     {
                                         "key_code": "w",
@@ -12047,7 +12095,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     },
                                     {
                                         "set_variable": {
@@ -12087,7 +12135,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     },
                                     {
                                         "key_code": "q",
@@ -12324,7 +12372,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f17"
+                                        "key_code": "f6"
                                     },
                                     {
                                         "set_variable": {
@@ -13281,7 +13329,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     }
                                 ],
                                 "type": "basic"
@@ -13297,7 +13345,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f17"
+                                        "key_code": "f6"
                                     }
                                 ],
                                 "type": "basic"
@@ -13685,8 +13733,8 @@
             "complex_modifications": {
                 "rules": [
                     {
-                        "bookmark": " 44 44 ",
-                        "bookmark_bottom": " End of Layer_44 ",
+                        "Bookmark_Bottom_Defy": " End of Layer_44 ",
+                        "Bookmark_Defy": " 44 44 ",
                         "description": " Tap 'Left_Command' to enter layer_44 ",
                         "manipulators": [
                             {
@@ -13746,7 +13794,7 @@
                                         }
                                     },
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     }
                                 ],
                                 "type": "basic"
@@ -13754,8 +13802,8 @@
                         ]
                     },
                     {
-                        "bookmark": "44 44 slash to right_arrow",
-                        "bookmark_bottom": " 44/ 44/",
+                        "Bookmark_Bottom_Defy": " 44/ 44/ ",
+                        "Bookmark_Defy": "44 44 slash to right_arrow",
                         "description": "In layer_44, pressing slash (/) sends right_arrow (→)",
                         "manipulators": [
                             {
@@ -13786,39 +13834,6 @@
                                     },
                                     {
                                         "key_code": "spacebar"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "bookmark": "44 44 command + grave_accent_and_tilde",
-                        "bookmark_bottom": " 44` 44`",
-                        "description": "In layer_44, pressing grave_accent_and_tilde sends command + grave_accent_and_tilde (cmd+`)",
-                        "manipulators": [
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "layer_44",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "non_us_backslash",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "tab",
-                                        "modifiers": [
-                                            "command"
-                                        ]
                                     }
                                 ],
                                 "type": "basic"
@@ -13857,8 +13872,8 @@
                         ]
                     },
                     {
+                        "Bookmark_Bottom_Defy": " 44 command + shift",
                         "bookmark": " 44 44 command + shift 44cs 44cs ",
-                        "bookmark_bottom": " 44 command + shift",
                         "description": "    └── hold down left_command and left_shift in layer_44 to send both command and shift",
                         "manipulators": [
                             {
@@ -13890,8 +13905,8 @@
                         ]
                     },
                     {
+                        "Bookmark_Bottom_Defy": " 44 command + control ",
                         "bookmark": " 44 44 command + control",
-                        "bookmark_bottom": "44 command + control",
                         "description": "     └── hold down left_command and tap control to enter this layer",
                         "manipulators": [
                             {
@@ -13918,8 +13933,8 @@
                         ]
                     },
                     {
+                        "Bookmark_Bottom_Defy": " 44 44 command + option",
                         "bookmark": " 44 44 command + option",
-                        "bookmark_bottom": " 44 44 command + option",
                         "description": " └── hold down left_command and hold down option to enter this layer",
                         "manipulators": [
                             {
@@ -13946,8 +13961,8 @@
                         ]
                     },
                     {
-                        "bookmark": " 44 44 command + tab",
-                        "bookmark_bottom": " 44 44 command + tab",
+                        "Bookmark_Bottom_Defy": " 44 44 command + tab",
+                        "Bookmark_Defy": " 44 44 command + tab",
                         "description": " └── hold down left_command and tap tab to delete the word to the left",
                         "manipulators": [
                             {
@@ -14028,7 +14043,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     },
                                     {
                                         "key_code": "c",
@@ -14064,7 +14079,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     },
                                     {
                                         "set_variable": {
@@ -14115,7 +14130,7 @@
                     },
                     {
                         "bookmark": " 44h 44h ",
-                        "description": "     └── hold down left_command and tap h for context-sensitive actions (Cursor, Excel, or default)",
+                        "description": " Tapping 'h' in layer_44 will send left_arrow 5 times",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -14361,7 +14376,7 @@
                                         }
                                     },
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     },
                                     {
                                         "shell_command": "/opt/homebrew/bin/hs -c 'hs.alert.show(\" 44j 44j\", {atScreenEdge = 2, textFont=\"Chalkboard SE\", textSize=22}, 9999999999999999)'"
@@ -14408,6 +14423,7 @@
                         ]
                     },
                     {
+                        "Bookmark_Bottom": " 44jk 44jk (Cursor AI only) ",
                         "bookmark": " 44jk 44jk jk jk (Cursor AI only)",
                         "description": "Tapping 'k' in 'layer_44j' sends control + shift + k in Cursor AI.",
                         "manipulators": [
@@ -14439,8 +14455,7 @@
                                 ],
                                 "type": "basic"
                             }
-                        ],
-                        "Bookmark_Bottom": " 44jk 44jk (Cursor AI only) "
+                        ]
                     },
                     {
                         "Bookmark_Bottom": " 44k 44k Cursor ",
@@ -14478,7 +14493,7 @@
                                         }
                                     },
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     },
                                     {
                                         "shell_command": "/opt/homebrew/bin/hs -c 'hs.alert.show(\" 44k 44k\", {atScreenEdge = 2, textFont=\"Chalkboard SE\", textSize=22}, 9999999999999999)'"
@@ -14496,6 +14511,7 @@
                         ]
                     },
                     {
+                        "Bookmark_Bottom": " 44kj 44kj ",
                         "bookmark": " 44kj 44kj kj kj (Cursor AI only)",
                         "description": " Tapping 'j' in layer_44k will send control + shift + j in Cursor AI",
                         "manipulators": [
@@ -14521,10 +14537,10 @@
                                 ],
                                 "type": "basic"
                             }
-                        ],
-                        "Bookmark_Bottom": " 44kj 44kj "
+                        ]
                     },
                     {
+                        "Bookmark_Bottom": " 44kk 44kk",
                         "bookmark": " 44kk 44kk kk kk (Cursor AI only)",
                         "description": " Tapping 'k' in layer_44k will send control + shift + k in Cursor AI",
                         "manipulators": [
@@ -14550,8 +14566,7 @@
                                 ],
                                 "type": "basic"
                             }
-                        ],
-                        "Bookmark_Bottom": " 44kk 44kk"
+                        ]
                     },
                     {
                         "bookmark": " 44l 44l (Cursor AI) ",
@@ -14706,7 +14721,36 @@
                                         }
                                     },
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "Bookmark_Bottom_Defy": " 44mn 44mn ",
+                        "Bookmark_Defy": " 44mn 44mn mn mn ",
+                        "description": " Tap 'n' in layer_44m to send control + shift + f8 ",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "layer_44m",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "n"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "f8",
+                                        "modifiers": [
+                                            "left_control",
+                                            "left_shift"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
@@ -14715,6 +14759,7 @@
                     },
                     {
                         "bookmark": " 44n 44n ",
+                        "bookmark_bottom": " 44n 44n ",
                         "description": " Tap 'n' in this layer to enter layer_44n ",
                         "manipulators": [
                             {
@@ -14747,8 +14792,7 @@
                                 ],
                                 "type": "basic"
                             }
-                        ],
-                        "bookmark_bottom": " 44n 44n "
+                        ]
                     },
                     {
                         "bookmark": " 44nn 44nn ",
@@ -14951,7 +14995,7 @@
                                         ]
                                     },
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     },
                                     {
                                         "set_variable": {
@@ -14981,7 +15025,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     },
                                     {
                                         "set_variable": {
@@ -15059,7 +15103,7 @@
                                         ]
                                     },
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     },
                                     {
                                         "set_variable": {
@@ -17980,7 +18024,7 @@
                     {
                         "bookmark": " escape in slash slash layer ",
                         "bookmark_bottom": " escape in slash slash layer ",
-                        "description": " Escape in slash layer will exit the layer and destroy the hammerspoon gui using f17 ",
+                        "description": " Escape in slash layer will exit the layer and destroy the hammerspoon gui using f6 ",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -18000,7 +18044,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f17"
+                                        "key_code": "f6"
                                     },
                                     {
                                         "key_code": "escape"
@@ -18019,7 +18063,7 @@
                     {
                         "bookmark": " eeei eeei  ",
                         "bookmark_bottom": " eeei eeei ",
-                        "description": "If in layer_eei, pressing caps_lock should send f17 and then escape.",
+                        "description": "If in layer_eei, pressing caps_lock should send f6 and then escape.",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -18053,7 +18097,7 @@
                                 ],
                                 "to_after_key_up": [
                                     {
-                                        "key_code": "f17"
+                                        "key_code": "f6"
                                     }
                                 ],
                                 "type": "basic"
@@ -18063,7 +18107,7 @@
                     {
                         "bookmark": " ee44 ee44 ",
                         "bookmark_bottom": " ee44 ee44 ",
-                        "description": "If in layer_44, pressing caps_lock should send f16 and exit layer_44.",
+                        "description": "If in layer_44, pressing caps_lock should send help and exit layer_44.",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -18083,7 +18127,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     },
                                     {
                                         "set_variable": {
@@ -18099,7 +18143,7 @@
                     {
                         "bookmark": " ee55 ee55 ",
                         "bookmark_bottom": " ee55 ee55 ",
-                        "description": "If in layer_55, pressing caps_lock should send f16 and exit layer_55.",
+                        "description": "If in layer_55, pressing caps_lock should send help and exit layer_55.",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -18119,7 +18163,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     },
                                     {
                                         "set_variable": {
@@ -18150,6 +18194,11 @@
                                         "name": "layer_eem",
                                         "type": "variable_if",
                                         "value": 0
+                                    },
+                                    {
+                                        "name": "layer_eeu",
+                                        "type": "variable_if",
+                                        "value": 0
                                     }
                                 ],
                                 "from": {
@@ -18170,6 +18219,18 @@
                                     {
                                         "set_variable": {
                                             "name": "layer_44",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_44s",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_44d",
                                             "value": 0
                                         }
                                     },
@@ -18890,8 +18951,8 @@
                         ]
                     },
                     {
-                        "bookmark": " 22i 22i",
-                        "bookmark_bottom": " 22i 22i ",
+                        "Bookmark_Bottom_Defy": " 22i 22i ",
+                        "Bookmark_Defy": " 22i 22i ii ii ",
                         "description": "capslock + spacebar + i will enter 22i",
                         "manipulators": [
                             {
@@ -18934,9 +18995,9 @@
                         ]
                     },
                     {
-                        "bookmark": " 22ii 22ii ",
-                        "bookmark_bottom": " 22ii 22ii ",
-                        "description": "Tapping 'i' in layer_22i sends Command+H and exits the layer",
+                        "Bookmark_Bottom_Defy": " 22ii 22ii ",
+                        "Bookmark_Defy": " 22ii 22ii ii ii ",
+                        "description": " Tapping 'i' in layer_22i sends Command+H and exits the layer ",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -18968,6 +19029,9 @@
                                             "name": "layer_22i",
                                             "value": 0
                                         }
+                                    },
+                                    {
+                                        "key_code": "help"
                                     }
                                 ],
                                 "type": "basic"
@@ -19198,8 +19262,7 @@
                     },
                     {
                         "bookmark": " 22mm 22mm ",
-                        "bookmark_bottom": " 22mm 22mm ",
-                        "description": "        └── tapping 'm' in the layer_22m will open_or_cycle to Todoist ",
+                        "description": " Tapping 'm' in the layer_22m will open the Todoist app ",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -19232,7 +19295,46 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " 22mm 22mm "
+                    },
+                    {
+                        "bookmark": " 22mn 22mn ",
+                        "description": " Tapping 'n' in the layer_22m will open the Vivaldi Snapshot app ",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "layer_22m",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "n",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open -a \"/System/Volumes/Data/Applications/Vivaldi Snapshot.app\""
+                                    }
+                                ],
+                                "to_after_key_up": [
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_22m",
+                                            "value": 0
+                                        }
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ],
+                        "bookmark_bottom": " 22mn 22mn "
                     },
                     {
                         "bookmark": " 22mu 22mu",
@@ -19308,8 +19410,9 @@
                         ]
                     },
                     {
-                        "bookmark": " 22pp 22pp ",
-                        "description": "        └── p in the layer_22p will send option + f12 to open yoink ",
+                        "Bookmark_Bottom_Defy": " 22pp 22pp ",
+                        "Bookmark_Defy": " 22pp 22pp pp pp ",
+                        "description": " Tapping 'p' in the layer_22p will send control + option + f14 to paste the second item from clipboard ",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -19329,9 +19432,10 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f12",
+                                        "key_code": "f14",
                                         "modifiers": [
-                                            "right_option"
+                                            "control",
+                                            "option"
                                         ]
                                     },
                                     {
@@ -19346,8 +19450,9 @@
                         ]
                     },
                     {
-                        "bookmark": " 22po 22po ",
-                        "description": "22po should send control + option + command + p to open the raycast clipboard",
+                        "Bookmark_Bottom_Defy": " 22po 22po ",
+                        "Bookmark_Defy": " 22po 22po po po ",
+                        "description": " Tapping 'o' in the layer_22p will send control + option + command + p to open the raycast clipboard",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -19386,8 +19491,8 @@
                         ]
                     },
                     {
-                        "bookmark": " 22u 22u ",
-                        "description": "        └── u in the layer_22 will enter the 22u_layer",
+                        "Bookmark_Defy": " 22u 22u uu uu ",
+                        "description": " Tapping 'u' in the layer_22 will enter the 22u_layer",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -19494,6 +19599,12 @@
                                         "set_variable": {
                                             "name": "22u_layer",
                                             "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "capslock_layer",
+                                            "value": 1
                                         }
                                     }
                                 ],
@@ -19687,12 +19798,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f19"
-                                    }
-                                ],
-                                "to_if_alone": [
-                                    {
-                                        "key_code": "f19"
+                                        "key_code": "right_control"
                                     }
                                 ],
                                 "type": "basic"
@@ -21160,8 +21266,9 @@
                         ]
                     },
                     {
-                        "bookmark": "p clipboard mapping",
-                        "description": "capslock + p sends clipboard shortcut",
+                        "Bookmark_Bottom_Defy": " eep eep ",
+                        "Bookmark_Defy": " eep eep pp pp",
+                        "description": " Tapping 'p' in capslock layer will open Copy 'Em Clipboard",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -21388,7 +21495,7 @@
                     },
                     {
                         "bookmark": " layer_eea quote to equals ",
-                        "description": "                └── tap quote in the layer_eea to send equals sign",
+                        "description": " Tapping 'quote' in the layer_eea to send 'equals' sign",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -22172,7 +22279,7 @@
                                         ]
                                     },
                                     {
-                                        "key_code": "f17"
+                                        "key_code": "f6"
                                     }
                                 ],
                                 "to_after_key_up": [
@@ -22207,7 +22314,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f17"
+                                        "key_code": "f6"
                                     },
                                     {
                                         "key_code": "s",
@@ -22250,7 +22357,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     },
                                     {
                                         "key_code": "f11",
@@ -22308,7 +22415,7 @@
                                 ],
                                 "to_after_key_up": [
                                     {
-                                        "key_code": "f17"
+                                        "key_code": "f6"
                                     },
                                     {
                                         "set_variable": {
@@ -22352,6 +22459,12 @@
                                         "set_variable": {
                                             "name": "layer_eeu",
                                             "value": 1
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "capslock_layer",
+                                            "value": 0
                                         }
                                     }
                                 ],
@@ -22403,7 +22516,7 @@
                     {
                         "bookmark": " ee eeui ui ui ",
                         "bookmark_bottom": " eeui eeui ui ui ",
-                        "description": "Tapping 'i' in layer_eeu will send a left parenthesis, then a right parenthesis, then the left arrow, and finally send F16 to close the eeu layer.",
+                        "description": "Tapping 'i' in layer_eeu will send a left parenthesis, then a right parenthesis, then the left arrow, and finally send help to close the eeu layer.",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -22438,7 +22551,7 @@
                                         "key_code": "left_arrow"
                                     },
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     }
                                 ],
                                 "to_after_key_up": [
@@ -22454,8 +22567,8 @@
                         ]
                     },
                     {
-                        "bookmark": " eeuj eeuj uj uj",
-                        "description": "capslock + uj will send copy and select all",
+                        "Bookmark_Defy": " eeuj eeuj uj uj",
+                        "description": " capslock + uj will send copy and select all ",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -22506,8 +22619,7 @@
                         ]
                     },
                     {
-                        "bookmark": " eeul eeul ul ul ",
-                        "bookmark_bottom": " ul ul layer_eeul ",
+                        "Bookmark_Defy": " eeul eeul ul ul ",
                         "description": "capslock + ul will send End",
                         "manipulators": [
                             {
@@ -22544,7 +22656,8 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " ul ul layer_eeul "
                     },
                     {
                         "bookmark": " eeuo eeuo uo uo ",
@@ -22697,7 +22810,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f17"
+                                        "key_code": "f6"
                                     },
                                     {
                                         "key_code": "k",
@@ -22943,16 +23056,16 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f17"
+                                        "key_code": "f6"
                                     },
                                     {
-                                        "key_code": "9",
+                                        "key_code": "open_bracket",
                                         "modifiers": [
                                             "shift"
                                         ]
                                     },
                                     {
-                                        "key_code": "0",
+                                        "key_code": "close_bracket",
                                         "modifiers": [
                                             "shift"
                                         ]
@@ -23092,6 +23205,50 @@
                         ]
                     },
                     {
+                        "Bookmark_Bottom_Defy": " eeoi eeoi ",
+                        "bookmark": " eeoi eeoi oi oi ",
+                        "description": "In layer_eeo, pressing 'i' sends [ then ] then left_arrow",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "layer_eeo",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "i",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "open_bracket"
+                                    },
+                                    {
+                                        "key_code": "close_bracket"
+                                    },
+                                    {
+                                        "key_code": "left_arrow"
+                                    }
+                                ],
+                                "to_after_key_up": [
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_eeo",
+                                            "value": 0
+                                        }
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "bookmark": " eeol eeol",
                         "manipulators": [
                             {
@@ -23158,7 +23315,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f17",
+                                        "key_code": "f6",
                                         "modifiers": [
                                             "option"
                                         ]
@@ -23259,7 +23416,7 @@
                     {
                         "bookmark": " eeem eeem ",
                         "bookmark_bottom": " eeem eeem ",
-                        "description": "If in layer_eem, pressing caps_lock should send f17 and then escape.",
+                        "description": "If in layer_eem, pressing caps_lock should send f6 and then escape.",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -23290,7 +23447,7 @@
                                 ],
                                 "to_after_key_up": [
                                     {
-                                        "key_code": "f17"
+                                        "key_code": "f6"
                                     }
                                 ],
                                 "type": "basic"
@@ -23390,7 +23547,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f17"
+                                        "key_code": "f6"
                                     },
                                     {
                                         "shell_command": "/Users/olama/.config/yabai/modules/cycle_wrapper.sh com.google.Chrome.app.caidcmannjgahlnbpmidmiecjcoiiigg"
@@ -23409,8 +23566,9 @@
                         ]
                     },
                     {
-                        "bookmark": " mk mk ",
-                        "description": "               └── tap 'k' in layer_eem will open Vivaldi",
+                        "Bookmark_Bottom_Defy": " eemk eemk ",
+                        "Bookmark_Defy": " eemk eemk mk mk ",
+                        "description": " Tapping 'k' in layer_eem will open Vivaldi",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -23433,7 +23591,7 @@
                                         "shell_command": "/Users/olama/.config/yabai/modules/cycle_wrapper.sh vivaldi"
                                     },
                                     {
-                                        "key_code": "f17"
+                                        "key_code": "f6"
                                     }
                                 ],
                                 "to_after_key_up": [
@@ -23476,7 +23634,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f17"
+                                        "key_code": "f6"
                                     },
                                     {
                                         "shell_command": "/Users/olama/.config/yabai/modules/cycle_wrapper.sh warp"
@@ -23501,7 +23659,7 @@
                         ]
                     },
                     {
-                        "bookmark": " mm mm ",
+                        "Bookmark_Defy": " eemm eemm mm mm ",
                         "description": " Tap 'm' in layer_eem will open Cursor and destroy the GUI",
                         "manipulators": [
                             {
@@ -23531,7 +23689,7 @@
                                         }
                                     },
                                     {
-                                        "key_code": "f17"
+                                        "key_code": "f6"
                                     }
                                 ],
                                 "to_after_key_up": [
@@ -23547,7 +23705,7 @@
                         ]
                     },
                     {
-                        "bookmark": " eemn eemn mn mn ",
+                        "Bookmark_Defy": " eemn eemn mn mn ",
                         "bookmark_bottom": " eemn eemn mn mn ",
                         "description": " Tap 'n' in layer_eem will open Spark Desktop ",
                         "manipulators": [
@@ -23569,7 +23727,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f17"
+                                        "key_code": "f6"
                                     },
                                     {
                                         "shell_command": "/Users/olama/.config/yabai/modules/cycle_wrapper.sh 'Spark Desktop'"
@@ -23594,7 +23752,7 @@
                         ]
                     },
                     {
-                        "bookmark": " eemo eemo oo oo ",
+                        "Bookmark_Defy": " eemo eemo oo oo ",
                         "bookmark_bottom": " eemo eemo ",
                         "description": " Tap 'o' in layer_eem will open Telegram",
                         "manipulators": [
@@ -23616,7 +23774,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f17"
+                                        "key_code": "f6"
                                     },
                                     {
                                         "shell_command": "/Users/olama/.config/yabai/modules/cycle_wrapper.sh com.google.Chrome.app.majiogicmcnmdhhlgmkahaleckhjbmlk"
@@ -23641,7 +23799,7 @@
                         ]
                     },
                     {
-                        "bookmark": " eemp eemp pp pp ",
+                        "Bookmark_Defy": " eemp eemp pp pp ",
                         "bookmark_bottom": " eemp eemp ",
                         "description": " Tap 'p' in layer_eem will open Excel ",
                         "manipulators": [
@@ -23663,7 +23821,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f17"
+                                        "key_code": "f6"
                                     },
                                     {
                                         "key_code": "f20",
@@ -23693,7 +23851,7 @@
                         ]
                     },
                     {
-                        "bookmark": " eemu eemu uu uu ",
+                        "Bookmark_Defy": " eemu eemu uu uu ",
                         "description": " Tap 'u' in layer_eem will open Github",
                         "manipulators": [
                             {
@@ -23714,7 +23872,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     },
                                     {
                                         "shell_command": "open -a '/Users/olama/Applications/Chrome Apps.localized/GitHub.app'"
@@ -23737,7 +23895,7 @@
                         ]
                     },
                     {
-                        "bookmark": " m, m, ",
+                        "Bookmark_Defy": " m, m, ",
                         "description": " Tap ',' in layer_eem will open VSCode (Cursor)",
                         "manipulators": [
                             {
@@ -23758,7 +23916,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     },
                                     {
                                         "shell_command": "open -a 'Visual Studio Code'"
@@ -23780,7 +23938,7 @@
                         ]
                     },
                     {
-                        "bookmark": " Enter layer_een n n nn nn nnn nnn ",
+                        "Bookmark_Defy": " Enter layer_een n n nn nn nnn nnn ",
                         "bookmark_bottom": " Enter layer_een n n nn nn nnn nnn ",
                         "description": "Enter layer_een and close layer_een",
                         "manipulators": [
@@ -23819,8 +23977,8 @@
                         ]
                     },
                     {
-                        "bookmark": " nl nl ",
-                        "description": "        └── capslock + n + l == open simplelogin app",
+                        "Bookmark_Defy": " nl nl ",
+                        "description": " Tapping 'l' in layer_een will open SimpleLogin",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -23840,7 +23998,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "/System/Volumes/Data/Users/olama/Applications/Chrome Apps.localized/SimpleLogin.app"
+                                        "shell_command": "open -a 'SimpleLogin'"
                                     }
                                 ],
                                 "to_after_key_up": [
@@ -23856,8 +24014,8 @@
                         ]
                     },
                     {
-                        "bookmark": " eenn eenn nn nn ",
-                        "description": "capslock + n + n inserts varitycolgate@gmail.com (via direct paste)",
+                        "Bookmark_Defy": " eenn eenn nn nn ",
+                        "description": "capslock + n + n f6s varitycolgate@gmail.com (via direct paste)",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -23896,7 +24054,7 @@
                         ]
                     },
                     {
-                        "bookmark": " no no ",
+                        "Bookmark_Defy": " no no ",
                         "description": "capslock + n + o == snippety.app == cocF4",
                         "manipulators": [
                             {
@@ -23938,7 +24096,7 @@
                         ]
                     },
                     {
-                        "bookmark": "np np",
+                        "Bookmark_Defy": "np np",
                         "description": "capslock + n + p will open snippety.app",
                         "manipulators": [
                             {
@@ -23985,7 +24143,7 @@
                         ]
                     },
                     {
-                        "bookmark": " oh oh ",
+                        "Bookmark_Defy": " oh oh ",
                         "description": "capslock + oh will open 1password",
                         "manipulators": [
                             {
@@ -24027,7 +24185,7 @@
                         ]
                     },
                     {
-                        "bookmark": " oj oj ",
+                        "Bookmark_Defy": " oj oj ",
                         "description": "capslock + oj will open the 1password menu ",
                         "manipulators": [
                             {
@@ -24108,7 +24266,7 @@
                         ]
                     },
                     {
-                        "bookmark": "sh sh",
+                        "Bookmark_Defy": "sh sh",
                         "description": "capslock + spacebar + h will send Control + Page Up in Parallels",
                         "manipulators": [
                             {
@@ -24142,7 +24300,7 @@
                         ]
                     },
                     {
-                        "bookmark": "sj sj",
+                        "Bookmark_Defy": "sj sj",
                         "description": "capslock + spacebar + l will send Control + Tab",
                         "manipulators": [
                             {
@@ -24170,7 +24328,7 @@
                         ]
                     },
                     {
-                        "bookmark": " esm ",
+                        "Bookmark_Defy": " esm ",
                         "description": "capslock + spacebar + m will enter baselayer_m",
                         "manipulators": [
                             {
@@ -24210,7 +24368,7 @@
                         ]
                     },
                     {
-                        "bookmark": "esmu csmu ",
+                        "Bookmark_Defy": "esmu csmu ",
                         "description": "capslock + spacebar + m + u will open Arc Browser",
                         "manipulators": [
                             {
@@ -24247,7 +24405,7 @@
                         ]
                     },
                     {
-                        "bookmark": "cso",
+                        "Bookmark_Defy": "cso",
                         "description": "capslock + spacebar + o will enter layer_22o",
                         "manipulators": [
                             {
@@ -24285,7 +24443,7 @@
                         ]
                     },
                     {
-                        "bookmark": "22ol 22ol",
+                        "Bookmark_Defy": "22ol 22ol",
                         "description": "capslock + spacebar + o + l will move window into right third of screen using Raycast",
                         "manipulators": [
                             {
@@ -24325,7 +24483,7 @@
                         ]
                     },
                     {
-                        "bookmark": "22oo 22oo",
+                        "Bookmark_Defy": "22oo 22oo",
                         "description": "capslock + spacebar + o + o will toggle Fullscreen",
                         "manipulators": [
                             {
@@ -24373,7 +24531,7 @@
                         ]
                     },
                     {
-                        "bookmark": "22oo 22oo",
+                        "Bookmark_Defy": "22oo 22oo",
                         "description": "capslock + spacebar + o + o will toggle Fullscreen",
                         "manipulators": [
                             {
@@ -24421,7 +24579,7 @@
                         ]
                     },
                     {
-                        "bookmark": " ct ct et et ",
+                        "Bookmark_Defy": " ct ct et et ",
                         "description": "capslock + tab will act as command + shift + function key",
                         "manipulators": [
                             {
@@ -24546,7 +24704,7 @@
                         ]
                     },
                     {
-                        "bookmark": " loe loe raycast hotkey to open finder",
+                        "Bookmark_Defy": " loe loe raycast hotkey to open finder",
                         "description": "left_option + e to finder",
                         "manipulators": [
                             {
@@ -24621,7 +24779,7 @@
                         ]
                     },
                     {
-                        "bookmark": "cb cb",
+                        "Bookmark_Defy": "cb cb",
                         "description": "Command + Backspace will copy and delete an entire line",
                         "manipulators": [
                             {
@@ -24662,7 +24820,7 @@
                         ]
                     },
                     {
-                        "bookmark": "os os",
+                        "Bookmark_Defy": "os os",
                         "description": "left_option + s to open /Users/olama/Downloads",
                         "manipulators": [
                             {
@@ -24684,7 +24842,7 @@
                         ]
                     },
                     {
-                        "bookmark": "od od",
+                        "Bookmark_Defy": "od od",
                         "description": "left_option + d to open /Users/olama/Desktop",
                         "manipulators": [
                             {
@@ -24697,7 +24855,7 @@
                                     }
                                 },
                                 "to": {
-                                    "key_code": "f17",
+                                    "key_code": "f6",
                                     "modifiers": {
                                         "mandatory": [
                                             "command",
@@ -24710,7 +24868,7 @@
                         ]
                     },
                     {
-                        "bookmark": " low ",
+                        "Bookmark_Defy": " low ",
                         "description": "left_option + w will open my documents folder",
                         "manipulators": [
                             {
@@ -24732,14 +24890,14 @@
                         ]
                     },
                     {
-                        "bookmark": "escape_exits_layer_55",
-                        "description": "In layer_55, pressing escape exits layer_55 and sends f17.",
+                        "Bookmark_Defy": "escape_exits_layer_55",
+                        "description": "In layer_55, pressing escape exits layer_55 and sends f6.",
                         "manipulators": [
                             {
                                 "conditions": [
                                     {
-                                        "type": "variable_if",
                                         "name": "layer_55",
+                                        "type": "variable_if",
                                         "value": 1
                                     }
                                 ],
@@ -24753,7 +24911,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f17"
+                                        "key_code": "f6"
                                     },
                                     {
                                         "set_variable": {
@@ -24767,14 +24925,15 @@
                         ]
                     },
                     {
-                        "bookmark": " 55escape 55EE ",
-                        "description": "In layer_55, pressing escape exits layer_55 and sends f17.",
+                        "Bookmark_Defy": " 55escape 55EE ",
+                        "bookmark_bottom": " 55escape 55EE ",
+                        "description": "In layer_55, pressing escape exits layer_55 and sends f6.",
                         "manipulators": [
                             {
                                 "conditions": [
                                     {
-                                        "type": "variable_if",
                                         "name": "layer_55",
+                                        "type": "variable_if",
                                         "value": 1
                                     }
                                 ],
@@ -24788,7 +24947,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f17"
+                                        "key_code": "f6"
                                     },
                                     {
                                         "set_variable": {
@@ -24799,11 +24958,10 @@
                                 ],
                                 "type": "basic"
                             }
-                        ],
-                        "bookmark_bottom": " 55escape 55EE "
+                        ]
                     },
                     {
-                        "bookmark": " Enter Layer 55 55 ",
+                        "Bookmark_Defy": " Enter Layer 55 55 ",
                         "bookmark_bottom": " Tap 'right_command' to enter layer_55 ",
                         "description": " Tap 'right_command' to enter layer_55 ",
                         "manipulators": [
@@ -24835,7 +24993,7 @@
                         ]
                     },
                     {
-                        "bookmark": " 55 55 command_shift ",
+                        "Bookmark_Defy": " 55 55 command_shift ",
                         "description": "In layer_55, holding left_shift should enter command_shift_layer",
                         "manipulators": [
                             {
@@ -24887,7 +25045,7 @@
                         ]
                     },
                     {
-                        "bookmark": " 55, 55, 55comma 55comma ",
+                        "Bookmark_Defy": " 55, 55, 55comma 55comma ",
                         "description": "     └── hold down right_command and tap comma to open the settings menu in most apps",
                         "manipulators": [
                             {
@@ -24914,8 +25072,8 @@
                         ]
                     },
                     {
-                        "bookmark": " 55a 55a ",
-                        "description": "     └── tap a while in 55 55 to enter this layer",
+                        "Bookmark_Defy": " 55a 55a ",
+                        "description": " Tapping 'a' in layer_55 will enter layer_55a ",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -24947,8 +25105,8 @@
                         ]
                     },
                     {
-                        "bookmark": " 55aa 55aa ",
-                        "description": "     └── tap a while in the layer_55a to send Alt + Shift + f14",
+                        "Bookmark_Defy": " 55aa 55aa ",
+                        "description": " Tapping 'a' in layer_55a will send Alt + Shift + f14",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -24963,22 +25121,20 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f14",
+                                        "key_code": "f6"
+                                    },
+                                    {
+                                        "key_code": "f11",
                                         "modifiers": [
-                                            "option",
-                                            "shift"
+                                            "control",
+                                            "shift",
+                                            "command"
                                         ]
                                     },
                                     {
                                         "set_variable": {
                                             "name": "layer_55a",
                                             "value": 0
-                                        }
-                                    },
-                                    {
-                                        "set_variable": {
-                                            "name": "layer_55",
-                                            "value": 1
                                         }
                                     }
                                 ],
@@ -24987,7 +25143,7 @@
                         ]
                     },
                     {
-                        "bookmark": " 55d 55d ",
+                        "Bookmark_Defy": " 55d 55d ",
                         "description": " Tap d in layer_55 to enter this layer ",
                         "manipulators": [
                             {
@@ -25003,9 +25159,6 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f16"
-                                    },
-                                    {
                                         "set_variable": {
                                             "name": "layer_55d",
                                             "value": 1
@@ -25016,6 +25169,9 @@
                                             "name": "layer_55",
                                             "value": 0
                                         }
+                                    },
+                                    {
+                                        "key_code": "help"
                                     }
                                 ],
                                 "to_after_key_up": [
@@ -25028,7 +25184,7 @@
                         ]
                     },
                     {
-                        "bookmark": " 55dd 55dd ",
+                        "Bookmark_Defy": " 55dd 55dd ",
                         "bookmark_bottom": " 55dd 55dd ",
                         "description": " Send control + shift + p in most apps to open the Command Palette ",
                         "manipulators": [
@@ -25045,7 +25201,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "f6"
                                     },
                                     {
                                         "set_variable": {
@@ -25066,7 +25222,7 @@
                         ]
                     },
                     {
-                        "bookmark": " 55e 55e ",
+                        "Bookmark_Defy": " 55e 55e ",
                         "description": "     └── tap e while in 55 55 to enter this layer",
                         "manipulators": [
                             {
@@ -25082,7 +25238,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     },
                                     {
                                         "set_variable": {
@@ -25105,7 +25261,7 @@
                         ]
                     },
                     {
-                        "bookmark": " 55ee 55ee ",
+                        "Bookmark_Defy": " 55ee 55ee ",
                         "description": "     └── tap e while in the layer_55e to send Alt + Shift + f14",
                         "manipulators": [
                             {
@@ -25127,7 +25283,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     },
                                     {
                                         "key_code": "e",
@@ -25148,7 +25304,7 @@
                         ]
                     },
                     {
-                        "bookmark": " 55ee 55ee ",
+                        "Bookmark_Defy": " 55ee 55ee ",
                         "description": "     └── tap e while in the layer_55e to send Alt + Shift + f14",
                         "manipulators": [
                             {
@@ -25164,7 +25320,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     },
                                     {
                                         "key_code": "a",
@@ -25185,7 +25341,7 @@
                         ]
                     },
                     {
-                        "bookmark": " Enter layer_55f 55f ff ff ",
+                        "Bookmark_Defy": " Enter layer_55f 55f ff ff ",
                         "bookmark_bottom": " 55f 55f ",
                         "description": " Tapping f in layer_55 will enter layer_55 and leave layer_55 ",
                         "manipulators": [
@@ -25202,7 +25358,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     },
                                     {
                                         "set_variable": {
@@ -25225,7 +25381,7 @@
                         ]
                     },
                     {
-                        "bookmark": " 55ff 55ff ff ff in Finder ",
+                        "Bookmark_Defy": " 55ff 55ff ff ff in Finder ",
                         "description": "     └── tap f while in the layer_55f to send command + shift + g if in finder",
                         "manipulators": [
                             {
@@ -25247,7 +25403,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f17"
+                                        "key_code": "f6"
                                     },
                                     {
                                         "key_code": "g",
@@ -25268,7 +25424,7 @@
                         ]
                     },
                     {
-                        "bookmark": " 55ff 55ff ff ff for all apps except Finder",
+                        "Bookmark_Defy": " 55ff 55ff ff ff (Non-Finder)",
                         "description": "     └── tap f while in the layer_55f to send command + l when not in finder",
                         "manipulators": [
                             {
@@ -25290,7 +25446,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f17"
+                                        "key_code": "f6"
                                     },
                                     {
                                         "key_code": "l",
@@ -25313,7 +25469,7 @@
                         ]
                     },
                     {
-                        "bookmark": " 55fw 55fw fw fw ",
+                        "Bookmark_Defy": " 55fw 55fw fw fw ",
                         "bookmark_bottom": " 55fw 55fw ",
                         "description": "     └── tap w while in the layer_55f to send control + f13",
                         "manipulators": [
@@ -25330,7 +25486,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     },
                                     {
                                         "key_code": "f13",
@@ -25350,7 +25506,7 @@
                         ]
                     },
                     {
-                        "bookmark": " 55fq 55fq fq fq ",
+                        "Bookmark_Defy": " 55fq 55fq fq fq ",
                         "bookmark_bottom": " Now leaving layer_55fq fq ",
                         "description": "Tap 'w' while in layer_55f to send Ctrl+F13, Cmd+C, then deactivate layer",
                         "manipulators": [
@@ -25367,7 +25523,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     },
                                     {
                                         "key_code": "f13",
@@ -25393,7 +25549,8 @@
                         ]
                     },
                     {
-                        "bookmark": " 55r 55r r r ",
+                        "Bookmark_Defy": " 55r 55r r r ",
+                        "bookmark_bottom": " 55r 55r ",
                         "description": " Tapping 'r' in layer_55 will enter layer_55r (and exit layer_55)",
                         "manipulators": [
                             {
@@ -25414,6 +25571,9 @@
                                 },
                                 "to": [
                                     {
+                                        "key_code": "f6"
+                                    },
+                                    {
                                         "set_variable": {
                                             "name": "layer_55r",
                                             "value": 1
@@ -25431,11 +25591,10 @@
                                 ],
                                 "type": "basic"
                             }
-                        ],
-                        "bookmark_bottom": " 55r 55r "
+                        ]
                     },
                     {
-                        "bookmark": " 55ra 55ra ra ra ",
+                        "Bookmark_Defy": " 55ra 55ra ra ra ",
                         "bookmark_bottom": " 55ra 55ra ra ra ",
                         "description": "     └── tap a while in the layer_55r to send f2 in order to rename current item ",
                         "manipulators": [
@@ -25471,7 +25630,8 @@
                         ]
                     },
                     {
-                        "bookmark": " 55rr 55rr rr rr ",
+                        "Bookmark_Bottom_Defy": " Leaving layer_55rr ",
+                        "Bookmark_Defy": " 55rr 55rr rr rr ",
                         "description": " Tapping 'r' in layer_55r will send f5",
                         "manipulators": [
                             {
@@ -25493,16 +25653,13 @@
                                 },
                                 "to": [
                                     {
+                                        "key_code": "f6"
+                                    },
+                                    {
                                         "key_code": "f5"
                                     }
                                 ],
                                 "to_after_key_up": [
-                                    {
-                                        "key_code": "f17"
-                                    },
-                                    {
-                                        "key_code": "f16"
-                                    },
                                     {
                                         "set_variable": {
                                             "name": "layer_55r",
@@ -25512,11 +25669,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ],
-                        "bookmark_bottom": " 55rr 55rr "
+                        ]
                     },
                     {
-                        "bookmark": " 55rr 55rr rr rr",
+                        "Bookmark_Defy": " 55rr 55rr rr rr",
+                        "bookmark_bottom": " 55rr 55rr ",
                         "description": " Tapping 'r' in layer_55r will send command + r",
                         "manipulators": [
                             {
@@ -25538,7 +25695,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     },
                                     {
                                         "key_code": "r",
@@ -25557,12 +25714,12 @@
                                 ],
                                 "type": "basic"
                             }
-                        ],
-                        "bookmark_bottom": " 55rr 55rr "
+                        ]
                     },
                     {
-                        "bookmark": " 55s 55s ",
-                        "description": "Tap 's' in layer_55 to send F16, activate layer_55s, and deactivate layer_55",
+                        "Bookmark_Defy": " 55s 55s ",
+                        "bookmark_bottom": " 55s 55s ",
+                        "description": "Tap 's' in layer_55 to send help, activate layer_55s, and deactivate layer_55",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -25577,7 +25734,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     },
                                     {
                                         "set_variable": {
@@ -25597,11 +25754,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ],
-                        "bookmark_bottom": " 55s 55s "
+                        ]
                     },
                     {
-                        "bookmark": " 55ss 55ss ss ss ",
+                        "Bookmark_Defy": " 55ss 55ss ss ss ",
+                        "bookmark_bottom": " 55ss 55ss ",
                         "description": " tap s in layer_55s to toggle the primar sidebar in most apps",
                         "manipulators": [
                             {
@@ -25617,7 +25774,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     },
                                     {
                                         "key_code": "f2",
@@ -25635,11 +25792,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ],
-                        "bookmark_bottom": " 55ss 55ss "
+                        ]
                     },
                     {
-                        "bookmark": " 55t 55t tt tt ",
+                        "Bookmark_Defy": " 55t 55t tt tt ",
+                        "bookmark_bottom": " 55t 55t  ",
                         "description": " Tap t in layer_55 to enter this layer",
                         "manipulators": [
                             {
@@ -25655,7 +25812,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     },
                                     {
                                         "set_variable": {
@@ -25672,11 +25829,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ],
-                        "bookmark_bottom": " 55t 55t  "
+                        ]
                     },
                     {
-                        "bookmark": " 55tt 55tt tt tt ",
+                        "Bookmark_Defy": " 55tt 55tt tt tt ",
+                        "bookmark_bottom": " 55tt 55tt",
                         "description": " Tap t in layer_55t to enter this layer",
                         "manipulators": [
                             {
@@ -25692,7 +25849,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     },
                                     {
                                         "key_code": "t",
@@ -25715,11 +25872,10 @@
                                 ],
                                 "type": "basic"
                             }
-                        ],
-                        "bookmark_bottom": " 55tt 55tt"
+                        ]
                     },
                     {
-                        "bookmark": " 55w 55w ww ww ",
+                        "Bookmark_Defy": " 55w 55w ww ww ",
                         "description": " Tap w in layer_55 to enter layer_55w ",
                         "manipulators": [
                             {
@@ -25735,7 +25891,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     },
                                     {
                                         "set_variable": {
@@ -25758,7 +25914,8 @@
                         ]
                     },
                     {
-                        "bookmark": " 55ww 55ww ",
+                        "Bookmark_Defy": " 55ww 55ww ",
+                        "bookmark_bottom": " 55w 55w",
                         "description": "Tap 'w' while in layer_55w to send command + w",
                         "manipulators": [
                             {
@@ -25774,7 +25931,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     },
                                     {
                                         "key_code": "w",
@@ -25791,11 +25948,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ],
-                        "bookmark_bottom": " 55w 55w"
+                        ]
                     },
                     {
-                        "bookmark": " 55we 55we ",
+                        "Bookmark_Defy": " 55we 55we ",
+                        "bookmark_bottom": " 55we 55we ",
                         "description": " tap 'e' while in the layer_55w to send control + option + w, this will close all the tabs to the right in most apps",
                         "manipulators": [
                             {
@@ -25811,7 +25968,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     },
                                     {
                                         "key_code": "w",
@@ -25829,11 +25986,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ],
-                        "bookmark_bottom": " 55we 55we "
+                        ]
                     },
                     {
-                        "bookmark": " 55q 55q ",
+                        "Bookmark_Defy": " 55q 55q ",
+                        "bookmark_bottom": " 55we 55we ",
                         "description": " Enter layer_55q by tapping q while in layer_55 ",
                         "manipulators": [
                             {
@@ -25849,7 +26006,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     },
                                     {
                                         "set_variable": {
@@ -25869,11 +26026,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ],
-                        "bookmark_bottom": " 55we 55we "
+                        ]
                     },
                     {
-                        "bookmark": " 55qq 55qq ",
+                        "Bookmark_Defy": " 55qq 55qq ",
+                        "bookmark_bottom": " 55qq 55qq",
                         "description": " tap 'q' while in the layer_55q to send command + q",
                         "manipulators": [
                             {
@@ -25889,7 +26046,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     },
                                     {
                                         "key_code": "q",
@@ -25906,11 +26063,10 @@
                                 ],
                                 "type": "basic"
                             }
-                        ],
-                        "bookmark_bottom": " 55qq 55qq"
+                        ]
                     },
                     {
-                        "bookmark": " 55v 55v ",
+                        "Bookmark_Defy": " 55v 55v ",
                         "description": "        └── tap v while in the layer_55 to enter layer_55v",
                         "manipulators": [
                             {
@@ -25948,7 +26104,8 @@
                         ]
                     },
                     {
-                        "bookmark": " 55 55 55vv 55vv ",
+                        "Bookmark_Defy": " 55 55 55vv 55vv ",
+                        "bookmark_bottom": " 55vv 55vv ",
                         "description": "                └── tap v while in the layer_55v to send Control + Option + Shift + f5 which will paste my email using a shortcut in Copy 'Em",
                         "manipulators": [
                             {
@@ -25986,11 +26143,10 @@
                                 ],
                                 "type": "basic"
                             }
-                        ],
-                        "bookmark_bottom": " 55vv 55vv "
+                        ]
                     },
                     {
-                        "bookmark": " 55vg 55vg 55 55 ",
+                        "Bookmark_Defy": " 55vg 55vg 55 55 ",
                         "description": " Tap g while in layer_55v to enter this layer",
                         "manipulators": [
                             {
@@ -26025,7 +26181,8 @@
                         ]
                     },
                     {
-                        "bookmark": " 55 55 55tab 55tab ",
+                        "Bookmark_Defy": " 55 55 55tab 55tab ",
+                        "bookmark_bottom": " 55tab 55tab",
                         "description": " Tap tab in this layer to send command + tab",
                         "manipulators": [
                             {
@@ -26054,8 +26211,7 @@
                                 ],
                                 "type": "basic"
                             }
-                        ],
-                        "bookmark_bottom": " 55tab 55tab"
+                        ]
                     },
                     {
                         "description": "Fn + B will toggle bartender hidden items",
@@ -26086,7 +26242,7 @@
                         ]
                     },
                     {
-                        "bookmark": " command + shift + control + a  csc + a ",
+                        "Bookmark_Defy": " command + shift + control + a  csc + a ",
                         "description": "Map fn + a to Hyper + a",
                         "manipulators": [
                             {
@@ -26113,7 +26269,7 @@
                         ]
                     },
                     {
-                        "bookmark": " EE EE ",
+                        "Bookmark_Defy": " EE EE ",
                         "description": "escape will reset all layers to false/0 and reload hammerspoon configuration",
                         "manipulators": [
                             {
@@ -26127,7 +26283,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f17"
+                                        "key_code": "help"
                                     },
                                     {
                                         "set_variable": {
@@ -26138,6 +26294,12 @@
                                     {
                                         "set_variable": {
                                             "name": "layer_44",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_44j",
                                             "value": 0
                                         }
                                     },
@@ -26357,6 +26519,7 @@
                         ]
                     },
                     {
+                        "Bookmark_Defy": " BACKTICK == LEFT_COMMAND ",
                         "description": " BACKTICK == LEFT_COMMAND ",
                         "manipulators": [
                             {
@@ -26387,33 +26550,8 @@
                         ]
                     },
                     {
-                        "description": " backtick to left_shift",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "grave_accent_and_tilde",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "left_shift",
-                                        "modifiers": [
-                                            "left_command",
-                                            "left_option",
-                                            "left_control"
-                                        ]
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "bookmark": " Enter Layer_99 99 ",
+                        "Bookmark_Defy": " Enter Layer_99 99 ",
+                        "bookmark_bottom": " Enter Layer_99 99 ",
                         "description": "In layer_99, press a-z to send shift + a-z (i.e., uppercase)",
                         "manipulators": [
                             {
@@ -26962,11 +27100,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ],
-                        "bookmark_bottom": " Enter Layer_99 99 "
+                        ]
                     },
                     {
-                        "bookmark": " ,, ,, ",
+                        "Bookmark_Defy": " ,, ,, ",
+                        "bookmark_bottom": " ,, ,, ",
                         "description": "Left Option + , sends left curly brace ({)",
                         "manipulators": [
                             {
@@ -26991,11 +27129,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ],
-                        "bookmark_bottom": " ,, ,, "
+                        ]
                     },
                     {
-                        "Bookmark": " .. .. ",
+                        "Bookmark_Defy": " .. .. ",
+                        "bookmark_bottom": " .. .. ",
                         "description": "Left Option + . sends right curly brace (})",
                         "manipulators": [
                             {
@@ -27020,8 +27158,7 @@
                                 ],
                                 "type": "basic"
                             }
-                        ],
-                        "bookmark_bottom": " .. .. "
+                        ]
                     },
                     {
                         "description": "Map fn + 1-8 to F13-F20",
@@ -27085,7 +27222,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "help"
                                     }
                                 ],
                                 "type": "basic"
@@ -27101,7 +27238,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f17"
+                                        "key_code": "f6"
                                     }
                                 ],
                                 "type": "basic"
@@ -27173,7 +27310,8 @@
                         ]
                     },
                     {
-                        "bookmark": " [] [] ",
+                        "Bookmark_Defy": " [] [] ",
+                        "bookmark_bottom": " [] [] ",
                         "description": "Remap open bracket ([) to hyphen (-)",
                         "manipulators": [
                             {
@@ -27192,11 +27330,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ],
-                        "bookmark_bottom": " [] [] "
+                        ]
                     },
                     {
-                        "Bookmark": " [] []",
+                        "Bookmark_Defy": " [] []",
+                        "bookmark_bottom": " [] []",
                         "description": " Remap close bracket (]) to hyphen (-) ",
                         "manipulators": [
                             {
@@ -27215,11 +27353,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ],
-                        "bookmark_bottom": " [] []"
+                        ]
                     },
                     {
-                        "bookmark": " option + f1 ",
+                        "Bookmark_Defy": " option + f1 ",
+                        "bookmark_bottom": " option + f1",
                         "manipulators": [
                             {
                                 "from": {
@@ -27237,11 +27375,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ],
-                        "bookmark_bottom": " option + f1"
+                        ]
                     },
                     {
-                        "bookmark": " option + f2 ",
+                        "Bookmark_Defy": " option + f2 ",
+                        "bookmark_bottom": " option + f2",
                         "manipulators": [
                             {
                                 "from": {
@@ -27259,12 +27397,13 @@
                                 ],
                                 "type": "basic"
                             }
-                        ],
-                        "bookmark_bottom": " option + f2"
+                        ]
                     },
                     {
                         "1": "==================================================================================================================================================================",
-                        "bookmark": "Enter layer_99 99 99",
+                        "Bookmark_Bottom": " Enter Layer_99 99 ",
+                        "Bookmark_Defy": "Enter layer_99 99 99",
+                        "Bottom_Border": "==================================================================================================================================================================",
                         "description": "CapsLock layer with Hammerspoon overlay indicator",
                         "manipulators": [
                             {
@@ -27303,12 +27442,10 @@
                                 ],
                                 "type": "basic"
                             }
-                        ],
-                        "Bookmark_Bottom": " Enter Layer_99 99 ",
-                        "Bottom_Border": "=================================================================================================================================================================="
+                        ]
                     },
                     {
-                        "bookmark": " fn + f3 ",
+                        "Bookmark_Defy": " fn + f3 ",
                         "description": " Press the middle mouse button to open Mission Control ",
                         "manipulators": [
                             {
@@ -27326,6 +27463,88 @@
                                         "modifiers": [
                                             "fn"
                                         ]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Keypad asterisk (*) sends Page Up",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_asterisk",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "page_up"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Keypad plus (+) sends Page Down",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_plus",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "page_down"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "bookmark": "44 44 b to command v",
+                        "description": "In layer_44, pressing 'b' sends command+v (paste)",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "layer_44",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "v",
+                                    "modifiers": {
+                                        "optional": [
+                                            "control"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "v",
+                                        "modifiers": [
+                                            "command"
+                                        ]
+                                    }
+                                ],
+                                "to_after_key_up": [
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_44",
+                                            "value": 0
+                                        }
                                     }
                                 ],
                                 "type": "basic"
