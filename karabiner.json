@@ -4331,42 +4331,6 @@
                         ]
                     },
                     {
-                        "bookmark": " ee55 ee55 ",
-                        "bookmark_bottom": " ee55 ee55 ",
-                        "description": "If in layer_55, pressing caps_lock should send help and exit layer_55.",
-                        "manipulators": [
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "layer_55",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "caps_lock",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "help"
-                                    },
-                                    {
-                                        "set_variable": {
-                                            "name": "layer_55",
-                                            "value": 0
-                                        }
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
                         "1": "==================================================================================================================================================================",
                         "Bottom_Border": "==================================================================================================================================================================",
                         "bookmark": "Enter ee ee 11 11",
@@ -5417,7 +5381,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "/Users/olama/.config/yabai/modules/cycle_wrapper.sh gemini"
+                                        "shell_command": "/Users/olama/.config/yabai/modules/cycle_wrapper.sh chatgpt"
                                     },
                                     {
                                         "set_variable": {
@@ -22567,7 +22531,7 @@
                         ]
                     },
                     {
-                        "Bookmark_Defy": " eeuj eeuj uj uj",
+                        "Bookmark_Defy": " eeuj eeuj uj uj ",
                         "description": " capslock + uj will send copy and select all ",
                         "manipulators": [
                             {
@@ -22612,6 +22576,12 @@
                                             "name": "layer_eeu",
                                             "value": 0
                                         }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "capslock_layer",
+                                            "value": 1
+                                        }
                                     }
                                 ],
                                 "type": "basic"
@@ -22620,8 +22590,8 @@
                     },
                     {
                         "Bookmark_Defy": " eeul eeul ul ul ",
-                        "description": "capslock + ul will send End",
-                        "manipulators": [
+                        "Description": "capslock + ul will send End",
+                        "Manipulators": [
                             {
                                 "conditions": [
                                     {
@@ -22657,7 +22627,7 @@
                                 "type": "basic"
                             }
                         ],
-                        "bookmark_bottom": " ul ul layer_eeul "
+                        "Bookmark_Bottom_Defy": " eeul eeul "
                     },
                     {
                         "bookmark": " eeuo eeuo uo uo ",
@@ -22747,7 +22717,6 @@
                     },
                     {
                         "bookmark": " eei eei ii ii ",
-                        "bookmark_bottom": " eei eei ii ii ",
                         "description": "Enter layer_eei if no other conflicting layers are active",
                         "manipulators": [
                             {
@@ -22785,13 +22754,13 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "Bookmark_Bottom_Defy": " eei eei "
                     },
                     {
-                        "bookmark": " eeii eeii ii ii ",
-                        "bookmark_bottom": " eeii eeii ii ii ",
-                        "description": " Send command + k ",
-                        "manipulators": [
+                        "Bookmark": " eeii eeii ",
+                        "Description": " Send command + k ",
+                        "Manipulators": [
                             {
                                 "conditions": [
                                     {
@@ -22830,11 +22799,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "Bookmark_Bottom_Defy": " eeii eeii "
                     },
                     {
                         "bookmark": " eeih eeih ih ih ",
-                        "bookmark_bottom": " eeih eeih ih ih ",
                         "description": "capslock + i + h will delete and copy the word to the left",
                         "manipulators": [
                             {
@@ -22873,11 +22842,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "Bookmark_Bottom_Defy": " eeih eeih "
                     },
                     {
                         "bookmark": " eeij eeij ij ij ",
-                        "bookmark_bottom": " eeij eeij ij ij ",
                         "description": "capslock + i + j will copy and delete from the cursor to the start of the line",
                         "manipulators": [
                             {
@@ -22924,11 +22893,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "Bookmark_Bottom_Defy": " eeij eeij "
                     },
                     {
                         "bookmark": " eeik eeik ik ik ",
-                        "bookmark_bottom": " eeik eeik ik ik ",
                         "description": "capslock + i + k will copy and delete an entire line",
                         "manipulators": [
                             {
@@ -22981,13 +22950,13 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "Bookmark_Bottom_Defy": " eeik eeik "
                     },
                     {
-                        "bookmark": " eeil eei il il ",
-                        "bookmark_bottom": " eeil eeil il il",
-                        "description": "capslock + i + l will copy and delete from the cursor to the end of the line",
-                        "manipulators": [
+                        "Bookmark_Defy": " eeil eei il il ",
+                        "Description": "capslock + i + l will copy and delete from the cursor to the end of the line",
+                        "Manipulators": [
                             {
                                 "conditions": [
                                     {
@@ -23032,10 +23001,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "Bookmark_Bottom_Defy": " eeil eeil "
                     },
                     {
-                        "bookmark": " eeio eeio io io",
+                        "Bookmark_Defy": " eeio eeio io io",
                         "description": " will paste parentheses ",
                         "manipulators": [
                             {
@@ -23084,12 +23054,13 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "Bookmark_Bottom_Defy": " eeio eeio "
                     },
                     {
-                        "bookmark": " eeiu eeiu iu iu",
-                        "description": "In layer_eei, tapping 'u' will cycle the case of the word to the left through three states.",
-                        "manipulators": [
+                        "Bookmark_Defy": " eeiu eeiu iu iu",
+                        "Description": " Tapping 'u' will cycle the case of the word to the left through three states.",
+                        "Manipulators": [
                             {
                                 "conditions": [
                                     {
@@ -23119,12 +23090,13 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "Bookmark_Bottom_Defy": " eeiu eeiu "
                     },
                     {
-                        "bookmark": " eeo eeo ",
-                        "description": " capslock + o will enter the layer_eeo ",
-                        "manipulators": [
+                        "Bookmark_Defy": " eeo eeo oo oo ",
+                        "Description": " Tapping 'o' in capslock_layer will enter layer_eeo ",
+                        "Manipulators": [
                             {
                                 "conditions": [
                                     {
@@ -23160,12 +23132,13 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "Bookmark_Bottom_Defy": " eeo eeo"
                     },
                     {
-                        "bookmark": " eeoo eeoo oo oo ",
-                        "description": "capsLock + oo will maximize the current window using raycast",
-                        "manipulators": [
+                        "Bookmark_Defy": " eeoo eeoo oo oo ",
+                        "Description": " Tapping 'o' in layer_eeo will maximize the current window using raycast",
+                        "Manipulators": [
                             {
                                 "conditions": [
                                     {
@@ -23206,7 +23179,7 @@
                     },
                     {
                         "Bookmark_Bottom_Defy": " eeoi eeoi ",
-                        "bookmark": " eeoi eeoi oi oi ",
+                        "Bookmark_Defy": " eeoi eeoi oi oi ",
                         "description": "In layer_eeo, pressing 'i' sends [ then ] then left_arrow",
                         "manipulators": [
                             {
@@ -23249,7 +23222,7 @@
                         ]
                     },
                     {
-                        "bookmark": " eeol eeol",
+                        "Bookmark_Defy": " eeol eeol",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -23294,7 +23267,7 @@
                         ]
                     },
                     {
-                        "bookmark": " eeo. eeo.",
+                        "Bookmark_Defy": " eeo. eeo.",
                         "bookmark_bottom": " eeo. eeo. ee_o_period ee_o_period",
                         "manipulators": [
                             {
@@ -23340,7 +23313,7 @@
                         ]
                     },
                     {
-                        "bookmark": " capslock_layer apostrophe to plus ",
+                        "Bookmark_Defy": " capslock_layer apostrophe to plus ",
                         "bookmark_bottom": " capslock_layer apostrophe to plus ",
                         "description": "In capslock_layer, tapping apostrophe sends plus",
                         "manipulators": [
@@ -23373,7 +23346,7 @@
                         ]
                     },
                     {
-                        "bookmark": " Start of layer_eem eem mm mm (Default) ",
+                        "Bookmark_Defy": " Start of layer_eem eem mm mm (Default) ",
                         "description": "        └── tap 'm' in the capslock_layer to enter layer_eem",
                         "manipulators": [
                             {
@@ -23414,7 +23387,7 @@
                         ]
                     },
                     {
-                        "bookmark": " eeem eeem ",
+                        "Bookmark_Defy": " eeem eeem ",
                         "bookmark_bottom": " eeem eeem ",
                         "description": "If in layer_eem, pressing caps_lock should send f6 and then escape.",
                         "manipulators": [
@@ -23455,7 +23428,7 @@
                         ]
                     },
                     {
-                        "bookmark": " eem. eem. m. m. ",
+                        "Bookmark_Defy": " eem. eem. m. m. ",
                         "bookmark_bottom": " eem. eem. m. m. ",
                         "description": "In layer_eem, tapping '.' sends Command + Tab once and returns to capslock_layer",
                         "manipulators": [
@@ -23496,7 +23469,7 @@
                         ]
                     },
                     {
-                        "bookmark": " eemh eemh mh mh ",
+                        "Bookmark_Defy": " eemh eemh mh mh ",
                         "bookmark_bottom": " eemh eemh ",
                         "description": "",
                         "manipulators": [
@@ -23521,7 +23494,7 @@
                         ]
                     },
                     {
-                        "bookmark": "mj mj",
+                        "Bookmark_Defy": "mj mj",
                         "description": "In layer_eem, tapping 'j' opens Zen (Chrome app) and returns to capslock_layer",
                         "manipulators": [
                             {
@@ -23550,7 +23523,7 @@
                                         "key_code": "f6"
                                     },
                                     {
-                                        "shell_command": "/Users/olama/.config/yabai/modules/cycle_wrapper.sh com.google.Chrome.app.caidcmannjgahlnbpmidmiecjcoiiigg"
+                                        "shell_command": "/Users/olama/.config/yabai/modules/cycle_wrapper.sh Chatgpt"
                                     }
                                 ],
                                 "to_after_key_up": [
@@ -23613,7 +23586,7 @@
                         ]
                     },
                     {
-                        "bookmark": " ml ml ",
+                        "Bookmark_Defy": " ml ml ",
                         "description": " ",
                         "manipulators": [
                             {
@@ -27512,7 +27485,7 @@
                         ]
                     },
                     {
-                        "bookmark": "44 44 b to command v",
+                        "Bookmark_Defy": "44 44 b to command v",
                         "description": "In layer_44, pressing 'b' sends command+v (paste)",
                         "manipulators": [
                             {
