@@ -26424,12 +26424,12 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "Bookmark_Bottom_Defy": " 55w 55w "
                     },
                     {
-                        "Bookmark_Defy": " 55ww 55ww ",
-                        "bookmark_bottom": " 55w 55w",
-                        "description": "Tap 'w' while in layer_55w to send command + w",
+                        "Bookmark_Defy": " 55ww 55ww ww ww ",
+                        "description": " Tap 'w' while in layer_55w to send command + w and exit layer_55w ",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -26461,11 +26461,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "Bookmark_Bottom_Defy": " 55ww 55ww "
                     },
                     {
-                        "Bookmark_Defy": " 55we 55we ",
-                        "bookmark_bottom": " 55we 55we ",
+                        "Bookmark_Defy": " 55we 55we we we ",
                         "description": " tap 'e' while in the layer_55w to send control + option + w, this will close all the tabs to the right in most apps",
                         "manipulators": [
                             {
@@ -26499,11 +26499,49 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " 55we 55we "
+                    },
+                    {
+                        "bookmark": " 55wq 55wq wq wq ",
+                        "description": "tap 'q' while in the layer_55w to send command + shift + w",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "layer_55w",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "q"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "help"
+                                    },
+                                    {
+                                        "key_code": "w",
+                                        "modifiers": [
+                                            "command",
+                                            "shift"
+                                        ]
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_55w",
+                                            "value": 0
+                                        }
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ],
+                        "bookmark_bottom": " 55wq 55wq "
                     },
                     {
                         "Bookmark_Defy": " 55q 55q ",
-                        "bookmark_bottom": " 55we 55we ",
                         "description": " Enter layer_55q by tapping q while in layer_55 ",
                         "manipulators": [
                             {
@@ -26539,11 +26577,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " 55we 55we "
                     },
                     {
                         "Bookmark_Defy": " 55qq 55qq ",
-                        "bookmark_bottom": " 55qq 55qq",
                         "description": " tap 'q' while in the layer_55q to send command + q",
                         "manipulators": [
                             {
@@ -26576,7 +26614,8 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "Bookmark_Bottom_Defy": " 55qq 55qq"
                     },
                     {
                         "Bookmark_Defy": " 55v 55v ",
