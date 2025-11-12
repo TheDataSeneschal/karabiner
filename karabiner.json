@@ -12089,7 +12089,45 @@
                         "bookmark_bottom": " 55we 55we "
                     },
                     {
-                        "bookmark": " 55q 55q ",
+                        "bookmark": " 55wq 55wq wq wq ",
+                        "description": "tap 'q' while in the layer_55w to send command + shift + w",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "layer_55w",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "q"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "help"
+                                    },
+                                    {
+                                        "key_code": "w",
+                                        "modifiers": [
+                                            "command",
+                                            "shift"
+                                        ]
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_55w",
+                                            "value": 0
+                                        }
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ],
+                        "bookmark_bottom": " 55wq 55wq "
+                    },
+                    {
+                        "bookmark": " 55q 55q qq qq ",
                         "description": " Enter layer_55q by tapping q while in layer_55 ",
                         "manipulators": [
                             {
