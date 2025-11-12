@@ -4,7 +4,7 @@
             "complex_modifications": {
                 "rules": [
                     {
-                        "Bookmark": " 44 44 ",
+                        "Bookmark": " Start of layer 44 44 ",
                         "bookmark_bottom": " End of Layer_44 ",
                         "description": " Tap 'Left_Command' to enter layer_44 ",
                         "manipulators": [
@@ -235,7 +235,7 @@
                     },
                     {
                         "bookmark": " 44 44 command + option",
-                        "description": " └── hold down left_command and hold down option to enter this layer",
+                        "description": " Tap 'option' in layer_44 will send command + option ",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -947,7 +947,6 @@
                     },
                     {
                         "bookmark": " 44mm 44mm mm mm ",
-                        "bookmark_bottom": " 44mm 44mm ",
                         "description": " Tap 'm' in this layer to TODO ",
                         "manipulators": [
                             {
@@ -963,11 +962,10 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "m",
+                                        "key_code": "c",
                                         "modifiers": [
                                             "left_command",
-                                            "left_option",
-                                            "left_shift"
+                                            "left_option"
                                         ]
                                     },
                                     {
@@ -988,12 +986,13 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " 44mm 44mm "
                     },
                     {
-                        "bookmark": " 44n 44n ",
-                        "bookmark_bottom": " 44n 44n ",
-                        "description": " Tap 'n' in this layer to enter layer_44n ",
+                        "Bookmark": " 44n 44n nn nn ",
+                        "Bookmark_Bottom": " 44n 44n ",
+                        "Description": " Tap 'n' in this layer_44 to enter layer_44n ",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -1056,6 +1055,44 @@
                                         "modifiers": [
                                             "command",
                                             "control"
+                                        ]
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_44n",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "key_code": "help"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "Bookmark_Bottom": " Now leaving layer 44ni 44ni ",
+                        "bookmark": " 44ni 44ni ni ni ",
+                        "description": " Tapping 'i' in layer_44n will Accept Notification Primary Action in Cursor/VSCode",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "layer_44n",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "i"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "f8",
+                                        "modifiers": [
+                                            "control",
+                                            "option"
                                         ]
                                     },
                                     {
@@ -4332,9 +4369,7 @@
                     },
                     {
                         "1": "==================================================================================================================================================================",
-                        "Bottom_Border": "==================================================================================================================================================================",
                         "bookmark": "Enter ee ee 11 11",
-                        "bookmark_bottom": " Now leaving capslock_layer ee ee ",
                         "description": "CapsLock layer with Hammerspoon overlay indicator",
                         "manipulators": [
                             {
@@ -4588,7 +4623,9 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " Now leaving capslock_layer ",
+                        "Bottom_Border": "=================================================================================================================================================================="
                     },
                     {
                         "bookmark": " capslock comma sends left_curly_brace ",
@@ -6708,6 +6745,16 @@
                                         "name": "capslock_layer",
                                         "type": "variable_if",
                                         "value": 1
+                                    },
+                                    {
+                                        "name": "layer_22u",
+                                        "type": "variable_if",
+                                        "value": 0
+                                    },
+                                    {
+                                        "name": "layer_eeu",
+                                        "type": "variable_if",
+                                        "value": 0
                                     }
                                 ],
                                 "from": {
@@ -8702,6 +8749,7 @@
                     },
                     {
                         "bookmark": " eeul eeul ul ul ",
+                        "bookmark_bottom": " ul ul layer_eeul ",
                         "description": "capslock + ul will send End",
                         "manipulators": [
                             {
@@ -8738,8 +8786,7 @@
                                 ],
                                 "type": "basic"
                             }
-                        ],
-                        "bookmark_bottom": " ul ul layer_eeul "
+                        ]
                     },
                     {
                         "bookmark": " eeuo eeuo uo uo ",
@@ -12004,8 +12051,7 @@
                         ]
                     },
                     {
-                        "bookmark": " 55we 55we ",
-                        "bookmark_bottom": " 55we 55we ",
+                        "bookmark": " 55we 55we we we ",
                         "description": " tap 'e' while in the layer_55w to send control + option + w, this will close all the tabs to the right in most apps",
                         "manipulators": [
                             {
@@ -12039,11 +12085,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " 55we 55we "
                     },
                     {
                         "bookmark": " 55q 55q ",
-                        "bookmark_bottom": " 55we 55we ",
                         "description": " Enter layer_55q by tapping q while in layer_55 ",
                         "manipulators": [
                             {
@@ -12079,11 +12125,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " 55we 55we "
                     },
                     {
                         "bookmark": " 55qq 55qq ",
-                        "bookmark_bottom": " 55qq 55qq",
                         "description": " tap 'q' while in the layer_55q to send command + q",
                         "manipulators": [
                             {
@@ -12116,7 +12162,8 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " 55qq 55qq"
                     },
                     {
                         "bookmark": " 55v 55v ",
@@ -13540,7 +13587,7 @@
             "complex_modifications": {
                 "rules": [
                     {
-                        "bookmark": " ee ee",
+                        "bookmark_varity": " ee ee",
                         "description": "Hold to activate capslock_layer, tap for escape",
                         "manipulators": [
                             {
@@ -13697,7 +13744,6 @@
             "complex_modifications": {
                 "rules": [
                     {
-                        "Bookmark_Bottom_Defy": " End of Layer_44 ",
                         "Bookmark_Defy": " 44 44 ",
                         "description": " Tap 'Left_Command' to enter layer_44 ",
                         "manipulators": [
@@ -13763,7 +13809,270 @@
                                 ],
                                 "type": "basic"
                             }
+                        ],
+                        "Bookmark_Bottom_Defy": " End of Layer_44 "
+                    },
+                    {
+                        "Bookmark_Defy": " 44u 44u uu uu ",
+                        "description": "In layer_44, pressing 'u' will enter layer_44u (submenu/variant layer)",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "layer_44",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "u",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "help"
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_44",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_44u",
+                                            "value": 1
+                                        }
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ],
+                        "Bookmark_Bottom_Defy": " 44u 44u "
+                    },
+                    {
+                        "bookmark": " 44ui 44ui ui ui",
+                        "description": " Tapping 'i' in layer_44u will surround the word under the cursor or the word to the left with parentheses",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "layer_44u",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    },
+                                    {
+                                        "bundle_identifiers": [
+                                            "^com\\.todesktop.230313mzl4w4u92$"
+                                        ],
+                                        "type": "frontmost_application_if"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "i"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "f6"
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_44u",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "key_code": "g"
+                                    },
+                                    {
+                                        "key_code": "s"
+                                    },
+                                    {
+                                        "key_code": "c"
+                                    },
+                                    {
+                                        "shell_command": "open -g 'hammerspoon://layer?name=layer_44u&state=0'"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ],
+                        "Bookmark_Bottom": " 44ui 44ui Cursor "
+                    },
+                    {
+                        "Bookmark_Bottom": " 44ii 44ii Non-Cursor ",
+                        "bookmark": " 44ii 44ii ii ii",
+                        "description": "  Tap 'i' in this layer to surround the word under the cursor or the word to the left with curly braces ",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "layer_44i",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    },
+                                    {
+                                        "bundle_identifiers": [
+                                            "^com\\.todesktop.230313mzl4w4u92$"
+                                        ],
+                                        "type": "frontmost_application_unless"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "i"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "f6"
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_44i",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "shell_command": "open -g 'hammerspoon://layer?name=layer_44i&state=0'"
+                                    },
+                                    {
+                                        "key_code": "f10",
+                                        "modifiers": [
+                                            "option",
+                                            "control"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
                         ]
+                    },
+                    {
+                        "bookmark": " 44o 44o oo oo",
+                        "description": "Tapping 'o' in layer_44 enters layer_44o and exits layer_44",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "layer_44",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "o",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_44o",
+                                            "value": 1
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_44",
+                                            "value": 0
+                                        }
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "bookmark": " 44oi 44oi oi oi ",
+                        "description": "Tap 'i' in layer_44o to surround in brackets; 'escape' + gsd in cursor apps, Ctrl+Opt+F11 otherwise.",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "layer_44o",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    },
+                                    {
+                                        "bundle_identifiers": [
+                                            "^com\\.todesktop.230313mzl4w4u92$"
+                                        ],
+                                        "type": "frontmost_application_if"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "i"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "escape"
+                                    },
+                                    {
+                                        "key_code": "g"
+                                    },
+                                    {
+                                        "key_code": "s"
+                                    },
+                                    {
+                                        "key_code": "d"
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_44o",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "shell_command": "open -g 'hammerspoon://layer?name=layer_44o&state=0'"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "layer_44o",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    },
+                                    {
+                                        "bundle_identifiers": [
+                                            "^com\\.todesktop.230313mzl4w4u92$"
+                                        ],
+                                        "type": "frontmost_application_unless"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "i"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "f11",
+                                        "modifiers": [
+                                            "control",
+                                            "option"
+                                        ]
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_44o",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "shell_command": "open -g 'hammerspoon://layer?name=layer_44o&state=0'"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ],
+                        "Bookmark_Bottom": " 44oi 44oi Non-Cursor "
                     },
                     {
                         "Bookmark_Bottom_Defy": " 44/ 44/ ",
@@ -14179,7 +14488,6 @@
                     },
                     {
                         "bookmark": " 44i 44i ii ii",
-                        "bookmark_bottom": " 44i 44i ",
                         "description": "  Tap 'i' in this layer to enter layer_44i ",
                         "manipulators": [
                             {
@@ -14212,7 +14520,8 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " 44i 44i "
                     },
                     {
                         "Bookmark_Bottom": " 44ii 44ii Cursor ",
@@ -14237,6 +14546,9 @@
                                     "key_code": "i"
                                 },
                                 "to": [
+                                    {
+                                        "key_code": "f6"
+                                    },
                                     {
                                         "set_variable": {
                                             "name": "layer_44i",
@@ -14284,6 +14596,9 @@
                                 },
                                 "to": [
                                     {
+                                        "key_code": "f6"
+                                    },
+                                    {
                                         "set_variable": {
                                             "name": "layer_44i",
                                             "value": 0
@@ -14303,6 +14618,55 @@
                                 "type": "basic"
                             }
                         ]
+                    },
+                    {
+                        "bookmark": " 44io 44io io io ",
+                        "description": "",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "layer_44i",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    },
+                                    {
+                                        "bundle_identifiers": [
+                                            "^com\\.todesktop.230313mzl4w4u92$"
+                                        ],
+                                        "type": "frontmost_application_if"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "i"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "f6"
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_44i",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "key_code": "g"
+                                    },
+                                    {
+                                        "key_code": "s"
+                                    },
+                                    {
+                                        "key_code": "c"
+                                    },
+                                    {
+                                        "shell_command": "open -g 'hammerspoon://layer?name=layer_44i&state=0'"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ],
+                        "Bookmark_Bottom": " 44io 44io io io "
                     },
                     {
                         "Bookmark_Bottom": " 44j 44j Cursor ",
@@ -14759,7 +15123,8 @@
                         ]
                     },
                     {
-                        "bookmark": " 44nn 44nn ",
+                        "Bookmark_Bottom_Defy": " 44nn 44nn ",
+                        "Bookmark_Defy": " 44nn 44nn nn nn ",
                         "description": " Tap 'n' in this layer to clear notifications in macOS and Cursor ",
                         "manipulators": [
                             {
@@ -14793,6 +15158,44 @@
                                             "name": "layer_44n",
                                             "value": 0
                                         }
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "Bookmark_Bottom": " Now leaving layer 44ni 44ni ",
+                        "bookmark": " 44ni 44ni ni ni ",
+                        "description": " Tapping 'i' in layer_44n will Accept Notification Primary Action in Cursor/VSCode",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "layer_44n",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "i"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "f8",
+                                        "modifiers": [
+                                            "control",
+                                            "option"
+                                        ]
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_44n",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "key_code": "help"
                                     }
                                 ],
                                 "type": "basic"
@@ -15037,6 +15440,43 @@
                                 "to": [
                                     {
                                         "key_code": "volume_decrement"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "bookmark": " 44space 44space",
+                        "description": "     └── hold down left_command and tap space to open Raycast",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "layer_44",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "spacebar"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "spacebar",
+                                        "modifiers": [
+                                            "left_command",
+                                            "left_option"
+                                        ]
+                                    },
+                                    {
+                                        "key_code": "help"
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_44",
+                                            "value": 0
+                                        }
                                     }
                                 ],
                                 "type": "basic"
@@ -18142,13 +18582,26 @@
                     },
                     {
                         "1": "==================================================================================================================================================================",
-                        "Bottom_Border": "==================================================================================================================================================================",
                         "bookmark": "Enter ee ee 11 11",
-                        "bookmark_bottom": " Now leaving capslock_layer ee ee ",
                         "description": "CapsLock layer with Hammerspoon overlay indicator",
                         "manipulators": [
                             {
                                 "conditions": [
+                                    {
+                                        "name": "layer_44u",
+                                        "type": "variable_if",
+                                        "value": 0
+                                    },
+                                    {
+                                        "name": "layer_44i",
+                                        "type": "variable_if",
+                                        "value": 0
+                                    },
+                                    {
+                                        "name": "layer_44o",
+                                        "type": "variable_if",
+                                        "value": 0
+                                    },
                                     {
                                         "name": "layer_77",
                                         "type": "variable_if",
@@ -18415,7 +18868,45 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "Bookmark_Bottom_Defy": " Now leaving capslock_layer ",
+                        "Bottom_Border_Defy": "=================================================================================================================================================================="
+                    },
+                    {
+                        "Bookmark_Defy": " EEE exit 44i ",
+                        "description": "When in capslock_layer and layer_44i, pressing Escape will send F6 and exit capslock_layer and layer_44i.",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "layer_44i",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "caps_lock",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "f6"
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_44i",
+                                            "value": 0
+                                        }
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ],
+                        "Bookmark_Bottom_Defy": " tap escape in layer_44i to send f6 "
                     },
                     {
                         "bookmark": " capslock comma sends left_curly_brace ",
@@ -19226,6 +19717,7 @@
                     },
                     {
                         "bookmark": " 22mm 22mm ",
+                        "bookmark_bottom": " 22mm 22mm ",
                         "description": " Tapping 'm' in the layer_22m will open the Todoist app ",
                         "manipulators": [
                             {
@@ -19259,11 +19751,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ],
-                        "bookmark_bottom": " 22mm 22mm "
+                        ]
                     },
                     {
                         "bookmark": " 22mn 22mn ",
+                        "bookmark_bottom": " 22mn 22mn ",
                         "description": " Tapping 'n' in the layer_22m will open the Vivaldi Snapshot app ",
                         "manipulators": [
                             {
@@ -19297,8 +19789,7 @@
                                 ],
                                 "type": "basic"
                             }
-                        ],
-                        "bookmark_bottom": " 22mn 22mn "
+                        ]
                     },
                     {
                         "bookmark": " 22mu 22mu",
@@ -19533,8 +20024,9 @@
                         ]
                     },
                     {
+                        "Bookmark_Bottom_Defy": " 22uj 22uj ",
                         "bookmark": " 22uj 22uj ",
-                        "description": "        └── tapping 'h' in the 22u_layer will open_or_cycle to gemini ",
+                        "description": " Tapping 'j' in the 22u_layer will send control + option + command + a to open the gemini chat",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -19556,7 +20048,7 @@
                                     {
                                         "key_code": "a",
                                         "modifiers": [
-                                            "left_command"
+                                            "control"
                                         ]
                                     },
                                     {
@@ -19567,8 +20059,14 @@
                                     },
                                     {
                                         "set_variable": {
+                                            "name": "22_layer",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
                                             "name": "capslock_layer",
-                                            "value": 1
+                                            "value": 0
                                         }
                                     }
                                 ],
@@ -20584,6 +21082,16 @@
                                         "name": "capslock_layer",
                                         "type": "variable_if",
                                         "value": 1
+                                    },
+                                    {
+                                        "name": "layer_22u",
+                                        "type": "variable_if",
+                                        "value": 0
+                                    },
+                                    {
+                                        "name": "layer_eeu",
+                                        "type": "variable_if",
+                                        "value": 0
                                     }
                                 ],
                                 "from": {
@@ -22576,12 +23084,6 @@
                                             "name": "layer_eeu",
                                             "value": 0
                                         }
-                                    },
-                                    {
-                                        "set_variable": {
-                                            "name": "capslock_layer",
-                                            "value": 1
-                                        }
                                     }
                                 ],
                                 "type": "basic"
@@ -22589,9 +23091,10 @@
                         ]
                     },
                     {
+                        "Bookmark_Bottom_Defy": " eeul eeul ",
                         "Bookmark_Defy": " eeul eeul ul ul ",
                         "Description": "capslock + ul will send End",
-                        "Manipulators": [
+                        "manipulators": [
                             {
                                 "conditions": [
                                     {
@@ -22626,8 +23129,7 @@
                                 ],
                                 "type": "basic"
                             }
-                        ],
-                        "Bookmark_Bottom_Defy": " eeul eeul "
+                        ]
                     },
                     {
                         "bookmark": " eeuo eeuo uo uo ",
@@ -22716,6 +23218,7 @@
                         ]
                     },
                     {
+                        "Bookmark_Bottom_Defy": " eei eei ",
                         "bookmark": " eei eei ii ii ",
                         "description": "Enter layer_eei if no other conflicting layers are active",
                         "manipulators": [
@@ -22754,13 +23257,13 @@
                                 ],
                                 "type": "basic"
                             }
-                        ],
-                        "Bookmark_Bottom_Defy": " eei eei "
+                        ]
                     },
                     {
                         "Bookmark": " eeii eeii ",
+                        "Bookmark_Bottom_Defy": " eeii eeii ",
                         "Description": " Send command + k ",
-                        "Manipulators": [
+                        "manipulators": [
                             {
                                 "conditions": [
                                     {
@@ -22799,10 +23302,10 @@
                                 ],
                                 "type": "basic"
                             }
-                        ],
-                        "Bookmark_Bottom_Defy": " eeii eeii "
+                        ]
                     },
                     {
+                        "Bookmark_Bottom_Defy": " eeih eeih ",
                         "bookmark": " eeih eeih ih ih ",
                         "description": "capslock + i + h will delete and copy the word to the left",
                         "manipulators": [
@@ -22842,10 +23345,10 @@
                                 ],
                                 "type": "basic"
                             }
-                        ],
-                        "Bookmark_Bottom_Defy": " eeih eeih "
+                        ]
                     },
                     {
+                        "Bookmark_Bottom_Defy": " eeij eeij ",
                         "bookmark": " eeij eeij ij ij ",
                         "description": "capslock + i + j will copy and delete from the cursor to the start of the line",
                         "manipulators": [
@@ -22893,10 +23396,10 @@
                                 ],
                                 "type": "basic"
                             }
-                        ],
-                        "Bookmark_Bottom_Defy": " eeij eeij "
+                        ]
                     },
                     {
+                        "Bookmark_Bottom_Defy": " eeik eeik ",
                         "bookmark": " eeik eeik ik ik ",
                         "description": "capslock + i + k will copy and delete an entire line",
                         "manipulators": [
@@ -22950,13 +23453,13 @@
                                 ],
                                 "type": "basic"
                             }
-                        ],
-                        "Bookmark_Bottom_Defy": " eeik eeik "
+                        ]
                     },
                     {
+                        "Bookmark_Bottom_Defy": " eeil eeil ",
                         "Bookmark_Defy": " eeil eei il il ",
                         "Description": "capslock + i + l will copy and delete from the cursor to the end of the line",
-                        "Manipulators": [
+                        "manipulators": [
                             {
                                 "conditions": [
                                     {
@@ -23001,10 +23504,10 @@
                                 ],
                                 "type": "basic"
                             }
-                        ],
-                        "Bookmark_Bottom_Defy": " eeil eeil "
+                        ]
                     },
                     {
+                        "Bookmark_Bottom_Defy": " eeio eeio ",
                         "Bookmark_Defy": " eeio eeio io io",
                         "description": " will paste parentheses ",
                         "manipulators": [
@@ -23054,13 +23557,13 @@
                                 ],
                                 "type": "basic"
                             }
-                        ],
-                        "Bookmark_Bottom_Defy": " eeio eeio "
+                        ]
                     },
                     {
+                        "Bookmark_Bottom_Defy": " eeiu eeiu ",
                         "Bookmark_Defy": " eeiu eeiu iu iu",
                         "Description": " Tapping 'u' will cycle the case of the word to the left through three states.",
-                        "Manipulators": [
+                        "manipulators": [
                             {
                                 "conditions": [
                                     {
@@ -23090,13 +23593,13 @@
                                 ],
                                 "type": "basic"
                             }
-                        ],
-                        "Bookmark_Bottom_Defy": " eeiu eeiu "
+                        ]
                     },
                     {
+                        "Bookmark_Bottom_Defy": " eeo eeo",
                         "Bookmark_Defy": " eeo eeo oo oo ",
                         "Description": " Tapping 'o' in capslock_layer will enter layer_eeo ",
-                        "Manipulators": [
+                        "manipulators": [
                             {
                                 "conditions": [
                                     {
@@ -23132,13 +23635,12 @@
                                 ],
                                 "type": "basic"
                             }
-                        ],
-                        "Bookmark_Bottom_Defy": " eeo eeo"
+                        ]
                     },
                     {
                         "Bookmark_Defy": " eeoo eeoo oo oo ",
                         "Description": " Tapping 'o' in layer_eeo will maximize the current window using raycast",
-                        "Manipulators": [
+                        "manipulators": [
                             {
                                 "conditions": [
                                     {
