@@ -8570,7 +8570,6 @@
                     },
                     {
                         "bookmark": " eeu eeu uu uu ",
-                        "bookmark_bottom": " eeu eeu uu uu",
                         "description": "capslock + u will enter the u layer and exit capslock layer",
                         "manipulators": [
                             {
@@ -8604,11 +8603,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " eeu eeu "
                     },
                     {
                         "bookmark": " eeuh eeuh uh uh ",
-                        "bookmark_bottom": " uh uh layer_eeuh ",
                         "description": "capslock + uh will send Home ",
                         "manipulators": [
                             {
@@ -8650,11 +8649,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " uh uh "
                     },
                     {
                         "bookmark": " ee eeui ui ui ",
-                        "bookmark_bottom": " eeui eeui ui ui ",
                         "description": "Tapping 'i' in layer_eeu will send a left parenthesis, then a right parenthesis, then the left arrow, and finally send help to close the eeu layer.",
                         "manipulators": [
                             {
@@ -8708,10 +8707,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " eeui eeui "
                     },
                     {
-                        "bookmark": " eeuj eeuj uj uj",
+                        "Bookmark": " eeuj eeuj uj uj ",
                         "description": "capslock + uj will send copy and select all",
                         "manipulators": [
                             {
@@ -8765,11 +8765,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " eeul eeul "
                     },
                     {
                         "bookmark": " eeul eeul ul ul ",
-                        "bookmark_bottom": " ul ul layer_eeul ",
                         "description": "capslock + ul will send End",
                         "manipulators": [
                             {
@@ -8811,11 +8811,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " ul ul "
                     },
                     {
                         "bookmark": " eeuu eeuu uu uu ",
-                        "bookmark_bottom": " eeuu eeuu uu uu",
                         "description": "capslock + uu will send undo",
                         "manipulators": [
                             {
@@ -8857,7 +8857,8 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " eeuu eeuu "
                     },
                     {
                         "bookmark": " eei eei ii ii ",
@@ -8898,11 +8899,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " eei eei "
                     },
                     {
                         "bookmark": " eeii eeii ii ii ",
-                        "bookmark_bottom": " eeii eeii ii ii ",
                         "description": " Send command + k ",
                         "manipulators": [
                             {
@@ -8943,11 +8944,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " eeii eeii "
                     },
                     {
                         "bookmark": " eeih eeih ih ih ",
-                        "bookmark_bottom": " eeih eeih ih ih ",
                         "description": "capslock + i + h will delete and copy the word to the left",
                         "manipulators": [
                             {
@@ -8986,11 +8987,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "Bookmark_bottom": " eeih eeih "
                     },
                     {
                         "bookmark": " eeij eeij ij ij ",
-                        "bookmark_bottom": " eeij eeij ij ij ",
                         "description": "capslock + i + j will copy and delete from the cursor to the start of the line",
                         "manipulators": [
                             {
@@ -9037,11 +9038,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " eeij eeij "
                     },
                     {
                         "bookmark": " eeik eeik ik ik ",
-                        "bookmark_bottom": " eeik eeik ik ik ",
                         "description": "capslock + i + k will copy and delete an entire line",
                         "manipulators": [
                             {
@@ -9094,11 +9095,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " eeik eeik "
                     },
                     {
                         "bookmark": " eeil eei il il ",
-                        "bookmark_bottom": " eeil eeil il il",
                         "description": "capslock + i + l will copy and delete from the cursor to the end of the line",
                         "manipulators": [
                             {
@@ -9145,7 +9146,8 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "Bookmark_bottom": " eeil eeil "
                     },
                     {
                         "Bookmark": " eeio eeio io io",
@@ -9197,7 +9199,8 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "Bookmark_bottom": " eeio eeio "
                     },
                     {
                         "bookmark": " eeiu eeiu iu iu",
@@ -9232,10 +9235,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "Bookmark_bottom": " eeiu eeiu "
                     },
                     {
-                        "bookmark": " eeo eeo ",
+                        "bookmark": " eeo eeo oo oo ",
                         "description": " capslock + o will enter the layer_eeo ",
                         "manipulators": [
                             {
@@ -9273,10 +9277,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "Bookmark_bottom": " eeo eeo "
                     },
                     {
-                        "bookmark": " eeoo eeoo oo oo ",
+                        "Bookmark": " eeoo eeoo oo oo ",
                         "description": "capsLock + oo will maximize the current window using raycast",
                         "manipulators": [
                             {
@@ -9315,10 +9320,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "Bookmark_bottom": " eeoo eeoo "
                     },
                     {
-                        "bookmark": " eeoi eeoi ",
+                        "Bookmark": " eeoi eeoi oi oi",
                         "description": "In layer_eeo, pressing 'i' sends [ then ] then left_arrow",
                         "manipulators": [
                             {
@@ -9366,10 +9372,12 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "Bookmark_bottom": " eeoi eeoi"
                     },
                     {
                         "bookmark": " eeol eeol",
+                        "description": "In layer_eeo, pressing 'l' sends [ then ] then left_arrow",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -9411,7 +9419,8 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "Bookmark_bottom": " eeol eeol "
                     },
                     {
                         "bookmark": " eeo. eeo.",
