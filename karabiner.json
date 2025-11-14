@@ -5,7 +5,6 @@
                 "rules": [
                     {
                         "Bookmark": " Start of layer 44 44 ",
-                        "bookmark_bottom": " End of Layer_44 ",
                         "description": " Tap 'Left_Command' to enter layer_44 ",
                         "manipulators": [
                             {
@@ -70,11 +69,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " End of Layer_44 "
                     },
                     {
                         "bookmark": "44 44 slash to right_arrow",
-                        "bookmark_bottom": " 44/ 44/",
                         "description": "In layer_44, pressing slash (/) sends right_arrow (→)",
                         "manipulators": [
                             {
@@ -109,11 +108,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " 44/ 44/ "
                     },
                     {
                         "bookmark": "44 44 command + grave_accent_and_tilde",
-                        "bookmark_bottom": " 44` 44`",
                         "description": "In layer_44, pressing grave_accent_and_tilde sends command + grave_accent_and_tilde (cmd+`)",
                         "manipulators": [
                             {
@@ -142,7 +141,8 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " 44` 44`"
                     },
                     {
                         "bookmark": "44 44 command + equal_sign",
@@ -172,7 +172,8 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " 44= 44= "
                     },
                     {
                         "bookmark": " 44 44 command + shift 44cs 44cs ",
@@ -204,11 +205,12 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " Command + Shift "
                     },
                     {
                         "bookmark": " 44 44 command + control",
-                        "description": "     └── hold down left_command and tap control to enter this layer",
+                        "description": " tapping control in layer_44 will send command + control ",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -231,7 +233,8 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " Command + Control "
                     },
                     {
                         "bookmark": " 44 44 command + option",
@@ -258,7 +261,8 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " Command + Option "
                     },
                     {
                         "bookmark": " 44 44 command + tab",
@@ -285,7 +289,8 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " Command + Tab "
                     },
                     {
                         "bookmark": " 44c 44c ",
@@ -8609,6 +8614,11 @@
                             {
                                 "conditions": [
                                     {
+                                        "name": "capslock_layer",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    },
+                                    {
                                         "name": "layer_eeu",
                                         "type": "variable_if",
                                         "value": 1
@@ -8649,6 +8659,11 @@
                         "manipulators": [
                             {
                                 "conditions": [
+                                    {
+                                        "name": "capslock_layer",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    },
                                     {
                                         "name": "layer_eeu",
                                         "type": "variable_if",
@@ -8701,6 +8716,11 @@
                         "manipulators": [
                             {
                                 "conditions": [
+                                    {
+                                        "name": "capslock_layer",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    },
                                     {
                                         "name": "layer_eeu",
                                         "type": "variable_if",
@@ -8755,6 +8775,11 @@
                             {
                                 "conditions": [
                                     {
+                                        "name": "capslock_layer",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    },
+                                    {
                                         "name": "layer_eeu",
                                         "type": "variable_if",
                                         "value": 1
@@ -8789,57 +8814,17 @@
                         ]
                     },
                     {
-                        "bookmark": " eeuo eeuo uo uo ",
-                        "bookmark_bottom": " eeuo eeuo uo uo ",
-                        "description": " copy file path using ⌘⌥c ",
-                        "manipulators": [
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "layer_eeu",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "o",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "c",
-                                        "modifiers": [
-                                            "command",
-                                            "option"
-                                        ]
-                                    },
-                                    {
-                                        "shell_command": "/opt/homebrew/bin/hs -c 'hs.alert.show(\" Path Copied to Clipboard \", 1.5, {atScreenEdge = 2, textFont=\"Chalkboard SE\"})'"
-                                    }
-                                ],
-                                "to_after_key_up": [
-                                    {
-                                        "set_variable": {
-                                            "name": "layer_eeu",
-                                            "value": 0
-                                        }
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
                         "bookmark": " eeuu eeuu uu uu ",
                         "bookmark_bottom": " eeuu eeuu uu uu",
                         "description": "capslock + uu will send undo",
                         "manipulators": [
                             {
                                 "conditions": [
+                                    {
+                                        "name": "capslock_layer",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    },
                                     {
                                         "name": "layer_eeu",
                                         "type": "variable_if",
@@ -13942,6 +13927,53 @@
                         "Bookmark_Bottom": " 44ui 44ui Cursor "
                     },
                     {
+                        "Bookmark_Defy": " 44uo 44uo uo uo (Cursor) ",
+                        "description": "In layer_44u, pressing 'o' sends [ then ] then left_arrow",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "layer_44u",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "o",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "escape"
+                                    },
+                                    {
+                                        "key_code": "g"
+                                    },
+                                    {
+                                        "key_code": "s"
+                                    },
+                                    {
+                                        "key_code": "d"
+                                    }
+                                ],
+                                "to_after_key_up": [
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_44u",
+                                            "value": 0
+                                        }
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ],
+                        "Bookmark_Bottom_Defy": " 44uo 44uo "
+                    },
+                    {
                         "Bookmark_Bottom": " 44ii 44ii Non-Cursor ",
                         "bookmark": " 44ii 44ii ii ii",
                         "description": "  Tap 'i' in this layer to surround the word under the cursor or the word to the left with curly braces ",
@@ -14027,13 +14059,13 @@
                         ]
                     },
                     {
-                        "bookmark": " 44oi 44oi oi oi ",
-                        "description": "Tap 'i' in layer_44o to surround in brackets; 'escape' + gsd in cursor apps, Ctrl+Opt+F11 otherwise.",
+                        "bookmark": " 44uo 44uo uo uo (Cursor) ",
+                        "description": "Tap 'o' in layer_44u to surround in square brackets; 'escape' + gsd in cursor apps, Ctrl+Opt+F11 otherwise.",
                         "manipulators": [
                             {
                                 "conditions": [
                                     {
-                                        "name": "layer_44o",
+                                        "name": "layer_44u",
                                         "type": "variable_if",
                                         "value": 1
                                     },
@@ -14062,12 +14094,12 @@
                                     },
                                     {
                                         "set_variable": {
-                                            "name": "layer_44o",
+                                            "name": "layer_44u",
                                             "value": 0
                                         }
                                     },
                                     {
-                                        "shell_command": "open -g 'hammerspoon://layer?name=layer_44o&state=0'"
+                                        "shell_command": "open -g 'hammerspoon://layer?name=layer_44u&state=0'"
                                     }
                                 ],
                                 "type": "basic"
@@ -14075,7 +14107,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "layer_44o",
+                                        "name": "layer_44u",
                                         "type": "variable_if",
                                         "value": 1
                                     },
@@ -14087,7 +14119,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "i"
+                                    "key_code": "o"
                                 },
                                 "to": [
                                     {
@@ -14104,13 +14136,13 @@
                                         }
                                     },
                                     {
-                                        "shell_command": "open -g 'hammerspoon://layer?name=layer_44o&state=0'"
+                                        "shell_command": "open -g 'hammerspoon://layer?name=layer_44u&state=0'"
                                     }
                                 ],
                                 "type": "basic"
                             }
                         ],
-                        "Bookmark_Bottom": " 44oi 44oi Non-Cursor "
+                        "Bookmark_Bottom": " 44uo 44uo Non-Cursor "
                     },
                     {
                         "Bookmark_Bottom_Defy": " 44/ 44/ ",
@@ -20114,8 +20146,7 @@
                     },
                     {
                         "bookmark": " 22ul 22ul ",
-                        "bookmark_bottom": " 22ul 22ul ",
-                        "description": "        └── tapping 'l' in the 22u_layer will snap current window to the right using Raycast ",
+                        "description": " Tapping l in layer_22u will send current window into right half of screen",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -20151,7 +20182,53 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " 22ul 22ul "
+                    },
+                    {
+                        "bookmark": " 22up 22up ",
+                        "description": " Tapping p in layer_22u will select all and paste",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "22u_layer",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "p",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "a",
+                                        "modifiers": [
+                                            "command"
+                                        ]
+                                    },
+                                    {
+                                        "key_code": "v",
+                                        "modifiers": [
+                                            "command"
+                                        ]
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "22u_layer",
+                                            "value": 0
+                                        }
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ],
+                        "bookmark_bottom": " 22up 22up "
                     },
                     {
                         "bookmark": " ;; ;; ",
@@ -22940,7 +23017,6 @@
                     },
                     {
                         "bookmark": " eeu eeu uu uu ",
-                        "bookmark_bottom": " eeu eeu uu uu",
                         "description": "capslock + u will enter the u layer and exit capslock layer",
                         "manipulators": [
                             {
@@ -22970,27 +23046,26 @@
                                             "name": "layer_eeu",
                                             "value": 1
                                         }
-                                    },
-                                    {
-                                        "set_variable": {
-                                            "name": "capslock_layer",
-                                            "value": 0
-                                        }
                                     }
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " eeu eeu uu uu"
                     },
                     {
                         "bookmark": " eeuh eeuh uh uh ",
-                        "bookmark_bottom": " uh uh layer_eeuh ",
                         "description": "capslock + uh will send Home ",
                         "manipulators": [
                             {
                                 "conditions": [
                                     {
                                         "name": "layer_eeu",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    },
+                                    {
+                                        "name": "capslock_layer",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -23021,11 +23096,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " eeuh eeuh "
                     },
                     {
                         "bookmark": " ee eeui ui ui ",
-                        "bookmark_bottom": " eeui eeui ui ui ",
                         "description": "Tapping 'i' in layer_eeu will send a left parenthesis, then a right parenthesis, then the left arrow, and finally send help to close the eeu layer.",
                         "manipulators": [
                             {
@@ -23074,7 +23149,8 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " eeui eeui ui ui "
                     },
                     {
                         "Bookmark_Defy": " eeuj eeuj uj uj ",
@@ -23129,12 +23205,16 @@
                         ]
                     },
                     {
-                        "Bookmark_Bottom_Defy": " eeul eeul ",
                         "Bookmark_Defy": " eeul eeul ul ul ",
                         "Description": "capslock + ul will send End",
                         "manipulators": [
                             {
                                 "conditions": [
+                                    {
+                                        "name": "capslock_layer",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    },
                                     {
                                         "name": "layer_eeu",
                                         "type": "variable_if",
@@ -23167,15 +23247,20 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "Bookmark_Bottom_Defy": " eeul eeul "
                     },
                     {
-                        "bookmark": " eeuo eeuo uo uo ",
-                        "bookmark_bottom": " eeuo eeuo uo uo ",
-                        "description": " copy file path using ⌘⌥c ",
+                        "Bookmark_Defy": " eeuo eeuo uo uo ",
+                        "description": "In layer_eeu, pressing 'o' sends [ then ] then left_arrow",
                         "manipulators": [
                             {
                                 "conditions": [
+                                    {
+                                        "name": "capslock_layer",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    },
                                     {
                                         "name": "layer_eeu",
                                         "type": "variable_if",
@@ -23192,14 +23277,13 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "c",
-                                        "modifiers": [
-                                            "command",
-                                            "option"
-                                        ]
+                                        "key_code": "open_bracket"
                                     },
                                     {
-                                        "shell_command": "/opt/homebrew/bin/hs -c 'hs.alert.show(\" Path Copied to Clipboard \", 1.5, {atScreenEdge = 2, textFont=\"Chalkboard SE\"})'"
+                                        "key_code": "close_bracket"
+                                    },
+                                    {
+                                        "key_code": "left_arrow"
                                     }
                                 ],
                                 "to_after_key_up": [
@@ -23212,11 +23296,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "Bookmark_Bottom_Defy": " eeuo eeuo "
                     },
                     {
                         "bookmark": " eeuu eeuu uu uu ",
-                        "bookmark_bottom": " eeuu eeuu uu uu",
                         "description": "capslock + uu will send undo",
                         "manipulators": [
                             {
@@ -23253,11 +23337,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "bookmark_bottom": " eeuu eeuu uu uu"
                     },
                     {
-                        "Bookmark_Bottom_Defy": " eei eei ",
-                        "bookmark": " eei eei ii ii ",
+                        "Bookmark_Defy": " eei eei ii ii ",
                         "description": "Enter layer_eei if no other conflicting layers are active",
                         "manipulators": [
                             {
@@ -23295,11 +23379,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "Bookmark_Bottom_Defy": " eei eei "
                     },
                     {
-                        "Bookmark": " eeii eeii ",
-                        "Bookmark_Bottom_Defy": " eeii eeii ",
+                        "Bookmark_Defy": " eeii eeii ",
                         "Description": " Send command + k ",
                         "manipulators": [
                             {
@@ -23340,11 +23424,11 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "Bookmark_Bottom_Defy": " eeii eeii "
                     },
                     {
-                        "Bookmark_Bottom_Defy": " eeih eeih ",
-                        "bookmark": " eeih eeih ih ih ",
+                        "Bookmark_Defy": " eeih eeih ih ih ",
                         "description": "capslock + i + h will delete and copy the word to the left",
                         "manipulators": [
                             {
@@ -23383,11 +23467,12 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "Bookmark_Bottom_Defy": " eeih eeih "
                     },
                     {
                         "Bookmark_Bottom_Defy": " eeij eeij ",
-                        "bookmark": " eeij eeij ij ij ",
+                        "Bookmark_Defy": " eeij eeij ij ij ",
                         "description": "capslock + i + j will copy and delete from the cursor to the start of the line",
                         "manipulators": [
                             {
@@ -23438,7 +23523,7 @@
                     },
                     {
                         "Bookmark_Bottom_Defy": " eeik eeik ",
-                        "bookmark": " eeik eeik ik ik ",
+                        "Bookmark_Defy": " eeik eeik ik ik ",
                         "description": "capslock + i + k will copy and delete an entire line",
                         "manipulators": [
                             {
@@ -23634,7 +23719,6 @@
                         ]
                     },
                     {
-                        "Bookmark_Bottom_Defy": " eeo eeo",
                         "Bookmark_Defy": " eeo eeo oo oo ",
                         "Description": " Tapping 'o' in capslock_layer will enter layer_eeo ",
                         "manipulators": [
@@ -23673,7 +23757,8 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "Bookmark_Bottom_Defy": " eeo eeo "
                     },
                     {
                         "Bookmark_Defy": " eeoo eeoo oo oo ",
@@ -23703,50 +23788,6 @@
                                             "shift",
                                             "command"
                                         ]
-                                    }
-                                ],
-                                "to_after_key_up": [
-                                    {
-                                        "set_variable": {
-                                            "name": "layer_eeo",
-                                            "value": 0
-                                        }
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "Bookmark_Bottom_Defy": " eeoi eeoi ",
-                        "Bookmark_Defy": " eeoi eeoi oi oi ",
-                        "description": "In layer_eeo, pressing 'i' sends [ then ] then left_arrow",
-                        "manipulators": [
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "layer_eeo",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "i",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "open_bracket"
-                                    },
-                                    {
-                                        "key_code": "close_bracket"
-                                    },
-                                    {
-                                        "key_code": "left_arrow"
                                     }
                                 ],
                                 "to_after_key_up": [
@@ -24079,7 +24120,6 @@
                         ]
                     },
                     {
-                        "Bookmark_Bottom_Defy": " eemk eemk ",
                         "Bookmark_Defy": " eemk eemk mk mk ",
                         "description": " Tapping 'k' in layer_eem will open Vivaldi",
                         "manipulators": [
@@ -24123,7 +24163,8 @@
                                 ],
                                 "type": "basic"
                             }
-                        ]
+                        ],
+                        "Bookmark_Bottom_Defy": " eemk eemk "
                     },
                     {
                         "Bookmark_Defy": " ml ml ",
@@ -26503,7 +26544,7 @@
                         "bookmark_bottom": " 55we 55we "
                     },
                     {
-                        "bookmark": " 55wq 55wq wq wq ",
+                        "Bookmark_Defy": " 55wq 55wq wq wq ",
                         "description": "tap 'q' while in the layer_55w to send command + shift + w",
                         "manipulators": [
                             {
