@@ -4,7 +4,8 @@
             "complex_modifications": {
                 "rules": [
                     {
-                        "bookmark": " 44cmd 44cmd cmd cmd ",
+                        "A_TOPMOST_LAYER": "Now Entering layer_44",
+                        "bookmark": "44 44",
                         "description": " Tap 'Left_Command' to enter layer_44 ",
                         "manipulators": [
                             {
@@ -71,6 +72,283 @@
                             }
                         ],
                         "bookmark_bottom": " 44cmd 44cmd "
+                    },
+                    {
+                        "bookmark": "444 444 exit all layers ",
+                        "description": "Tapping left_command in layer_44 will exit all related layers",
+                        "manipulators": [
+                            {
+                                "type": "basic",
+                                "conditions": [
+                                    {
+                                        "type": "variable_if",
+                                        "name": "layer_44",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "left_command",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_44",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_44d",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_44i",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_44j",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_44k",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_44n",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_44v",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_55",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_55q",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_55w",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_55e",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_55r",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_55t",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_55a",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_55s",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_55d",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_55f",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_55g",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_55z",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_55x",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_55c",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_55v",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_55b",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "capslock_layer",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_eea",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_eeai",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_eeao",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_eeaj",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_eeak",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_eed",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_eef",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_eei",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_eem",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_ees",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_eeu",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_eey",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_22",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_22m",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_66",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_6644",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_77",
+                                            "value": 0
+                                        }
+                                    }
+                                ],
+                                "to_after_key_up": [
+                                    {
+                                        "key_code": "help"
+                                    }
+                                ]
+                            }
+                        ]
                     },
                     {
                         "bookmark": " 44/ 44/ // // ",
@@ -209,7 +487,7 @@
                         "bookmark_bottom": " 446 446 "
                     },
                     {
-                        "bookmark": " 449 449 99 99 ",
+                        "bookmark": "448 448 88 88",
                         "description": " tapping left_control in layer_44 will send left_control + left_command ",
                         "manipulators": [
                             {
@@ -234,10 +512,10 @@
                                 "type": "basic"
                             }
                         ],
-                        "bookmark_bottom": " 449 449 "
+                        "bookmark_bottom": " 448 448 "
                     },
                     {
-                        "bookmark": " 448 448 88 88 ",
+                        "bookmark": " 449 449 99 99 ",
                         "description": " tapping left_option in layer_44 will send left_option + left_command ",
                         "manipulators": [
                             {
@@ -262,10 +540,10 @@
                                 "type": "basic"
                             }
                         ],
-                        "bookmark_bottom": " 448 448 "
+                        "bookmark_bottom": " 449 449 "
                     },
                     {
-                        "bookmark": " 44t 44t tt tt ",
+                        "bookmark": "44tab 44tab tab tab",
                         "description": " tapping tab in layer_44 will send left_command + tab ",
                         "manipulators": [
                             {
@@ -290,10 +568,10 @@
                                 "type": "basic"
                             }
                         ],
-                        "bookmark_bottom": " 44t 44t "
+                        "bookmark_bottom": " 44tab 44tab "
                     },
                     {
-                        "bookmark": " 44c 44c cc cc ",
+                        "bookmark": " enter layer_44c 44c cc cc ",
                         "description": " Tapping 'c' in layer_44 will enter layer_44c",
                         "manipulators": [
                             {
@@ -364,10 +642,10 @@
                                 "type": "basic"
                             }
                         ],
-                        "bookmark_bottom": " 44cc 44cc "
+                        "bookmark_bottom": " now leaving layer_44c 44c "
                     },
                     {
-                        "bookmark": " 44d 44d dd dd",
+                        "bookmark": " now entering layer_44d 44d dd dd",
                         "description": " tapping 'd' in layer_44 will increase the volume",
                         "manipulators": [
                             {
@@ -407,7 +685,7 @@
                                 "type": "basic"
                             }
                         ],
-                        "bookmark_bottom": " 44dd 44dd "
+                        "bookmark_bottom": " now leaving layer_44d 44d "
                     },
                     {
                         "bookmark": " 44dd 44dd dd dd",
@@ -435,7 +713,7 @@
                         "bookmark_bottom": " 44dd 44dd "
                     },
                     {
-                        "bookmark": " 44hx 44hx x x ",
+                        "bookmark": " 44h 44h hh hh (Excel)",
                         "description": " tapping 'h' in layer_44 will send left_command + h for context-sensitive actions (Cursor, Excel, or default)",
                         "manipulators": [
                             {
@@ -484,11 +762,11 @@
                                 ]
                             }
                         ],
-                        "bookmark_bottom": " 44hx 44hx "
+                        "bookmark_bottom": " 44h 44h "
                     },
                     {
                         "bookmark": " 44hh 44hh hh hh (Cursor) ",
-                        "description": " tapping 'h' in layer_44 will send left_shift + left_option + h",
+                        "description": " tapping 'h' in layer_44 will send shift + option + h",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -519,7 +797,7 @@
                                 "type": "basic"
                             }
                         ],
-                        "bookmark_bottom": " 44hh 44hh "
+                        "bookmark_bottom": " 44h 44h "
                     },
                     {
                         "bookmark": " 44i 44i ii ii ",
@@ -605,8 +883,8 @@
                         "bookmark_bottom": " 44iii 44iii "
                     },
                     {
-                        "bookmark": " 44iii 44iii i i ",
-                        "description": "  Tap 'i' in this layer to surround the word under the cursor or the word to the left with curly braces ",
+                        "bookmark": " 44ii 44ii ii ii ",
+                        "description": " tapping 'i' in layer_44i will surround the word under the cursor or the word to the left with curly braces ",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -649,8 +927,8 @@
                         "bookmark_bottom": " 44iii 44iii "
                     },
                     {
-                        "bookmark": " 44jj 44jj j j ",
-                        "description": "In 'layer_44' and Cursor AI app, tap 'j' to first enter layer_44j and then send control + shift + j",
+                        "bookmark": " 44j 44j jj jj (Initial Entry) ",
+                        "description": " tapping 'j' in layer_44 will enter layer_44j and also send control + shift + j",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -699,11 +977,11 @@
                                 "type": "basic"
                             }
                         ],
-                        "bookmark_bottom": " 44jj 44jj "
+                        "bookmark_bottom": " 44j 44j "
                     },
                     {
-                        "bookmark": " 44jj 44jj j j ",
-                        "description": "In 'layer_44j', pressing 'j' sends control + shift + j",
+                        "bookmark": " 44jj 44jj jj jj ",
+                        "description": " tapping 'j' in layer_44j will send control + shift + j",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -731,8 +1009,8 @@
                         "bookmark_bottom": " 44jj 44jj "
                     },
                     {
-                        "bookmark": " 44kk 44kk k k ",
-                        "description": "In 'layer_44' and Cursor AI app, tap 'k' to first enter layer_44k and then send control + shift + k",
+                        "bookmark": " 44k 44k kk kk (Initial Entry) ",
+                        "description": " tapping 'k' in layer_44 will enter layer_44k and also send control + shift + k",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -785,7 +1063,7 @@
                     },
                     {
                         "bookmark": " 44kjj 44kjj j j ",
-                        "description": "In 'layer_44k', pressing 'j' sends control + shift + j",
+                        "description": " tapping 'j' in layer_44k will send control + shift + j",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -813,8 +1091,8 @@
                         "bookmark_bottom": " 44kjj 44kjj "
                     },
                     {
-                        "bookmark": " 44kkk 44kkk k k ",
-                        "description": "In 'layer_44k', pressing 'k' sends control + shift + k",
+                        "bookmark": "44k 44k kk kk",
+                        "description": " tapping 'k' in layer_44k will send control + shift + k",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -839,10 +1117,10 @@
                                 "type": "basic"
                             }
                         ],
-                        "bookmark_bottom": " 44kkk 44kkk "
+                        "bookmark_bottom": "44k 44k"
                     },
                     {
-                        "bookmark": " 44ll 44ll l l ",
+                        "bookmark": "44l 44l ll ll (Cursor)",
                         "description": "",
                         "manipulators": [
                             {
@@ -877,7 +1155,7 @@
                         "bookmark_bottom": " 44ll 44ll "
                     },
                     {
-                        "bookmark": " 44ll 44ll l l ",
+                        "bookmark": " 44l 44l ll ll (Excel)",
                         "description": " Tap 'l' in this layer to move to the right five times, used in Excel Virtual Machine ",
                         "manipulators": [
                             {
@@ -917,11 +1195,11 @@
                                 "type": "basic"
                             }
                         ],
-                        "bookmark_bottom": " 44ll 44ll "
+                        "bookmark_bottom": "44l 44l"
                     },
                     {
-                        "bookmark": " 44mm 44mm m m ",
-                        "description": " Tap 'm' in this layer to enter layer_44m ",
+                        "bookmark": " 44m 44m mm mm ",
+                        "description": "tapping 'm' in layer_44 will enter layer_44m",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -954,11 +1232,11 @@
                                 "type": "basic"
                             }
                         ],
-                        "bookmark_bottom": " 44mm 44mm "
+                        "bookmark_bottom": "44m 44m"
                     },
                     {
                         "bookmark": " 44mm 44mm mm mm ",
-                        "description": " Tap 'm' in this layer to TODO ",
+                        "description": "tap 'm' in layer_44m will send command + option + c (copy path of active item)",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -975,20 +1253,14 @@
                                     {
                                         "key_code": "c",
                                         "modifiers": [
-                                            "left_command",
-                                            "left_option"
+                                            "command",
+                                            "option"
                                         ]
                                     },
                                     {
                                         "set_variable": {
                                             "name": "layer_44m",
                                             "value": 0
-                                        }
-                                    },
-                                    {
-                                        "set_variable": {
-                                            "name": "layer_44",
-                                            "value": 1
                                         }
                                     },
                                     {
@@ -1001,8 +1273,8 @@
                         "bookmark_bottom": " 44mm 44mm "
                     },
                     {
-                        "bookmark": " 44nn 44nn n n ",
-                        "Description": " Tap 'n' in this layer_44 to enter layer_44n ",
+                        "bookmark": " 44n 44n nn nn ",
+                        "Description": " tapping 'n' in layer_44 will enter layer_44n",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -1035,11 +1307,11 @@
                                 "type": "basic"
                             }
                         ],
-                        "bookmark_bottom": " 44nn 44nn "
+                        "bookmark_bottom": "44n 44n"
                     },
                     {
-                        "bookmark": " 44nnn 44nnn n n ",
-                        "description": " Tap 'n' in this layer to clear notifications in macOS and Cursor ",
+                        "bookmark": "44nn 44nn nn nn",
+                        "description": "tapping 'n' in layer_44n will send option + shift + n",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -1476,7 +1748,8 @@
                         "bookmark_bottom": " o. o. "
                     },
                     {
-                        "bookmark": " 66shift 66shift shift shift ",
+                        "A_TOPMOST_LAYER": "Now Entering layer_66",
+                        "bookmark": "66 66",
                         "description": "Hold down left_shift to enter this layer",
                         "manipulators": [
                             {
@@ -1528,8 +1801,8 @@
                         "bookmark_bottom": " 66shift 66shift "
                     },
                     {
-                        "bookmark": " eenter eenter enter enter ",
-                        "description": "In layer_66, tapping 'enter' sends shift + enter",
+                        "bookmark": " 66enter 66enter enter enter ",
+                        "description": " tapping 'enter' in layer_66 will send left_shift + enter",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -1558,10 +1831,10 @@
                                 "type": "basic"
                             }
                         ],
-                        "bookmark_bottom": " eenter eenter "
+                        "bookmark_bottom": " 66enter 66enter "
                     },
                     {
-                        "bookmark": " 66ctrl 66ctrl ctrl ctrl ",
+                        "bookmark": " 668 668 88 88",
                         "description": "In layer_66, tapping 'control' sends shift + control",
                         "manipulators": [
                             {
@@ -4278,7 +4551,7 @@
                         "bookmark_bottom": " capslockl capslockl "
                     },
                     {
-                        "bookmark": " sscaps sscaps caps caps ",
+                        "bookmark": "//escape",
                         "description": " Escape in slash layer will exit the layer and destroy the hammerspoon gui using f6 ",
                         "manipulators": [
                             {
@@ -5114,7 +5387,7 @@
                         "bookmark_bottom": " 77l 77l "
                     },
                     {
-                        "bookmark": " 22hh 22hh h h ",
+                        "bookmark": "22h 22h hh hh",
                         "description": "capslock + spacebar + h will send Control + Shift + tab",
                         "manipulators": [
                             {
@@ -5151,11 +5424,11 @@
                                 "type": "basic"
                             }
                         ],
-                        "bookmark_bottom": " 22hh 22hh "
+                        "bookmark_bottom": " 22h 22h "
                     },
                     {
-                        "bookmark": " 22ii 22ii i i ",
-                        "description": "capslock + spacebar + i will enter 22i",
+                        "bookmark": "22i 22i ii ii",
+                        "description": " tapping 'i' in layer_22 will enter layer_22i",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -5182,9 +5455,7 @@
                                     },
                                     {
                                         "shell_command": "/opt/homebrew/bin/hs -c 'hs.alert.show(\"layer_22i \", {atScreenEdge = 2, textFont=\"Chalkboard SE\", textSize=22}, 9999999999999999)'"
-                                    }
-                                ],
-                                "to_after_key_up": [
+                                    },
                                     {
                                         "set_variable": {
                                             "name": "layer_22",
@@ -5195,10 +5466,10 @@
                                 "type": "basic"
                             }
                         ],
-                        "bookmark_bottom": " 22ii 22ii "
+                        "bookmark_bottom": "22i 22i"
                     },
                     {
-                        "bookmark": " 22iii 22iii i i ",
+                        "bookmark": "22ii 22ii ii ii",
                         "description": "Tapping 'i' in layer_22i sends Command+H and exits the layer",
                         "manipulators": [
                             {
@@ -5452,7 +5723,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "/Users/olama/.config/yabai/modules/cycle_wrapper.sh chatgpt"
+                                        "shell_command": "/Users/olama/.config/yabai/modules/cycle_wrapper.sh gemini"
                                     },
                                     {
                                         "set_variable": {
@@ -9735,8 +10006,8 @@
                         "bookmark_bottom": " eemhx eemhx "
                     },
                     {
-                        "bookmark": " eemj eemj j j ",
-                        "description": "In layer_eem, tapping 'j' opens Zen (Chrome app) and returns to capslock_layer",
+                        "bookmark": " eemj eemj mj mj ",
+                        "description": "In layer_eem, tapping 'j' opens Gemini (Chrome app) and returns to capslock_layer",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -9781,7 +10052,7 @@
                         "bookmark_bottom": " eemj eemj "
                     },
                     {
-                        "bookmark": " eemkk eemkk k k ",
+                        "bookmark": " eemkk eemkk mk mk ",
                         "description": " Tapping 'k' in layer_eem will open Vivaldi",
                         "manipulators": [
                             {
@@ -12773,7 +13044,19 @@
                                     },
                                     {
                                         "set_variable": {
+                                            "name": "layer_22i",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
                                             "name": "layer_22m",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_22o",
                                             "value": 0
                                         }
                                     }
@@ -15209,7 +15492,7 @@
                         "bookmark_bottom_defy": " 44ll 44ll "
                     },
                     {
-                        "bookmark_defy": " 44mm 44mm m m ",
+                        "bookmark_defy": "44m 44m mm mm",
                         "description": " Tap 'm' in this layer to enter layer_44m ",
                         "manipulators": [
                             {
@@ -15246,8 +15529,8 @@
                         "bookmark_bottom_defy": " 44mm 44mm "
                     },
                     {
-                        "bookmark_defy": " 44mmm 44mmm m m ",
-                        "description": " Tap 'm' in this layer to TODO ",
+                        "bookmark_defy": " 44mm 44mm mm mm ",
+                        "description": " Tap 'm' in this layer to send command + option + c",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -15262,23 +15545,16 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "m",
+                                        "key_code": "c",
                                         "modifiers": [
-                                            "left_command",
-                                            "left_option",
-                                            "left_shift"
+                                            "command",
+                                            "option"
                                         ]
                                     },
                                     {
                                         "set_variable": {
                                             "name": "layer_44m",
                                             "value": 0
-                                        }
-                                    },
-                                    {
-                                        "set_variable": {
-                                            "name": "layer_44",
-                                            "value": 1
                                         }
                                     },
                                     {
@@ -15474,8 +15750,8 @@
                         "bookmark_bottom_defy": " 44nll 44nll "
                     },
                     {
-                        "bookmark_defy": " 44vv 44vv v v ",
-                        "description": "     └── hold down left_command and tap v to enter the layer_44v",
+                        "bookmark_defy": " 44vv 44vv vv vv ",
+                        "description": " tapping 'v' in layer_44 will enter layer_44v",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -15505,11 +15781,11 @@
                                 "type": "basic"
                             }
                         ],
-                        "bookmark_bottom_defy": " 44vv 44vv "
+                        "bookmark_bottom_defy": "44v 44v"
                     },
                     {
-                        "bookmark_defy": " 44vvv 44vvv v v ",
-                        "description": "     └── tap v in the layer_44v to send command + v (paste)",
+                        "bookmark_defy": "44vv 44vv vv vv",
+                        "description": " tapping 'v' in layer_44v will send command + v (paste)",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -15533,12 +15809,6 @@
                                         "set_variable": {
                                             "name": "layer_44v",
                                             "value": 0
-                                        }
-                                    },
-                                    {
-                                        "set_variable": {
-                                            "name": "layer_44",
-                                            "value": 1
                                         }
                                     }
                                 ],
@@ -24321,8 +24591,8 @@
                         "bookmark_bottom_defy": " eemhx eemhx "
                     },
                     {
-                        "bookmark_defy": " eemj eemj j j ",
-                        "description": "In layer_eem, tapping 'j' opens Zen (Chrome app) and returns to capslock_layer",
+                        "bookmark_defy": " eemj eemj mj mj ",
+                        "description": "In layer_eem, tapping 'j' opens Gemini (Chrome app) and returns to capslock_layer",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -24350,7 +24620,7 @@
                                         "key_code": "f6"
                                     },
                                     {
-                                        "shell_command": "/Users/olama/.config/yabai/modules/cycle_wrapper.sh Chatgpt"
+                                        "shell_command": "/Users/olama/.config/yabai/modules/cycle_wrapper.sh Gemini"
                                     }
                                 ],
                                 "to_after_key_up": [
