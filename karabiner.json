@@ -4696,6 +4696,12 @@
                     "key_code": "escape"
                   },
                   {
+                    "set_variable": {
+                      "name": "capslock_layer",
+                      "value": 1
+                    }
+                  },
+                  {
                     "key_code": "help"
                   },
                   {
@@ -15633,6 +15639,12 @@
                     "key_code": "escape"
                   },
                   {
+                    "set_variable": {
+                      "name": "capslock_layer",
+                      "value": 1
+                    }
+                  },
+                  {
                     "key_code": "help"
                   }
                 ],
@@ -20766,6 +20778,12 @@
                 "to": [
                   {
                     "key_code": "escape"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "capslock_layer",
+                      "value": 1
+                    }
                   },
                   {
                     "key_code": "help"
