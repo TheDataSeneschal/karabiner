@@ -63,9 +63,6 @@
                       "name": "layer_44k",
                       "value": 0
                     }
-                  },
-                  {
-                    "key_code": "help"
                   }
                 ],
                 "type": "basic"
@@ -4696,10 +4693,7 @@
                 },
                 "to": [
                   {
-                    "set_variable": {
-                      "name": "capslock_layer",
-                      "value": 1
-                    }
+                    "key_code": "escape"
                   },
                   {
                     "key_code": "help"
@@ -15636,10 +15630,10 @@
                 },
                 "to": [
                   {
-                    "set_variable": {
-                      "name": "capslock_layer",
-                      "value": 1
-                    }
+                    "key_code": "escape"
+                  },
+                  {
+                    "key_code": "help"
                   }
                 ],
                 "to_after_key_up": [
@@ -15868,9 +15862,6 @@
                       "name": "layer_44k",
                       "value": 0
                     }
-                  },
-                  {
-                    "key_code": "help"
                   }
                 ],
                 "type": "basic"
@@ -20774,10 +20765,10 @@
                 },
                 "to": [
                   {
-                    "set_variable": {
-                      "name": "capslock_layer",
-                      "value": 1
-                    }
+                    "key_code": "escape"
+                  },
+                  {
+                    "key_code": "help"
                   },
                   {
                     "set_variable": {
