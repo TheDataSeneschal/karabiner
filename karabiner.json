@@ -4686,6 +4686,996 @@
             "bookmark_bottom": " 44caps 44caps "
           },
           {
+            "description": "caps_lock exits layer_22i",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_22i",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_22i",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark": " 22icaps 22icaps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_22m",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_22m",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_22m",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark": " 22mcaps 22mcaps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_22o",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_22o",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_22o",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark": " 22ocaps 22ocaps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_22p",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_22p",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_22p",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark": " 22pcaps 22pcaps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_44.",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_44.",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_44.",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark": " 44.caps 44.caps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_44c",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_44c",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_44c",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark": " 44ccaps 44ccaps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_44d",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_44d",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_44d",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark": " 44dcaps 44dcaps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_44i",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_44i",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_44i",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark": " 44icaps 44icaps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_44j",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_44j",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_44j",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark": " 44jcaps 44jcaps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_44k",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_44k",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_44k",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark": " 44kcaps 44kcaps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_44m",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_44m",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_44m",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark": " 44mcaps 44mcaps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_44n",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_44n",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_44n",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark": " 44ncaps 44ncaps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_55",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_55",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_55",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark": " 55caps 55caps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_55a",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_55a",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_55a",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark": " 55acaps 55acaps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_55d",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_55d",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_55d",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark": " 55dcaps 55dcaps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_55e",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_55e",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_55e",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark": " 55ecaps 55ecaps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_55f",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_55f",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_55f",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark": " 55fcaps 55fcaps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_55q",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_55q",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_55q",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark": " 55qcaps 55qcaps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_55r",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_55r",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_55r",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark": " 55rcaps 55rcaps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_55s",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_55s",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_55s",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark": " 55scaps 55scaps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_55t",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_55t",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_55t",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark": " 55tcaps 55tcaps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_55v",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_55v",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_55v",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark": " 55vcaps 55vcaps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_55w",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_55w",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_55w",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark": " 55wcaps 55wcaps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_6644",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_6644",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_6644",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark": " 6644caps 6644caps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_99",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_99",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_99",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark": " 99caps 99caps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_eea",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_eea",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_eea",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark": " eeacaps eeacaps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_eeai",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_eeai",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_eeai",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark": " eeaicaps eeaicaps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_eed",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_eed",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_eed",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark": " eedcaps eedcaps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_een",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_een",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_een",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark": " eencaps eencaps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_eeo",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_eeo",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_eeo",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark": " eeocaps eeocaps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_ees",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_ees",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_ees",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark": " eescaps eescaps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_eeu",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_eeu",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_eeu",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark": " eeucaps eeucaps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_eey",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_eey",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_eey",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark": " eeycaps eeycaps caps caps "
+          },
+          {
             "1": "==================================================================================================================================================================",
             "Bottom_Border": "==================================================================================================================================================================",
             "bookmark": " eecaps eecaps caps caps ",
@@ -20853,6 +21843,1026 @@
               }
             ],
             "bookmark_bottom_defy": " 55caps 55caps "
+          },
+          {
+            "description": "caps_lock exits layer_22i",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_22i",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_22i",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark_defy": " 22icaps 22icaps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_22m",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_22m",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_22m",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark_defy": " 22mcaps 22mcaps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_22o",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_22o",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_22o",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark_defy": " 22ocaps 22ocaps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_22p",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_22p",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_22p",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark_defy": " 22pcaps 22pcaps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_44.",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_44.",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_44.",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark_defy": " 44.caps 44.caps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_44c",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_44c",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_44c",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark_defy": " 44ccaps 44ccaps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_44d",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_44d",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_44d",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark_defy": " 44dcaps 44dcaps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_44j",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_44j",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_44j",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark_defy": " 44jcaps 44jcaps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_44k",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_44k",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_44k",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark_defy": " 44kcaps 44kcaps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_44m",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_44m",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_44m",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark_defy": " 44mcaps 44mcaps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_44n",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_44n",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_44n",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark_defy": " 44ncaps 44ncaps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_44o",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_44o",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_44o",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark_defy": " 44ocaps 44ocaps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_44u",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_44u",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_44u",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark_defy": " 44ucaps 44ucaps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_44v",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_44v",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_44v",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark_defy": " 44vcaps 44vcaps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_55a",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_55a",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_55a",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark_defy": " 55acaps 55acaps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_55d",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_55d",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_55d",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark_defy": " 55dcaps 55dcaps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_55e",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_55e",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_55e",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark_defy": " 55ecaps 55ecaps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_55f",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_55f",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_55f",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark_defy": " 55fcaps 55fcaps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_55q",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_55q",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_55q",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark_defy": " 55qcaps 55qcaps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_55r",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_55r",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_55r",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark_defy": " 55rcaps 55rcaps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_55s",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_55s",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_55s",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark_defy": " 55scaps 55scaps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_55t",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_55t",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_55t",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark_defy": " 55tcaps 55tcaps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_55v",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_55v",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_55v",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark_defy": " 55vcaps 55vcaps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_55w",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_55w",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_55w",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark_defy": " 55wcaps 55wcaps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_6644",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_6644",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_6644",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark_defy": " 6644caps 6644caps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_99",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_99",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_99",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark_defy": " 99caps 99caps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_eea",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_eea",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_eea",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark_defy": " eeacaps eeacaps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_eeai",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_eeai",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_eeai",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark_defy": " eeaicaps eeaicaps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_eed",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_eed",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_eed",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark_defy": " eedcaps eedcaps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_een",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_een",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_een",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark_defy": " eencaps eencaps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_eeo",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_eeo",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_eeo",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark_defy": " eeocaps eeocaps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_ees",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_ees",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_ees",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark_defy": " eescaps eescaps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_eeu",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_eeu",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_eeu",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark_defy": " eeucaps eeucaps caps caps "
+          },
+          {
+            "description": "caps_lock exits layer_eey",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "name": "layer_eey",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": [
+                  {
+                    "key_code": "help"
+                  },
+                  {
+                    "set_variable": {
+                      "name": "layer_eey",
+                      "value": 0
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ],
+            "bookmark_defy": " eeycaps eeycaps caps caps "
           },
           {
             "1": "==================================================================================================================================================================",
