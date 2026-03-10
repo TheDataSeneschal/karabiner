@@ -4556,9 +4556,6 @@
                     "key_code": "f6"
                   },
                   {
-                    "key_code": "escape"
-                  },
-                  {
                     "set_variable": {
                       "name": "layer_slash",
                       "value": 0
@@ -4602,9 +4599,6 @@
                   }
                 },
                 "to": [
-                  {
-                    "key_code": "escape"
-                  },
                   {
                     "set_variable": {
                       "name": "layer_eei",
@@ -5814,9 +5808,6 @@
                   }
                 },
                 "to": [
-                  {
-                    "key_code": "escape"
-                  },
                   {
                     "shell_command": "open -g 'hammerspoon://layer?name=layer_77&state=0'"
                   },
@@ -20581,9 +20572,6 @@
                     "key_code": "f6"
                   },
                   {
-                    "key_code": "escape"
-                  },
-                  {
                     "set_variable": {
                       "name": "layer_slash",
                       "value": 0
@@ -20627,9 +20615,6 @@
                   }
                 },
                 "to": [
-                  {
-                    "key_code": "escape"
-                  },
                   {
                     "set_variable": {
                       "name": "layer_eei",
@@ -21966,9 +21951,6 @@
                   }
                 },
                 "to": [
-                  {
-                    "key_code": "escape"
-                  },
                   {
                     "shell_command": "open -g 'hammerspoon://layer?name=layer_77&state=0'"
                   },
