@@ -13275,6 +13275,9 @@
                                             "name": "layer_55f",
                                             "value": 0
                                         }
+                                    },
+                                    {
+                                        "key_code": "help"
                                     }
                                 ],
                                 "type": "basic"
