@@ -13644,6 +13644,80 @@
                         "bookmark_bottom": " 55s2 55s2 "
                     },
                     {
+                        "bookmark": " 55s1 55s1 s1 s1 ",
+                        "description": "Tap 1 in layer_55s to send ctrl+f8",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "layer_55s",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "1"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "help"
+                                    },
+                                    {
+                                        "key_code": "f8",
+                                        "modifiers": [
+                                            "left_control"
+                                        ]
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_55s",
+                                            "value": 0
+                                        }
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ],
+                        "bookmark_bottom": " 55s1 55s1 "
+                    },
+                    {
+                        "bookmark": " 55sl 55sl sl sl ",
+                        "description": "Tap l in layer_55s to send ctrl+f9",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "layer_55s",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "l"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "help"
+                                    },
+                                    {
+                                        "key_code": "f9",
+                                        "modifiers": [
+                                            "left_control"
+                                        ]
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_55s",
+                                            "value": 0
+                                        }
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ],
+                        "bookmark_bottom": " 55sl 55sl "
+                    },
+                    {
                         "bookmark": " 55tt 55tt t t ",
                         "description": " Tap t in layer_55 to enter this layer",
                         "manipulators": [
@@ -29805,8 +29879,8 @@
                         "bookmark_bottom_defy": " 55ss 55ss "
                     },
                     {
-                        "bookmark_defy": " 55sss 55sss s s ",
-                        "description": " tap s in layer_55s to toggle the primar sidebar in most apps",
+                        "bookmark_defy": " 55s2 55s2 s2 s2 ",
+                        "description": "Tap 2 in layer_55s to send Control + Shift + 2",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -29817,14 +29891,14 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "s"
+                                    "key_code": "2"
                                 },
                                 "to": [
                                     {
                                         "key_code": "help"
                                     },
                                     {
-                                        "key_code": "f2",
+                                        "key_code": "2",
                                         "modifiers": [
                                             "left_control",
                                             "left_shift"
@@ -29840,7 +29914,81 @@
                                 "type": "basic"
                             }
                         ],
-                        "bookmark_bottom_defy": " 55sss 55sss "
+                        "bookmark_bottom_defy": " 55s2 55s2 "
+                    },
+                    {
+                        "bookmark_defy": " 55s1 55s1 s1 s1 ",
+                        "description": "Tap 1 in layer_55s to send ctrl+f8",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "layer_55s",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "1"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "help"
+                                    },
+                                    {
+                                        "key_code": "f8",
+                                        "modifiers": [
+                                            "left_control"
+                                        ]
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_55s",
+                                            "value": 0
+                                        }
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ],
+                        "bookmark_bottom_defy": " 55s1 55s1 "
+                    },
+                    {
+                        "bookmark_defy": " 55sl 55sl sl sl ",
+                        "description": "Tap l in layer_55s to send ctrl+f9",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "layer_55s",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "l"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "help"
+                                    },
+                                    {
+                                        "key_code": "f9",
+                                        "modifiers": [
+                                            "left_control"
+                                        ]
+                                    },
+                                    {
+                                        "set_variable": {
+                                            "name": "layer_55s",
+                                            "value": 0
+                                        }
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ],
+                        "bookmark_bottom_defy": " 55sl 55sl "
                     },
                     {
                         "bookmark_defy": " 55tt 55tt t t ",
