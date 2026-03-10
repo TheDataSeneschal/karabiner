@@ -36,6 +36,9 @@
                 },
                 "to": [
                   {
+                    "key_code": "help"
+                  },
+                  {
                     "set_variable": {
                       "name": "layer_44",
                       "value": 1
@@ -603,6 +606,9 @@
                 },
                 "to": [
                   {
+                    "key_code": "help"
+                  },
+                  {
                     "set_variable": {
                       "name": "layer_44c",
                       "value": 1
@@ -831,6 +837,9 @@
                   "key_code": "i"
                 },
                 "to": [
+                  {
+                    "key_code": "help"
+                  },
                   {
                     "shell_command": "/opt/homebrew/bin/hs -c 'hs.alert.show(\" 44i 44i \", {atScreenEdge = 2, textFont=\"Chalkboard SE\", textSize=22}, 9999999999999999)'"
                   },
@@ -1230,6 +1239,9 @@
                 },
                 "to": [
                   {
+                    "key_code": "help"
+                  },
+                  {
                     "set_variable": {
                       "name": "layer_44m",
                       "value": 1
@@ -1304,6 +1316,9 @@
                   "key_code": "n"
                 },
                 "to": [
+                  {
+                    "key_code": "help"
+                  },
                   {
                     "shell_command": "/opt/homebrew/bin/hs -c 'hs.alert.show(\" 44n 44n \", {atScreenEdge = 2, textFont=\"Chalkboard SE\", textSize=22}, 9999999999999999)'"
                   },
@@ -1664,6 +1679,9 @@
                 },
                 "to": [
                   {
+                    "key_code": "help"
+                  },
+                  {
                     "set_variable": {
                       "name": "layer_44.",
                       "value": 1
@@ -1697,6 +1715,9 @@
                   "key_code": "period"
                 },
                 "to": [
+                  {
+                    "key_code": "help"
+                  },
                   {
                     "key_code": "f6",
                     "modifiers": [
@@ -1750,6 +1771,9 @@
                   }
                 },
                 "to": [
+                  {
+                    "key_code": "help"
+                  },
                   {
                     "set_variable": {
                       "name": "layer_66",
@@ -3551,6 +3575,9 @@
                   }
                 },
                 "to": [
+                  {
+                    "key_code": "help"
+                  },
                   {
                     "set_variable": {
                       "name": "layer_6644",
@@ -5467,6 +5494,9 @@
                 },
                 "to": [
                   {
+                    "key_code": "help"
+                  },
+                  {
                     "shell_command": "/opt/homebrew/bin/hs -c 'hs.alert.show(\"layer_slash \", {atScreenEdge = 2, textFont=\"Chalkboard SE\" , textSize=22}, 9999999999999999)'"
                   },
                   {
@@ -5621,6 +5651,9 @@
                 },
                 "to": [
                   {
+                    "key_code": "help"
+                  },
+                  {
                     "set_variable": {
                       "name": "layer_22",
                       "value": 1
@@ -5696,6 +5729,9 @@
                   }
                 },
                 "to": [
+                  {
+                    "key_code": "help"
+                  },
                   {
                     "set_variable": {
                       "name": "semicolon_layer",
@@ -5978,6 +6014,9 @@
                   }
                 },
                 "to": [
+                  {
+                    "key_code": "help"
+                  },
                   {
                     "set_variable": {
                       "name": "layer_22i",
@@ -6263,6 +6302,9 @@
                 },
                 "to": [
                   {
+                    "key_code": "help"
+                  },
+                  {
                     "set_variable": {
                       "name": "layer_22m",
                       "value": 1
@@ -6502,6 +6544,9 @@
                   }
                 },
                 "to": [
+                  {
+                    "key_code": "help"
+                  },
                   {
                     "set_variable": {
                       "name": "layer_22p",
@@ -7829,6 +7874,9 @@
                 },
                 "to": [
                   {
+                    "key_code": "help"
+                  },
+                  {
                     "set_variable": {
                       "name": "layer_eed",
                       "value": 1
@@ -8599,6 +8647,9 @@
                 },
                 "to": [
                   {
+                    "key_code": "help"
+                  },
+                  {
                     "shell_command": "open -g 'hammerspoon://layer?name=layer_eea&state=1'"
                   },
                   {
@@ -8662,6 +8713,9 @@
                   }
                 },
                 "to": [
+                  {
+                    "key_code": "help"
+                  },
                   {
                     "set_variable": {
                       "name": "layer_eeai",
@@ -9354,6 +9408,9 @@
                 },
                 "to": [
                   {
+                    "key_code": "help"
+                  },
+                  {
                     "set_variable": {
                       "name": "layer_ees",
                       "value": 1
@@ -9489,6 +9546,9 @@
                   }
                 },
                 "to": [
+                  {
+                    "key_code": "help"
+                  },
                   {
                     "shell_command": "open -g 'hammerspoon://layer?name=layer_eed&state=1'"
                   },
@@ -9664,6 +9724,9 @@
                   }
                 },
                 "to": [
+                  {
+                    "key_code": "help"
+                  },
                   {
                     "shell_command": "/opt/homebrew/bin/hs -c 'hs.alert.show(\" now in layer_eey \", {atScreenEdge = 2, textFont=\"Chalkboard SE\" , textSize=22}, 9999999999999999)'"
                   },
@@ -9938,6 +10001,9 @@
                   }
                 },
                 "to": [
+                  {
+                    "key_code": "help"
+                  },
                   {
                     "set_variable": {
                       "name": "layer_eeu",
@@ -10266,6 +10332,9 @@
                   }
                 },
                 "to": [
+                  {
+                    "key_code": "help"
+                  },
                   {
                     "shell_command": "/opt/homebrew/bin/hs -c 'hs.alert.show(\" now in layer_eei \", {atScreenEdge = 2, textFont=\"Chalkboard SE\" , textSize=22}, 9999999999999999)'"
                   },
@@ -10715,6 +10784,9 @@
                 },
                 "to": [
                   {
+                    "key_code": "help"
+                  },
+                  {
                     "set_variable": {
                       "name": "layer_eeo",
                       "value": 1
@@ -11024,6 +11096,9 @@
                   }
                 },
                 "to": [
+                  {
+                    "key_code": "help"
+                  },
                   {
                     "shell_command": "/opt/homebrew/bin/hs -c 'hs.alert.show(\" now in layer_eem \", {atScreenEdge = 2, textFont=\"Chalkboard SE\" , textSize=22}, 9999999999999999)'"
                   },
@@ -11708,6 +11783,9 @@
                 },
                 "to": [
                   {
+                    "key_code": "help"
+                  },
+                  {
                     "set_variable": {
                       "name": "layer_een",
                       "value": 1
@@ -12069,6 +12147,9 @@
                 },
                 "to": [
                   {
+                    "key_code": "help"
+                  },
+                  {
                     "set_variable": {
                       "name": "layer_eea",
                       "value": 1
@@ -12200,6 +12281,9 @@
                   }
                 },
                 "to": [
+                  {
+                    "key_code": "help"
+                  },
                   {
                     "set_variable": {
                       "name": "layer_22o",
@@ -12771,6 +12855,9 @@
                 },
                 "to": [
                   {
+                    "key_code": "help"
+                  },
+                  {
                     "set_variable": {
                       "name": "layer_55",
                       "value": 1
@@ -12882,6 +12969,9 @@
                   "key_code": "a"
                 },
                 "to": [
+                  {
+                    "key_code": "help"
+                  },
                   {
                     "set_variable": {
                       "name": "layer_55",
@@ -13377,6 +13467,9 @@
                   }
                 },
                 "to": [
+                  {
+                    "key_code": "help"
+                  },
                   {
                     "set_variable": {
                       "name": "layer_55r",
@@ -14038,6 +14131,9 @@
                 },
                 "to": [
                   {
+                    "key_code": "help"
+                  },
+                  {
                     "set_variable": {
                       "name": "layer_55v",
                       "value": 1
@@ -14076,6 +14172,9 @@
                   "key_code": "v"
                 },
                 "to": [
+                  {
+                    "key_code": "help"
+                  },
                   {
                     "key_code": "f5",
                     "modifiers": [
@@ -15559,6 +15658,9 @@
                 },
                 "to": [
                   {
+                    "key_code": "help"
+                  },
+                  {
                     "set_variable": {
                       "name": "layer_99",
                       "value": 1
@@ -15683,6 +15785,9 @@
                   }
                 },
                 "to": [
+                  {
+                    "key_code": "help"
+                  },
                   {
                     "set_variable": {
                       "name": "layer_eea",
@@ -15837,6 +15942,9 @@
                   }
                 },
                 "to": [
+                  {
+                    "key_code": "help"
+                  },
                   {
                     "set_variable": {
                       "name": "layer_44",
@@ -16078,6 +16186,9 @@
                   }
                 },
                 "to": [
+                  {
+                    "key_code": "help"
+                  },
                   {
                     "set_variable": {
                       "name": "layer_44o",
@@ -16386,6 +16497,9 @@
                 },
                 "to": [
                   {
+                    "key_code": "help"
+                  },
+                  {
                     "set_variable": {
                       "name": "layer_44c",
                       "value": 1
@@ -16614,6 +16728,9 @@
                   "key_code": "i"
                 },
                 "to": [
+                  {
+                    "key_code": "help"
+                  },
                   {
                     "shell_command": "/opt/homebrew/bin/hs -c 'hs.alert.show(\" 44i 44i \", {atScreenEdge = 2, textFont=\"Chalkboard SE\", textSize=22}, 9999999999999999)'"
                   },
@@ -17103,6 +17220,9 @@
                 },
                 "to": [
                   {
+                    "key_code": "help"
+                  },
+                  {
                     "set_variable": {
                       "name": "layer_44m",
                       "value": 1
@@ -17206,6 +17326,9 @@
                   "key_code": "n"
                 },
                 "to": [
+                  {
+                    "key_code": "help"
+                  },
                   {
                     "shell_command": "/opt/homebrew/bin/hs -c 'hs.alert.show(\" 44n 44n \", {atScreenEdge = 2, textFont=\"Chalkboard SE\", textSize=22}, 9999999999999999)'"
                   },
@@ -17324,6 +17447,9 @@
                 },
                 "to": [
                   {
+                    "key_code": "help"
+                  },
+                  {
                     "shell_command": ""
                   },
                   {
@@ -17360,6 +17486,9 @@
                   "key_code": "v"
                 },
                 "to": [
+                  {
+                    "key_code": "help"
+                  },
                   {
                     "set_variable": {
                       "name": "layer_44v",
@@ -17681,6 +17810,9 @@
                 },
                 "to": [
                   {
+                    "key_code": "help"
+                  },
+                  {
                     "set_variable": {
                       "name": "layer_44.",
                       "value": 1
@@ -17714,6 +17846,9 @@
                   "key_code": "period"
                 },
                 "to": [
+                  {
+                    "key_code": "help"
+                  },
                   {
                     "key_code": "f6",
                     "modifiers": [
@@ -17766,6 +17901,9 @@
                   }
                 },
                 "to": [
+                  {
+                    "key_code": "help"
+                  },
                   {
                     "set_variable": {
                       "name": "layer_66",
@@ -19567,6 +19705,9 @@
                   }
                 },
                 "to": [
+                  {
+                    "key_code": "help"
+                  },
                   {
                     "set_variable": {
                       "name": "layer_6644",
@@ -21610,6 +21751,9 @@
                 },
                 "to": [
                   {
+                    "key_code": "help"
+                  },
+                  {
                     "shell_command": "/opt/homebrew/bin/hs -c 'hs.alert.show(\"layer_slash \", {atScreenEdge = 2, textFont=\"Chalkboard SE\" , textSize=22}, 9999999999999999)'"
                   },
                   {
@@ -21764,6 +21908,9 @@
                 },
                 "to": [
                   {
+                    "key_code": "help"
+                  },
+                  {
                     "set_variable": {
                       "name": "layer_22",
                       "value": 1
@@ -21839,6 +21986,9 @@
                   }
                 },
                 "to": [
+                  {
+                    "key_code": "help"
+                  },
                   {
                     "set_variable": {
                       "name": "semicolon_layer",
@@ -22121,6 +22271,9 @@
                   }
                 },
                 "to": [
+                  {
+                    "key_code": "help"
+                  },
                   {
                     "set_variable": {
                       "name": "layer_22i",
@@ -22411,6 +22564,9 @@
                 },
                 "to": [
                   {
+                    "key_code": "help"
+                  },
+                  {
                     "set_variable": {
                       "name": "layer_22m",
                       "value": 1
@@ -22699,6 +22855,9 @@
                   }
                 },
                 "to": [
+                  {
+                    "key_code": "help"
+                  },
                   {
                     "set_variable": {
                       "name": "layer_22p",
@@ -24094,6 +24253,9 @@
                 },
                 "to": [
                   {
+                    "key_code": "help"
+                  },
+                  {
                     "set_variable": {
                       "name": "layer_eed",
                       "value": 1
@@ -24864,6 +25026,9 @@
                 },
                 "to": [
                   {
+                    "key_code": "help"
+                  },
+                  {
                     "shell_command": "open -g 'hammerspoon://layer?name=layer_eea&state=1'"
                   },
                   {
@@ -24927,6 +25092,9 @@
                   }
                 },
                 "to": [
+                  {
+                    "key_code": "help"
+                  },
                   {
                     "set_variable": {
                       "name": "layer_eeai",
@@ -25619,6 +25787,9 @@
                 },
                 "to": [
                   {
+                    "key_code": "help"
+                  },
+                  {
                     "set_variable": {
                       "name": "layer_ees",
                       "value": 1
@@ -25754,6 +25925,9 @@
                   }
                 },
                 "to": [
+                  {
+                    "key_code": "help"
+                  },
                   {
                     "shell_command": "open -g 'hammerspoon://layer?name=layer_eed&state=1'"
                   },
@@ -25929,6 +26103,9 @@
                   }
                 },
                 "to": [
+                  {
+                    "key_code": "help"
+                  },
                   {
                     "shell_command": "/opt/homebrew/bin/hs -c 'hs.alert.show(\" now in layer_eey \", {atScreenEdge = 2, textFont=\"Chalkboard SE\" , textSize=22}, 9999999999999999)'"
                   },
@@ -26203,6 +26380,9 @@
                   }
                 },
                 "to": [
+                  {
+                    "key_code": "help"
+                  },
                   {
                     "set_variable": {
                       "name": "layer_eeu",
@@ -26586,6 +26766,9 @@
                   }
                 },
                 "to": [
+                  {
+                    "key_code": "help"
+                  },
                   {
                     "shell_command": "/opt/homebrew/bin/hs -c 'hs.alert.show(\" now in layer_eei \", {atScreenEdge = 2, textFont=\"Chalkboard SE\" , textSize=22}, 9999999999999999)'"
                   },
@@ -27035,6 +27218,9 @@
                 },
                 "to": [
                   {
+                    "key_code": "help"
+                  },
+                  {
                     "set_variable": {
                       "name": "layer_eeo",
                       "value": 1
@@ -27280,6 +27466,9 @@
                   }
                 },
                 "to": [
+                  {
+                    "key_code": "help"
+                  },
                   {
                     "shell_command": "/opt/homebrew/bin/hs -c 'hs.alert.show(\" now in layer_eem \", {atScreenEdge = 2, textFont=\"Chalkboard SE\" , textSize=22}, 9999999999999999)'"
                   },
@@ -27985,6 +28174,9 @@
                 },
                 "to": [
                   {
+                    "key_code": "help"
+                  },
+                  {
                     "set_variable": {
                       "name": "layer_een",
                       "value": 1
@@ -28346,6 +28538,9 @@
                 },
                 "to": [
                   {
+                    "key_code": "help"
+                  },
+                  {
                     "set_variable": {
                       "name": "layer_eea",
                       "value": 1
@@ -28477,6 +28672,9 @@
                   }
                 },
                 "to": [
+                  {
+                    "key_code": "help"
+                  },
                   {
                     "set_variable": {
                       "name": "layer_22o",
@@ -29084,6 +29282,9 @@
                 },
                 "to": [
                   {
+                    "key_code": "help"
+                  },
+                  {
                     "set_variable": {
                       "name": "layer_55",
                       "value": 1
@@ -29195,6 +29396,9 @@
                   "key_code": "a"
                 },
                 "to": [
+                  {
+                    "key_code": "help"
+                  },
                   {
                     "set_variable": {
                       "name": "layer_55a",
@@ -29685,6 +29889,9 @@
                   }
                 },
                 "to": [
+                  {
+                    "key_code": "help"
+                  },
                   {
                     "key_code": "f6"
                   },
@@ -30314,6 +30521,9 @@
                 },
                 "to": [
                   {
+                    "key_code": "help"
+                  },
+                  {
                     "set_variable": {
                       "name": "layer_55v",
                       "value": 1
@@ -30352,6 +30562,9 @@
                   "key_code": "v"
                 },
                 "to": [
+                  {
+                    "key_code": "help"
+                  },
                   {
                     "key_code": "f5",
                     "modifiers": [
@@ -31830,6 +32043,9 @@
                   }
                 },
                 "to": [
+                  {
+                    "key_code": "help"
+                  },
                   {
                     "set_variable": {
                       "name": "layer_99",
